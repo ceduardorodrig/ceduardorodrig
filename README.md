@@ -1,327 +1,326 @@
-# 📋 Carlos Eduardo Rodrigues — Currículo / Resume
+# 📋 Carlos Eduardo Rodrigues — Curriculum Vitae & Portfolio
 
 [![CI](https://github.com/ceduardorodrig/CURRICULUM-VITAE/actions/workflows/ci.yml/badge.svg)](https://github.com/ceduardorodrig/CURRICULUM-VITAE/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%7C%20CC--BY--4.0-blue)](LICENSE.md)
 [![Governance](https://img.shields.io/badge/governance-StenioSentinel-brightgreen)](https://github.com/ceduardorodrig/STENIO-SENTINEL)
-[![Versions](https://img.shields.io/badge/versions-4%20x%20PT%2FEN-orange)](#-versões--versions)
+[![Versions](https://img.shields.io/badge/versions-6%20Specializations%20(PT%2FEN)-orange)](#-curriculum-versions)
 [![Location](https://img.shields.io/badge/location-Brasília--DF%2C%20Brazil-informational)](https://github.com/ceduardorodrig)
 
-> **"Uso tecnologia open-source local de maneira engenhosa para unir antropologia, dados, ciência e comunicação."**
+> **"Using open-source local technology ingeniously to bridge anthropology, data science, and communications."**
 
 ---
 
-## 📑 Sumário / Table of Contents
+## 📑 Table of Contents
 
-- 🌍 [Sobre / About](#-sobre--about)
-- 📑 [Versões / Versions](#-versões--versions)
-- 🚀 [Sumænimá — StênioBOT](#-sumænimá--stêniobot)
-- 📊 [Em Números / By the Numbers](#-em-números--by-the-numbers)
-- 📖 [Narrativa / Narrative](#-narrativa--narrative)
-- 📸 [Registros / Field Photos](#-registros--field-photos)
-- 📚 [Publicações / Publications](#-publicações--publications)
-- 🔍 [cvcheck — Miniatura do StênioKernel](#-cvcheck--miniatura-do-stêniokernel)
+- 🌍 [About](#-about)
+- 📑 [Curriculum Versions](#-curriculum-versions)
+- 🚀 [Sumænimá Hub v3.1.0](#-sumænimá-hub-v310)
+  - 🎙️ [StênioREC — Real-Time Transcription Cockpit](#️-stêniorec--real-time-transcription-cockpit)
+  - 🗂️ [StênioPANEL — Workshop Computer Vision Scanner](#️-stêniopanel--workshop-computer-vision-scanner)
+  - 🔍 [StênioDIVE — Cross-Domain Semantic Knowledge Graph](#-stêniodive--cross-domain-semantic-knowledge-graph)
+  - 🌡️ [DataVis — Environmental Generative Art](#️-datavis--environmental-generative-art)
+  - ⚙️ [Admin & ERP — Platform Management](#️-admin--erp--platform-management)
+- 🛡️ [StenioSentinel v3.1.0 — Rust AI Governance Engine](#️-steniosentinel-v310--rust-ai-governance-engine)
+- 🖥️ [Mnemocine Homelab Infrastructure (5 Nodes)](#️-mnemocine-homelab-infrastructure-5-nodes)
+- 📦 [Featured Open-Source Projects](#-featured-open-source-projects)
+- 📊 [By the Numbers](#-by-the-numbers)
+- 🧵 [The Thread (Narrative)](#-the-thread-narrative)
+- 📸 [Fieldwork & Photographic Archive](#-fieldwork--photographic-archive)
+- 📚 [Publications & Media](#-publications--media)
 - 📜 [License](#-license)
-- 📬 [Contato / Contact](#-contato--contact)
+- 📬 [Contact](#-contact)
 
 ---
 
-## 🌍 Sobre / About
+## 🌍 About
 
-Este repositório contém meu currículo em **4 versões** para diferentes públicos, cada uma em **Português (BR)** e **English (US)**.
+I am a **hybrid product architect, data engineer, and anthropologist** based in Brasília, Brazil. 
 
-This repository contains my resume in **4 versions** for different audiences, each in **English (US)** and **Português (BR)**.
+Throughout my decade-long trajectory, I have designed and deployed high-performance technological systems that turn complex, unstructured field realities — traditional community territorial claims, high-level governmental deliberative meetings, and qualitative ethnographies — into actionable, verifiable, and secure digital assets.
 
-Os projetos descritos aqui totalizam **~8M+ linhas e crescendo** (inclui código fonte, documentação e assets) — distribuídas em 1.227+ arquivos, construídos ao longo de 10 anos como projeto de vida.
+This repository hosts my comprehensive curriculum vitae organized across **6 dedicated profiles**, fully synchronized and version-controlled in both **English (US)** and **Brazilian Portuguese (PT-BR)**. 
 
-The projects described here total **~8M+ lines and growing** (includes source code, documentation, and assets) — across 1,227+ files, built over 10 years as a life project.
-
----
-
-## 📑 Versões / Versions
-
-### 🇧🇷 Português
-
-| # | Versão | Público | Arquivo |
-|---|--------|---------|---------|
-| 1 | **🖥️ Tech / Produto / Dados** | Startups, empresas de tecnologia, vagas em produto/dados/AI | [`pt-br/01-tech-produto-dados-br.md`](pt-br/01-tech-produto-dados-br.md) |
-| 1b | **📊 Tech / Dados & Negócios** | Empresas, negócios locais, consultoria em dados e diagnóstico de processos | [`pt-br/01-tech-dados-negocios-br.md`](pt-br/01-tech-dados-negocios-br.md) |
-| 2 | **🌳 Socioambiental-Tech** | ONGs, institutos de pesquisa, organismos internacionais, projetos de impacto | [`pt-br/02-socioambiental-tech-br.md`](pt-br/02-socioambiental-tech-br.md) |
-| 2b | **🏛️ Socioambiental (Institucional)** | Órgãos públicos, políticas PCT, cargos institucionais | [`pt-br/02-socioambiental-nichado-br.md`](pt-br/02-socioambiental-nichado-br.md) |
-| 1c | **🎯 Product Manager** | Vagas de PM, produto digital, tech-for-good | [`pt-br/01-tech-pm-br.md`](pt-br/01-tech-pm-br.md) |
-| 3 | **🚀 Sumænimá** | Aceleradoras, investidores, editais, parceiros | [`pt-br/03-sumaenima-br.md`](pt-br/03-sumaenima-br.md) |
-
-### 🇺🇸 English
-
-| # | Version | Audience | File |
-|---|---------|----------|------|
-| 1 | **🖥️ Tech / Product / Data** | Startups, tech companies, data/product/AI roles | [`en-us/01-tech-product-data-en.md`](en-us/01-tech-product-data-en.md) |
-| 1b | **📊 Tech / Business Data** | Businesses, local enterprises, data consulting and process diagnostics | [`en-us/01-tech-business-data-en.md`](en-us/01-tech-business-data-en.md) |
-| 2 | **🌳 Socioenvironmental-Tech** | NGOs, research institutes, international organizations, impact projects | [`en-us/02-socioenvironmental-tech-en.md`](en-us/02-socioenvironmental-tech-en.md) |
-| 2b | **🏛️ Socioenvironmental (Institutional)** | Government bodies, PCT policy, institutional roles | [`en-us/02-socioenvironmental-niche-en.md`](en-us/02-socioenvironmental-niche-en.md) |
-| 1c | **🎯 Product Manager** | PM roles, digital product, tech-for-good | [`en-us/01-tech-pm-en.md`](en-us/01-tech-pm-en.md) |
-| 3 | **🚀 Sumænimá** | Accelerators, investors, grants, partners | [`en-us/03-sumaenima-en.md`](en-us/03-sumaenima-en.md) |
+The accompanying ecosystem reflects a 10-year life endeavor encompassing **~8M+ lines of source code, structured documentation, and multimodal assets** governed by deterministic, verifiable rules.
 
 ---
 
-## 🚀 Sumænimá — StênioBOT
+## 📑 Curriculum Versions
 
-**Plataforma de Captura de Dados com IA Local, Privada e Open-Source**
-**~8M+ lines (includes source code, documentation, and assets) · 1.227+ files · 22 kernel modules · 132 check drivers · 30+ containers · 4 nodes · 10 yr project · ~2 active dev**
+Choose the profile that matches your focus:
 
-📱 **Responsive design** — iPhone SE · iPad Pro · Desktop
+### 🇺🇸 English (US)
+
+| # | Profile | Target Audience & Focus | Document Link |
+|:---:|:---|:---|:---:|
+| **01** | **🖥️ Tech / Product / Data** | Technology companies, AI/data startups, senior product engineering roles | [`en-us/01-tech-product-data-en.md`](en-us/01-tech-product-data-en.md) |
+| **01b** | **📊 Tech / Business Data** | Enterprises, consultancies, process diagnostics, data analytics & automation | [`en-us/01-tech-business-data-en.md`](en-us/01-tech-business-data-en.md) |
+| **01c** | **🎯 Product Manager** | Digital product management, agile delivery, tech-for-good, platform strategy | [`en-us/01-tech-pm-en.md`](en-us/01-tech-pm-en.md) |
+| **02** | **🌳 Socioenvironmental-Tech** | Research institutes, international foundations, NGOs, climate impact initiatives | [`en-us/02-socioenvironmental-tech-en.md`](en-us/02-socioenvironmental-tech-en.md) |
+| **02b** | **🏛️ Socioenvironmental (Institutional)** | Public agencies, multilateral governance, land demarcation, traditional communities policy | [`en-us/02-socioenvironmental-niche-en.md`](en-us/02-socioenvironmental-niche-en.md) |
+| **03** | **🚀 Sumænimá (Venture & Vision)** | Accelerators, innovation funds, academic partnerships, institutional grants | [`en-us/03-sumaenima-en.md`](en-us/03-sumaenima-en.md) |
+
+### 🇧🇷 Português (PT-BR)
+
+| # | Versão | Público & Foco | Arquivo |
+|:---:|:---|:---|:---:|
+| **01** | **🖥️ Tech / Produto / Dados** | Startups de tecnologia, empresas de produto, vagas em engenharia de dados e IA | [`pt-br/01-tech-produto-dados-br.md`](pt-br/01-tech-produto-dados-br.md) |
+| **01b** | **📊 Tech / Dados & Negócios** | Empresas, diagnóstico de processos, consultoria em dados e inteligência de negócios | [`pt-br/01-tech-dados-negocios-br.md`](pt-br/01-tech-dados-negocios-br.md) |
+| **01c** | **🎯 Product Manager** | Gestão de produtos digitais, liderança ágil, impacto socioambiental e estratégia | [`pt-br/01-tech-pm-br.md`](pt-br/01-tech-pm-br.md) |
+| **02** | **🌳 Socioambiental-Tech** | Institutos de pesquisa, organismos multilaterais, fundações, projetos de impacto socioambiental | [`pt-br/02-socioambiental-tech-br.md`](pt-br/02-socioambiental-tech-br.md) |
+| **02b** | **🏛️ Socioambiental (Institucional)** | Órgãos públicos, regularização fundiária, políticas para Povos e Comunidades Tradicionais (PCTs) | [`pt-br/02-socioambiental-nichado-br.md`](pt-br/02-socioambiental-nichado-br.md) |
+| **03** | **🚀 Sumænimá (Negócios & Visão)** | Aceleradoras, investidores de impacto, editais de fomento e parcerias institucionais | [`pt-br/03-sumaenima-br.md`](pt-br/03-sumaenima-br.md) |
+
+---
+
+## 🚀 Sumænimá Hub v3.1.0
+
+**Private, Local-First Intelligence & Ethnographic Data Capture Platform**  
+*Unified Monorepo · Rust Native Backend (Axum 0.8 / Tokio) · React 19 / TypeScript · In-Browser Rust WebAssembly DSP · Dual-Stage Neural Pipeline*
 
 <p align="center">
-  <img src="assets/hub-mobile.png" width="220" alt="Mobile - iPhone SE" />
-  <img src="assets/hub-tablet.png" width="280" alt="Tablet - iPad Pro" />
-  <img src="assets/hub-desktop.png" width="400" alt="Desktop" />
+  <img src="assets/hub-mobile.png" width="220" alt="Mobile View - iPhone SE" />
+  <img src="assets/hub-tablet.png" width="280" alt="Tablet View - iPad Pro" />
+  <img src="assets/hub-desktop.png" width="400" alt="Desktop Interface" />
 </p>
 
-> *"O design de informação contemporâneo requer escuta ativa e pipelines estruturados. Unimos a etnografia antropológica e a engenharia de dados para criar sistemas de documentação fluidos, seguros e privados."*
+> *"Contemporary information architecture requires deep listening and deterministic pipelines. We fuse anthropological ethnography with systems engineering to build fluid, sovereign, and privacy-preserving documentation platforms."*
 >
-> — Showcase Sumænimá
+> — Carlos Eduardo Rodrigues, Sumænimá Architectural Manifesto
 
----
+Sumænimá Hub is an enterprise-grade, local-first platform built to eliminate dependency on foreign corporate clouds for sensitive socio-environmental and institutional data.
 
-### 🎙️ StênioREC — Cockpit de Transcrição em Tempo Real
-**Status:** 🟢 Em produção — funcional, validado em relatoria de campo
-
-<p align="center">
-  <img src="assets/hub-rec.png" width="600" alt="StênioREC — Cockpit de Transcrição" />
-</p>
-
-**Conceito:** Cockpit de ata em tempo real. Captura áudio via AudioWorklet API, transcreve com Whisper large-v3-turbo (CTranslate2 + cuBLAS) e purifica com Gemma 3 1B IT em pipeline paralelo — processamento de IA 100% local; transcrições sincronizadas via Google Docs com autenticação OAuth por usuário, em modo cooperativo.
-
-**✨ Destaques:**
-- 🧠 Pipeline Neural Flow dual-stage: Whisper draft sub-500ms + Gemma 3 purificação paralela
-- 🔒 Buffer offline de ~2h (57MB RAM + 171MB IndexedDB), projetado para evitar perda de áudio sem rede
-- 📝 Criação automática de Google Doc por usuário com credenciais próprias
-- 🎛️ Cockpit em tempo real: GPU temp, VRAM, drift, entropia, status da rede
-- 📱 Wake Lock API — gravação não suspende no celular
-- ⚡ Descarrega VRAM automaticamente ao destravar contexto
-
-**📋 Validação em Campo:**
-
-- 🏛️ **CNPCT/Palácio do Planalto** — acompanhamento e relatoria das reuniões do Conselho Nacional dos Povos e Comunidades Tradicionais desde 2025, incluindo a 22ª Reunião Ordinária (mar/2026) com devolutiva do **Decreto de Regularização Fundiária** e fala de abertura da Ministra **Marina Silva**
-- 🌱 **Semana da Sociobiodiversidade** (2025) — relatoria do **3º Encontro Nacional da Juventude das Populações Extrativistas e Tradicionais** (IEB/CNS/MCM/CONFREM) com **Stênio v1**
-- 🏫 **FLONA de Tefé** (2025) — imersão de 39 lideranças no **Módulo II — "Formar Protagonistas"** (IEB/APAFE/Rainforest Trust)
-- 📊 **IPEA** (2026) — relatoria dos Movimentos 5 (Integração) e 7 (Gestão da Informação) no Encontro de Planejamento Estratégico do instituto, com StênioREC + observação etnográfica. Evento de 3 dias contratado via **Imagine Gestão Social**, resultando na agenda 2026–2027
-- 🌰 **III Encontro do Coletivo da Castanha (OCA)** (mai/2026) — relatoria com StênioREC. Evento do IEB sobre cadeia da castanha e comunidades extrativistas na Amazônia
-
-**🎯 Para:** Relatoria etnográfica, entrevistas qualitativas, audiências públicas, atas corporativas.
-
----
-
-### 🗂️ StênioPANEL — Scanner de Workshops
-**Status:** 🔴 Concepção — arquitetura definida, código implementado, aguardando recursos
+### 🎙️ StênioREC — Real-Time Transcription Cockpit
+**Status:** 🟢 **Production** — Deployed and verified in high-stakes governmental and territorial assemblies.
 
 <p align="center">
-  <img src="assets/hub-panel.png" width="600" alt="StênioPANEL — Scanner de Post-Its" />
+  <img src="assets/hub-rec.png" width="600" alt="StênioREC — Real-Time Transcription Cockpit" />
 </p>
 
-**Conceito:** Leitor de workshop físico. Transforma fotos de post-its, whiteboards e cartolinas em arquivos `.canvas` nativos do Obsidian — com visão computacional 100% local. Pipeline de 4 estágios: detecção zero-shot (GroundingDINO + SAM 2), OCR duplo com fallback automático, organizador por DBSCAN + arestas, e validador do spec oficial do Obsidian Canvas.
+- **Client-Side DSP via Rust WebAssembly:** Captures high-fidelity 16kHz audio using the `AudioWorklet` API. Audio buffers are normalized and pre-filtered in real time right inside the browser using compiled Rust WebAssembly before reaching the network.
+- **Dual-Stage Neural Flow:**
+  1. *Sub-500ms Draft Stage:* Fast speech recognition powered by Whisper GGML (Q8_0 quantized on NVIDIA RTX GPU).
+  2. *Parallel Semantic Purification:* Contextual cleansing, speaker disambiguation, and parliamentary-grade punctuation using Gemma 3 IT.
+- **Fail-Safe Offline Resilience:** Two-tier local buffer (57 MB RAM + 171 MB IndexedDB) ensures up to 2 hours of continuous recording during complete network blackouts without a single frame dropped.
+- **Zero-Cloud Data Sovereignty:** 100% of audio and inference operates within local homelab hardware (`psicopompo`), with selective OAuth export to Google Docs for cooperative live editing.
 
-**✨ Destaques:**
-- 🎯 Detecção zero-shot: não precisa de fine-tuning para nenhum evento
-- 🔍 OCR duplo com fallback automático entre PaddleOCR (93.5%) e EasyOCR (89.2%)
-- 🧩 Gera arquivos `.canvas` 100% compatíveis com Obsidian
-- 📸 Processa fotos de até 50MP com algoritmo de tiling
-- 🧠 Revisão semântica opcional com Gemma 3
-- 🔄 VRAM Mutex: prioriza GPU com StênioREC; fila inteligente no Valkey se GPU ocupada
-- 🗑️ Imagens destruídas após processamento — só metadados persistem
-
-**🎯 Para:** Facilitadores de workshops, design thinking, agile coaches, etnógrafos.
+#### 📋 Field Validation & Battle Testing:
+- 🏛️ **Presidency of Brazil / Palácio do Planalto (CNPCT):** Live documentation and legal reporting for the National Council of Traditional Peoples and Communities across multiple ordinary sessions, including the historic 22nd Assembly presenting the Land Regularization Decree with Minister **Marina Silva**.
+- 📊 **IPEA (Institute for Applied Economic Research):** Official reporting for Movements 5 (Integration) and 7 (Information Management) during the institute's Multi-Year Strategic Planning summit.
+- 🏫 **FLONA de Tefé (Amazon):** Intensive ethnographic reporting for 39 community leaders in the *"Formar Protagonistas"* program (IEB / APAFE / Rainforest Trust).
+- 🌱 **Sociobiodiversity National Summit:** Youth leadership assemblies with IEB, CNS, MCM, and CONFREM.
+- 🌰 **OCA — Brazil Nut Observatory:** Live reporting across extractive communities in the Amazon basin.
 
 ---
 
-### 🔍 StênioDIVE — Mineração Semântica
-**Status:** 🔴 Concepção — arquitetura definida, motor de busca implementado, aguardando recursos
+### 🗂️ StênioPANEL — Workshop Computer Vision Scanner
+**Status:** 🔵 Architectural Prototype — Fully modeled, awaiting active deployment.
 
 <p align="center">
-  <img src="assets/hub-dive.png" width="600" alt="StênioDIVE — Grafo de Conhecimento" />
+  <img src="assets/hub-panel.png" width="600" alt="StênioPANEL — Computer Vision Workshop Scanner" />
 </p>
 
-**Conceito:** Mineração semântica cruzada. Conecta transcrições do REC, boards do PANEL, notas do Obsidian e imagens em um único grafo interativo. Combina busca lexical BM25 com similaridade vetorial via embeddings ONNX 384-d (CPU, sem GPU), fusionados por Reciprocal Rank Fusion.
-
-**✨ Destaques:**
-- 🔎 Busca híbrida BM25 + cosseno vetorial com fusão RRF
-- 📄 Indexa 4 fontes simultâneas: Google Docs, Canvas Boards, Obsidian, imagens
-- 🧠 Embeddings ONNX 384-d 100% CPU, sem dependência de GPU
-- ⚙️ Pipeline assíncrono com cache SHA-256 e cache OCR
-- 🎛️ Filtros por fonte: transcrições, painéis, notas
-- 🔗 Grafo interativo de wikilinks, tags e conexões semânticas
-
-**🎯 Para:** Pesquisadores, analistas, gestores de conhecimento.
+Transforms physical workshop walls, flipcharts, and post-it arrangements into native, interactive **Obsidian Canvas (`.canvas`)** graph files using local computer vision:
+- **Zero-Shot Localization:** Post-it and handwritten note detection via GroundingDINO and SAM 2.
+- **Dual OCR Engine:** Automatic confidence arbitration between PaddleOCR and EasyOCR.
+- **Spatial Topology Engine:** Clusters physical spatial arrangements into semantic nodes and directed edges using DBSCAN.
+- **Privacy Guarantees:** Ephemeral in-memory image buffers destroyed immediately after vector extraction.
 
 ---
 
-### 🌡️ DataVis — Visualizações Climáticas
-**Status:** 🔴 Concepção — visualização PM2.5 instável; demais módulos em estágio inicial
+### 🔍 StênioDIVE — Cross-Domain Semantic Knowledge Graph
+**Status:** 🔵 Architectural Prototype — Hybrid search engine implemented.
 
 <p align="center">
-  <img src="assets/hub-datavis.png" width="600" alt="DataVis — Partículas PM2.5" />
+  <img src="assets/hub-dive.png" width="600" alt="StênioDIVE — Semantic Knowledge Graph" />
 </p>
 
-**Conceito:** Dados climáticos como arte generativa. Partículas reagem a dados reais de qualidade do ar (PM2.5), vento e direção — transformando números em arte interativa. Cor das partículas reflete severidade (âmbar → vermelho fuligem), turbulência acompanha vento real, mouse cria campos de força no canvas.
-
-**✨ Destaques:**
-- 🎨 Canvas generativo com até 300 partículas reagindo a dados reais
-- 🌬️ Vento e direção reais integrados: turbulência proporcional à velocidade
-- 🖱️ Partículas interagem com o mouse (campo de força 120px)
-- 🏥 Classificação OMS em 5 níveis com gauge dinâmico
-- 🔄 Duas fontes de dados: WAQI e OpenAQ (alternável)
-- ⚡ Cache adaptativo: 30s a 15min conforme popularidade
-- 🧊 Arquitetura de microsserviço — roda no nó edge ybyra (Oracle, 1GB RAM)
-
-**🎯 Para:** Pesquisadores ambientais, ativistas climáticos, data journalists, público geral.
+Fuses heterogeneous institutional records into a unified semantic graph:
+- **Hybrid Retrieval:** Reciprocal Rank Fusion (RRF) joining BM25 sparse keyword queries with 384-dimensional dense neural embeddings (ONNX CPU inference).
+- **Omnichannel Ingestion:** Automatically ingests live meeting transcripts, physical workshop canvases, Obsidian markdown notes, and geospatial datasets.
+- **Interactive Relationship Graph:** Renders real-time wikilink topologies, recurring themes, and policy impacts.
 
 ---
 
-### ⚙️ Admin — Gestão da Plataforma
-**Status:** 🟡 Parcial — dashboard, auth e contatos OK; ERP básico; image library e CMS em desenvolvimento
+### 🌡️ DataVis — Environmental Generative Art
+**Status:** 🟡 Experimental — Interactive fluid canvas and particulate dynamics.
 
 <p align="center">
-  <img src="assets/hub-admin.png" width="600" alt="Admin — Painel Administrativo" />
+  <img src="assets/hub-datavis.png" width="600" alt="DataVis — Particulate Air Quality Visualization" />
 </p>
 
-**Conceito:** Painel central de administração. Métricas ao vivo, gestão de usuários, contatos, biblioteca de imagens e ERP completo (organizações, leads, contratos, faturas, projetos). Navegação em 5 abas com Material Design 3, glassmorfismo e compliance LGPD.
-
-**✨ Destaques:**
-- 📊 Dashboard com 7 métricas ao vivo: usuários, sessões WS, projetos, receita, caracteres, áudio, tokens
-- 🗂️ ERP completo: organizações, Kanban de leads, contratos, faturas, projetos com board de tarefas
-- 👤 Gestão de usuários com badge de admin protegido por env var (único owner)
-- 🔒 Compliance LGPD: masking de email, IP em audit logs, banner de consentimento, versão de termos
-- 📈 Umami Analytics embutido com CSP dinâmico
-- 🖼️ Biblioteca de imagens e CMS com editor TipTap WYSIWYG
-- 📬 CRUD de contatos com 3 estados: não lido, lido, arquivado
-- 🛡️ Rota protegida — apenas o owner configurado por env var acessa o admin
-
-**🎯 Para:** Administrador da plataforma, operador do sistema, gestor de negócio.
+- Generative WebGL/Canvas simulation translating real-time air quality metrics (PM2.5, wind vectors, barometric pressure) into responsive particulate fields.
+- Multi-source integration with WAQI and OpenAQ APIs with adaptive 30s-to-15min caching.
+- Designed as an open data journalism tool to make invisible environmental crises visceral to citizens.
 
 ---
 
-## 📊 Em Números / By the Numbers
+### ⚙️ Admin & ERP — Platform Management
+**Status:** 🟢 **Production** — Live telemetry, access control, and business pipeline.
 
-| Métrica / Metric | Valor / Value |
-|---|---|
-| Linhas de código / Lines of code | **~8M+ e crescendo** |
-| Arquivos / Files | 1.227+ |
-| Projeto de vida / Life project | 10 anos / 10 years |
-| Desenvolvimento ativo / Active development | ~2 anos / ~2 years |
-| Módulos do Kernel / Kernel modules | 22 |
-| Drivers de verificação / Check drivers | 132 |
-| Containers em produção / Production containers | 30+ |
+<p align="center">
+  <img src="assets/hub-admin.png" width="600" alt="Admin Panel — Telemetry & Operations" />
+</p>
 
----
-
-
-## 📖 Narrativa / Narrative
-
-### 🧵 O Fio da Meada
-
-Minha carreira parece não linear até que você percebe o padrão: **ao longo da minha carreira, usei tecnologia para aproximar mundos**.
-
-Comecei como estagiário no [**ISPN**](https://ispn.org.br/) (2017), onde fiz pesquisa etnográfica com comunidades tradicionais do Cerrado — dados oficiais representavam apenas 28% dessas comunidades; a lacuna as tornava invisíveis para políticas públicas. O que eu aprendi em campo — que dados não são só números, mas territórios, memórias e lutas — me levou a co-criar a [**Plataforma Tô no Mapa**](https://tonomapa.org.br/), hoje integrada ao Ministério Público Federal.
-
-No [**IPAM**](https://ipam.org.br/pt/) (2022–2025), passei de estagiário a analista, liderei a estratégia digital que gerou **+143% de crescimento orgânico e pago** (+143,3% Facebook, +100% Instagram, 66,7K interações, alcance de **2+ milhões**), implementei Agile/Scrum como Scrum Master, codirigi um documentário pelo IPAM sobre mudanças climáticas e ganhei um prêmio Mercosul de jornalismo científico. Mas também descobri o que **não** queria: comunicação institucional para terceiros. O burnout veio junto com a clareza.
-
-Em 2024, comecei a construir o **StênioBOT** — a plataforma de captura de dados com IA local da [**Sumænimá**](https://sumaenima.chimaera-heptatonic.ts.net), meu projeto de vida que já existia como entidade criativa independente desde 2016. Juntei tudo que aprendi: antropologia, dados, tecnologia. Dados sensíveis de comunidades não deveriam depender de big tech. Essa é a tese.
-
-Desde 2025, acompanho como relator as reuniões do **CNPCT** (Conselho Nacional dos Povos e Comunidades Tradicionais). Em março de 2026, o **StênioREC** esteve no **Palácio do Planalto** capturando em tempo real a devolutiva do **Decreto de Regularização Fundiária** na 22ª Reunião Ordinária do CNPCT — validação em instância máxima de governo, com a fala de abertura da Ministra **Marina Silva**.
-
-Em paralelo, construí o **Homelab Mnemocine**: 4 servidores (incluindo um Dell Frankenstein com Arch Linux (I Use Arch BTW) e RTX 5050 e um notebook velho reaproveitado), orquestrados em Docker Swarm com Tailscale, porque acredito que tecnologia útil não se descarta — e que é possível fazer IA de ponta com dependência mínima de nuvem.
-
-Mas o trabalho mais profundo é invisível: o **StênioKernel** — um Kernel proprietário de Governança para Agentes de IA (21.435 linhas, 132 drivers, 10 camadas anti-bypass) que governa todos os agentes de IA trabalhando na Sumænimá. Ele aplica criptograficamente regras de governança, tenta corrigir violações automaticamente com rollback e é projetado para impedir que agentes burlem a governança. É o sistema operacional que torna a IA confiável, auditável e responsável.
-
-Hoje sou um **híbrido**: arquiteto de dados e produtos com alma de antropólogo. Sei traduzir necessidades de pesquisa em requisitos de sistema, e arquitetura técnica em impacto socioambiental.
+- **Real-Time Operational Cockpit:** Live monitoring of WebSocket connections, active transcribers, GPU VRAM pressure, token ingestion, and audio streaming bitrate.
+- **Sovereign ERP / CRM:** Native Kanban for institutional proposals, contract lifecycles, and milestone delivery.
+- **LGPD & GDPR Compliant:** PII data masking, automated log rotation, and single-owner zero-trust authentication.
 
 ---
 
-### 🧵 The Thread
+## 🛡️ StenioSentinel v3.1.0 — Rust AI Governance Engine
 
-My career looks nonlinear until you see the pattern: **Throughout my career, I've used technology to bridge worlds**.
+Developed to address the critical risks of autonomous coding agents (sycophancy, hallucinated tests, silent regressions, and dependency bloat), **StenioSentinel** is our proprietary static analysis and architectural governance sentinel written in pure **Rust 2024**.
 
-I started as an intern at [**ISPN**](https://ispn.org.br/) (2017), doing ethnographic research with traditional Cerrado communities — official data represented only 28% of these communities; the gap rendered them invisible to public policy. What I learned in the field — that data isn't just numbers, but territories, memories, and struggles — led me to co-create the [**Tô no Mapa Platform**](https://tonomapa.org.br/), now integrated with Brazil's Federal Public Ministry.
-
-At [**IPAM**](https://ipam.org.br/pt/) (2022–2025), I went from intern to analyst, led the digital strategy that drove **+143% organic and paid growth** (+143.3% Facebook, +100% Instagram, 66.7K interactions, **2+ million** reach), implemented Agile/Scrum as Scrum Master, co-directed a climate change documentary for IPAM, and won a Mercosur science journalism award. I also discovered what I **didn't** want: institutional communication for others. Burnout came with clarity.
-
-The turning point came in 2024, when I started building **StênioBOT** — the local-AI data capture platform under [**Sumænimá**](https://sumaenima.chimaera-heptatonic.ts.net), my life project that had already existed as an independent creative entity since 2016. I brought everything together: anthropology, data, technology. Sensitive community data shouldn't depend on big tech. That's the thesis.
-
-Since 2025, I have been following and reporting on the **CNPCT** (National Council of Traditional Peoples and Communities) meetings. In March 2026, **StênioREC** was at the **Palácio do Planalto** capturing in real time the **Land Regularization Decree** hearing at the 22nd Ordinary Meeting of the **CNPCT** — validation at the highest level of government, including the opening speech by Minister **Marina Silva**.
-
-In parallel, I built the **Mnemocine Homelab**: 4 servers (including a Dell Frankenstein running Arch Linux (I Use Arch BTW) with an RTX 5050 and a repurposed old laptop), orchestrated with Docker Swarm and Tailscale — because useful technology shouldn't be discarded, and because cutting-edge AI can work with minimal cloud dependency.
-
-But my deepest work is invisible: the **StênioKernel** — a proprietary AI Agent Governance Kernel (21.435 lines, 132 check drivers, 10 anti-bypass layers) that governs every AI agent working on Sumænimá. It cryptographically enforces governance rules, attempts automated violation repair with rollback, and is designed to prevent agents from bypassing governance. It is the operating system that makes AI reliable, auditable, and accountable.
-
-Today I'm a **hybrid**: data and product architect with an anthropologist's soul. I translate research needs into system requirements, and technical architecture into socio-environmental impact.
+- **Sub-Millisecond Auditing (<1ms to <500ms):** Validates whole workspaces and monorepos instantaneously using Rayon multi-threading.
+- **Mandatory Quality Gate (Rule 0):** Zero tolerance for blind commits or suppressed checks (`// @ts-ignore`, `// stenio-ignore`, `.unwrap()` in production Rust).
+- **Sectorized Scopes:**
+  - `stenio --scope hub`: Enforces backend architecture, frontend reactivity, and ADR standards.
+  - `stenio --scope homelab`: Audits network mounts, systemd units, Tailscale topologies, and documentation integrity.
+  - `stenio --scope vault`: Enforces Obsidian YAML metadata, official tag taxonomies (`_tags.md`), and markdown link validity.
+  - `stenio --scope all`: Comprehensive system-wide multi-subsystem audit.
+- **Automated Remediation (`--fix`):** Safely resolves formatting, taxonomy anomalies, and structural divergences automatically.
 
 ---
 
-## 📸 Registros / Field Photos
+## 🖥️ Mnemocine Homelab Infrastructure (5 Nodes)
+
+Our infrastructure embodies the principle that cutting-edge AI and data engineering do not require massive cloud expenditures. The **Mnemocine Homelab** operates as a resilient, encrypted 5-node hybrid topology:
+
+```mermaid
+flowchart TD
+    subgraph WAN ["🌐 Secure Perimeter"]
+        YBYRA["☁️ ybyra (Oracle Cloud Free Tier)<br/>Edge Reverse Proxy · WireGuard Gateway · SSL"]
+    end
+
+    subgraph MESH ["🔒 Encrypted Tailscale / WireGuard Mesh"]
+        PSICOPOMPO["🖥️ psicopompo (CachyOS / Arch Linux)<br/>AMD Ryzen · NVIDIA RTX 5050 · 64GB RAM<br/>Whisper / Gemma 3 · Local LLMs · Primary Development"]
+        YBYTU["🖧 ybytu (Local Server)<br/>PostgreSQL / Valkey · Docker Swarm Services"]
+        KUARAY["💾 kuaray (Syncthing & Vault Storage)<br/>NVMe RAID · Continuous Replication Node"]
+        KAVURE["🍓 kavure (Micro Edge & IoT)<br/>Homelab Telemetry · Network Sentinel"]
+    end
+
+    subgraph BACKUP ["🛡️ Redundant Disaster Recovery"]
+        NAS["📦 Synology NAS (RAID-1)<br/>Nightly restic snapshots · Encrypted cold archives"]
+    end
+
+    YBYRA <-->|Encrypted Tunnel| PSICOPOMPO
+    YBYRA <-->|Encrypted Tunnel| YBYTU
+    PSICOPOMPO <--> KUARAY
+    PSICOPOMPO -->|Nightly Automated Sync| NAS
+    YBYTU -->|Automated Dump| NAS
+```
+
+- **Zero Passwords in Code:** Secret management via cryptographic SOPS / Age keyrings.
+- **Automated Snapshots:** Btrfs copy-on-write subvolumes combined with offsite encrypted Restic backups.
+
+---
+
+## 📦 Featured Open-Source Projects
+
+- **[`WITH-SMOOTH-MOTION`](https://github.com/ceduardorodrig/WITH-SMOOTH-MOTION)** (Rust 2024)  
+  Dynamic adaptive tearing governor for high-refresh-rate Wayland compositors (Hyprland / Valve games), ensuring stutter-free rendering and automatic display sync management.
+- **[`STENIO-SENTINEL`](https://github.com/ceduardorodrig/STENIO-SENTINEL)** (Rust 2024)  
+  High-performance AI governance sentinel and architectural enforcement engine for multi-agent human-AI pairing.
+- **[`CURRICULUM-VITAE`](https://github.com/ceduardorodrig/CURRICULUM-VITAE)** (Markdown / Automation)  
+  Self-auditing bilingual professional portfolio and live curriculum repository.
+
+---
+
+## 📊 By the Numbers
+
+| Metric | Measurement | Context |
+|:---|:---:|:---|
+| **Curated Code & Assets** | **~8M+ lines** | Rust, TypeScript, Python, Shell, Markdown, and high-res datasets |
+| **Monorepo Files** | **1,227+** | Tightly coupled, version-governed files across 5 server nodes |
+| **Trajectory** | **10 years** | Integrating anthropology, technology, and public policy |
+| **Active Platform Engineering** | **~2.5 years** | Continuous production development of Sumænimá Hub |
+| **Audience Reached** | **2+ Million** | Led digital campaigns and documentary productions at IPAM |
+| **Traditional Territories Mapped** | **+2,500 communities** | Co-architect and field ethnographer for the *Tô no Mapa* platform |
+| **Inference Latency** | **<500ms** | Real-time local Whisper transcription response on RTX hardware |
+
+---
+
+## 🧵 The Thread (Narrative)
+
+My career looks non-linear only until you recognize the recurring pattern: **Throughout my journey, I have used technology to bridge worlds that rarely speak to one another.**
+
+I began in 2017 as an intern and field researcher at the **ISPN** (Society, Population, and Nature Institute). Deep in the Brazilian Cerrado, conducting ethnographic fieldwork with traditional riverside and quilombola populations, I confronted a staggering reality: official government maps accounted for only **28% of traditional territories**. The remaining 72% simply did not exist in the eyes of the state — rendering these communities invisible to basic sanitation, healthcare, and territorial defense.
+
+What I learned in the dust and water — that data is not merely numbers, but living memory, territory, and struggle — led me to co-architect the [**Tô no Mapa Platform**](https://tonomapa.org.br/). By placing intuitive spatial mapping tools directly into the hands of indigenous and traditional youth, we helped register over 2,500 communities, creating an official database now integrated directly into the Federal Public Prosecutor's Office (MPF).
+
+At **IPAM** (Amazon Environmental Research Institute, 2022–2025), I evolved from communications analyst to digital strategist. I spearheaded institutional growth that delivered **+143% digital engagement**, reached over **2 million people**, served as Scrum Master for cross-functional teams, co-directed a science documentary on Amazonian climate extremes, and received a Mercosur Science Journalism Award. Yet, this intense period also brought clarity: managing conventional institutional public relations was not my calling. Burnout arrived hand-in-hand with conviction.
+
+In 2024, I channeled every lesson learned into building **Sumænimá** — the independent technological venture I had conceived years earlier. My core thesis was clear: **Sensitive community and institutional data must never depend on foreign corporate AI clouds.**
+
+Since 2025, that vision has been tested at the highest echelons of public deliberation. As the official rapporteur for the **National Council of Traditional Peoples and Communities (CNPCT)**, my platform **StênioREC** operated inside the **Palácio do Planalto**, capturing, indexing, and purifying the historic proceedings that culminated in the Land Regularization Decree, inaugurated by Environment Minister **Marina Silva**.
+
+To sustain this work independently, I constructed the **Mnemocine Homelab**: five networked nodes running open-source systems, orchestrated through Tailscale and Docker, proving that sovereign local artificial intelligence is both feasible and superior.
+
+Today, I stand as a **hybrid**: a product and data architect who thinks like an ethnographer. I translate ambiguous human needs into resilient distributed software, and complex systems architecture into lasting socio-environmental impact.
+
+---
+
+## 📸 Fieldwork & Photographic Archive
+
+A visual testimony to the fieldwork and institutional assemblies shaping this platform:
 
 | | |
-|:-:|:-:|
-| <img src="assets/foto-sertao-mg-quilombola.jpg" width="370" /> | <img src="assets/foto-ispn-maranhao-2017.jpg" width="370" /> |
-| **2017** · Comunidade Quilombola, Pesqueira e Vazanteira de Caraíbas [Pedras de Maria da Cruz \| MG] | **2017** · Visita Técnica de Projetos do ISPN PPP-ECOS [Rosário \| MA] |
-| <img src="assets/foto-atl-2018-indigena.jpg" width="370" /> | <img src="assets/foto-oficina-tonomapa-2019.jpg" width="370" /> |
-| **2018** · Acampamento Terra Livre [Brasília \| DF] | **2019** · Oficina Tô no Mapa na Universidade Federal do Tocantins [Arraias \| TO] |
-| <img src="assets/foto-encontro-povos-cerrado-2019.jpg" width="370" /> | <img src="assets/foto-fazenda-canada-portao.jpg" width="370" /> |
-| **2019** · Encontro dos Povos do Cerrado — Tô no Mapa [Brasília \| DF] | **2021** · Porteira da Fazenda Canadá e ao fundo, Parque Nacional da Chapada dos Veadeiros [Cavalcante \| GO] |
-| <img src="assets/foto-visita-tanguro-2024.jpg" width="370" /> | <img src="assets/foto-experimento-seca-tanguro-2024.jpg" width="370" /> |
-| **2024** · Visita Estação Tanguro com IPAM e Woodwell [Querência \| MT] | **2024** · Experimento Seca Limite na Fazenda Tanguro [Querência \| MT] |
-| <img src="assets/foto-oficina-florestas-santarem-2025.jpg" width="370" /> | <img src="assets/foto-formar-protagonistas-congresso-2025.jpg" width="370" /> |
-| **2025** · Oficina Florestas Públicas com IPAM [Santarém \| PA] | **2025** · Formar Protagonistas da FLONA de Tefé no Congresso Nacional [Brasília \| DF] |
-| <img src="assets/foto-formar-protagonistas-flona-grupo-2025.jpg" width="370" /> | <img src="assets/foto-cnpct-planalto.jpg" width="370" /> |
-| **2025** · Cursistas do Formar Protagonistas da FLONA de Tefé [Brasília \| DF] | **2026** · Reunião do Conselho Nacional dos Povos e Comunidades Tradicionais com a Casa Civil do Governo Federal — Palácio do Planalto [Brasília \| DF] |
+|:---:|:---:|
+| <img src="assets/foto-sertao-mg-quilombola.jpg" width="370" alt="Quilombola Community Fieldwork" /> | <img src="assets/foto-ispn-maranhao-2017.jpg" width="370" alt="Technical Visit ISPN Maranhão" /> |
+| **2017** · Quilombola, fishing, and vazanteira community of Caraíbas [Pedras de Maria da Cruz \| MG] | **2017** · Technical mission for ISPN / PPP-ECOS community projects [Rosário \| MA] |
+| <img src="assets/foto-atl-2018-indigena.jpg" width="370" alt="Acampamento Terra Livre" /> | <img src="assets/foto-oficina-tonomapa-2019.jpg" width="370" alt="Tô no Mapa Training Workshop" /> |
+| **2018** · Free Land Camp (Acampamento Terra Livre - ATL) [Brasília \| DF] | **2019** · *Tô no Mapa* mapping workshop at Federal University of Tocantins [Arraias \| TO] |
+| <img src="assets/foto-encontro-povos-cerrado-2019.jpg" width="370" alt="Cerrado Peoples Gathering" /> | <img src="assets/foto-fazenda-canada-portao.jpg" width="370" alt="Chapada dos Veadeiros Expedition" /> |
+| **2019** · Gathering of Cerrado Peoples — *Tô no Mapa* Launch [Brasília \| DF] | **2021** · Expedition gate at Fazenda Canadá, Chapada dos Veadeiros National Park [Cavalcante \| GO] |
+| <img src="assets/foto-visita-tanguro-2024.jpg" width="370" alt="Tanguro Field Station" /> | <img src="assets/foto-experimento-seca-tanguro-2024.jpg" width="370" alt="Tanguro Drought Experiment" /> |
+| **2024** · Scientific expedition at Tanguro Research Station with IPAM & Woodwell [Querência \| MT] | **2024** · Rainfall exclusion experiment analyzing Amazon forest resilience [Querência \| MT] |
+| <img src="assets/foto-oficina-florestas-santarem-2025.jpg" width="370" alt="Public Forests Workshop" /> | <img src="assets/foto-formar-protagonistas-congresso-2025.jpg" width="370" alt="National Congress Delegation" /> |
+| **2025** · Public Forests Policy Workshop with IPAM [Santarém \| PA] | **2025** · FLONA de Tefé leadership delegation inside the National Congress [Brasília \| DF] |
+| <img src="assets/foto-formar-protagonistas-flona-grupo-2025.jpg" width="370" alt="FLONA de Tefé Training Cohort" /> | <img src="assets/foto-cnpct-planalto.jpg" width="370" alt="Palácio do Planalto Assembly" /> |
+| **2025** · Trainees of the *"Formar Protagonistas"* cohort from Central Amazonia [Brasília \| DF] | **2026** · National Council of Traditional Peoples meeting with the Chief of Staff, Palácio do Planalto [Brasília \| DF] |
 
 ---
 
-## 📚 Publicações / Publications
+## 📚 Publications & Media
 
-**Coautor** — Moser, P.; de Castro Silva, I.; Benedetti Figueiredo, I.; Favilla, K.; Bustamante, M.; Macedo, M.N.; de Araújo, R.F.; Shimbo, J.Z.; Varela, V.; **Rodrigues, C.E.**; Alencar, A.A. *"Institutional Invisibility Threatens the Lands and Livelihoods of Traditional Communities in the Northern Brazilian Cerrado"* — Submetido a **Land Use Policy** (Elsevier, 2026).
+- **Academic Journal Article (Co-author):**  
+  Moser, P.; de Castro Silva, I.; Benedetti Figueiredo, I.; Favilla, K.; Bustamante, M.; Macedo, M.N.; de Araújo, R.F.; Shimbo, J.Z.; Varela, V.; **Rodrigues, C.E.**; Alencar, A.A.  
+  *"Institutional Invisibility Threatens the Lands and Livelihoods of Traditional Communities in the Northern Brazilian Cerrado"* — Submitted to **Land Use Policy** (Elsevier, 2026).
+  > Fieldwork conducted during ethnographic studies at the University of Brasília (UnB) and technical advisorship at ISPN, documenting unmapped territories across the Cerrado biome.
 
-> A pesquisa de campo que embasa este artigo foi realizada durante a graduação em Antropologia na UnB e período como assessor técnico no ISPN, com comunidades tradicionais do Cerrado cujos territórios eram invisíveis para os dados oficiais (apenas 28% mapeados).
->
-> The fieldwork underpinning this article was conducted during my undergraduate studies in Anthropology at UnB and as a technical advisor at ISPN, with traditional Cerrado communities whose territories were invisible to official data (only 28% mapped).
+- **Analytical Essay:**  
+  Rodrigues, C.E. *"Doenças são sintomas de uma crise cultural e ambiental"* (*Diseases are Symptoms of a Cultural and Environmental Crisis*) — **JOTA**, Em Clima de Justiça (2026). [Read Online](https://www.jota.info/opiniao-e-analise/colunas/em-clima-de-justica/doencas-sao-sintomas-de-uma-crise-cultural-e-ambiental).
 
-**Artigo** — Rodrigues, C.E. *"Doenças são sintomas de uma crise cultural e ambiental"* — JOTA, Em Clima de Justiça (2026). [Ler](https://www.jota.info/opiniao-e-analise/colunas/em-clima-de-justica/doencas-sao-sintomas-de-uma-crise-cultural-e-ambiental)
+- **Documentary Feature:**  
+  *RUA PARA QUE(M)?* (85 min, 2020) — Direction, cinematography, and editing. Premiered by Sumænimá.
 
-**Documentário** — *RUA PARA QUE(M)?* (85min, 2020) — Direção, fotografia, edição. Publicado pela Sumænimá.
-
-**Documentário** — *Manaus Extrema* (2024) — Codireção. Publicado pelo IPAM.
-
----
-
-## 🔍 cvcheck — Miniatura do StênioKernel
-
-[![cvcheck](https://github.com/ceduardorodrig/CURRICULUM-VITAE/actions/workflows/ci.yml/badge.svg)](https://github.com/ceduardorodrig/CURRICULUM-VITAE/actions/workflows/ci.yml)
-
-Este repositório inclui o **cvcheck**, uma versão reduzida e portátil do StênioKernel que valida e governa este currículo com checks automatizados, verificação de imutabilidade, auto-auditoria, tendências históricas e um sistema de registro de reparos (permanent/negative registry). Uma demonstração funcional dos mesmos princípios que o StênioKernel aplica em escala no ecossistema Sumænimá.
+- **Documentary Short:**  
+  *Manaus Extrema* (2024) — Co-direction and narrative editing. Produced by IPAM.
 
 ---
 
 ## 📜 License
 
-- **Code** (cvcheck, scripts, tooling): [MIT](LICENSE.md)
-- **Content** (CVs, README, documentation): [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)
+- **Software, Scripts & Tooling:** [MIT License](LICENSE.md)
+- **Content, Written Profiles & Documentation:** [Creative Commons Attribution 4.0 International (CC-BY-4.0)](https://creativecommons.org/licenses/by/4.0/)
 
 ---
 
-## 📬 Contato / Contact
+## 📬 Contact
 
 - 📧 **Email:** [ceduardorodrig@gmail.com](mailto:ceduardorodrig@gmail.com)
 - 📱 **Phone / WhatsApp:** +55 (61) 9-9803-3546
 - 💼 **LinkedIn:** [linkedin.com/in/c-eduardo-rodrigues](https://linkedin.com/in/c-eduardo-rodrigues)
 - 🐙 **GitHub:** [github.com/ceduardorodrig](https://github.com/ceduardorodrig)
 - 🌐 **Sumænimá:** [sumaenima.chimaera-heptatonic.ts.net](https://sumaenima.chimaera-heptatonic.ts.net)
-- 📍 **Location:** Brasília-DF, Brazil
+- 📍 **Location:** Brasília, DF, Brazil (UTC-03:00)
 
 ---
 
 <div align="center">
 
-> 🔮 **Vibe Coded with StenioSentinel AI**  
-> Developed and curated through autonomous human-AI pair-programming governed by **StenioSentinel** (our Rust-based AI Governance Sentinel) with **Carlos Eduardo Rodrigues** ([@ceduardorodrig](https://github.com/ceduardorodrig)) for the **Mnemocine Homelab** & Professional Portfolio.
+> 🔮 **Vibe Coded with StenioSentinel**
+>
+> Governed by **StenioSentinel** (our Rust-based AI Governance Sentinel) with **Carlos Eduardo Rodrigues** ([@ceduardorodrig](https://github.com/ceduardorodrig)).
 
 </div>
-
-🕐 *Última atualização / Last updated: julho 2026*
