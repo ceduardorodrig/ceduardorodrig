@@ -192,7 +192,7 @@ flowchart TD
 
         YBYTU["☁️ ybytu (Oracle Cloud Edge DNS)<br/>AMD EPYC · 1GB RAM · Ubuntu 24.04 LTS<br/>AdGuard Home DNS · Homepage · Uptime Kuma"]
 
-        KAVURE["🍓 kavure (Dedicated Services & Swarm Manager)<br/>Intel Core i3-8100 4C/4T · 12GB RAM · Ubuntu 24.04 LTS<br/>Docker Swarm (sae-core) · Grafana/Prometheus · Game Servers"]
+        KAVURE["🍓 kavure (Dedicated Services & Swarm Manager)<br/>Intel Core i3-8100 4C/4T · 12GB RAM · Ubuntu 24.04 LTS<br/>Docker Swarm (sae-core) · Grafana/Prometheus · Game Servers (Minecraft, Zomboid, Valheim)"]
 
         KUARAY["💾 kuaray (Standby Mirror · Deprecated)<br/>Intel Core i5-4200U · 6GB RAM<br/>Linux Mint 22.3 · 224GB SSD + 1TB HDD"]
     end
