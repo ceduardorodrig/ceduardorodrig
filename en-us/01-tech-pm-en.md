@@ -20,7 +20,7 @@ tags: [meta, docs, personal]
 | **Data & Analytics** | Product Metrics, Google Analytics, A/B Testing, Data-Driven Decision Making, Dashboards |
 | **Frameworks & Methods** | Agile/Scrum (Scrum Master), Jobs-to-be-Done, Stakeholder Mapping (RACI), Gantt, Sprint Planning |
 | **Research & UX** | Ethnography, Qualitative Research, User Interviews, UX Research, Participant Observation |
-| **Technology** | Python, SQL, React, PostgreSQL, Docker, FastAPI, Git, Local AI (Whisper, LLMs) |
+| **Technology** | Rust (Axum, Tokio), React 19, SQL, PostgreSQL, Docker, Python, Git, Local AI (Whisper, LLMs) |
 | **Domain** | Socio-Environmental Impact, Public Policy, Traditional Communities, Territorial Data |
 
 ---
@@ -36,10 +36,10 @@ Product Manager with a track record in data products and socio-environmental imp
 ### 🚀 Sumænimá — Founder & Product Owner
 *2016 — present · Brasília-DF / Remote*
 
-- **Led** end-to-end product lifecycle for StênioBOT, defining roadmap and prioritizing features across 4 modules based on field discovery with 5+ institutional partners
+- **Led** end-to-end product lifecycle for Sumænimá Hub (StênioREC, Biblioteca, Arandu TCG, Asciline), defining roadmap and prioritizing features based on field discovery with 5+ institutional partners
 - **Delivered** real-time AI transcription product validated at highest government level (CNPCT/Planalto), serving 30+ stakeholders per session
 - **Orchestrated** multi-stakeholder reporting engagements (IPEA — 3-day strategic planning, IEB — national youth meeting, CNPCT — government council), translating qualitative research needs into product requirements
-- **Managed** product backlog and delivery roadmap across a 30-container SaaS platform (FastAPI + React + PostgreSQL + Docker) — from concept through field validation to production
+- **Managed** product backlog and delivery roadmap across a sovereign local-first platform (Rust Axum + React 19 + PostgreSQL + Docker Swarm) — from concept through field validation to production
 - **Drove** product discovery with traditional communities and institutional clients, applying Jobs-to-be-Done approach to define MVP scope and prioritize features under resource constraints
 
 ### 🌳 IPAM — Amazon Environmental Research Institute

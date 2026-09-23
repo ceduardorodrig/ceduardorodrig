@@ -25,23 +25,18 @@ Arquiteto de dados e produto que constrói pontes entre tecnologia open-source e
 
 Sumænimá é meu projeto de vida. Existe há quase 10 anos como entidade criativa independente, atravessando toda minha carreira em paralelo aos empregos formais. O que me mantém é o sonho de um dia captar recursos para ter equipe e construir um **Bureau de Dados** com alma antropológica.
 
-**StênioBOT** (2024–presente): plataforma de captura de dados assistida por IA com inferência 100% local. Quatro módulos:
+**Sumænimá Hub v3.1.0** (2024–presente): Plataforma de inteligência e captura de dados local-first de nível corporativo, com backend 100% nativo em Rust (`stenio-server` Axum 0.8 / Tokio / SQLx) e frontend React 19 / TypeScript 6 acelerado por DSP em Rust WebAssembly (`AudioWorklet`) no navegador. Três pilares operacionais:
 
-- **StênioREC** 🟢: transcrição em tempo real (Whisper large-v3-turbo) com VAD, purificação via Gemma 3 e exportação Google Docs — **em produção**, validado em relatoria de campo
-- **StênioPANEL** 🔴: scanner de workshops com visão computacional (GroundingDINO + SAM 2 + PaddleOCR) — **concepção**, aguardando recursos
-- **StênioDIVE** 🔴: mineração semântica cruzada de wikilinks, tags e notas em grafo interativo — **concepção**, aguardando recursos
-- **DataVis** 🔴: visualizações climáticas com física de partículas e dados em tempo real — **concepção**, em estágio inicial
+- **Bureau Sumænimá (StênioREC & Biblioteca):** Cockpit de transcrição em tempo real (whisper.cpp com aceleração nativa CUDA 13 na NVIDIA RTX 5050 sm_120, Gemma 3 IT, Anti-Loop Shield, Local Agreement, drenagem contínua para Google Docs) e CMS institucional em Markdown (TipTap, tags dinâmicas, controle de rascunhos) — **em produção**, validado em relatorias institucionais de alto escalão
+- **Arandu TCG Platform:** Plataforma de análise atômica de cartas e trocas sociais para Magic: The Gathering com heurísticas sub-milissegundo (`arandu-engine` em Rust), pasta 3x3 virtual, wishlist, radar de trocas P2P e PostgreSQL 16 + pgvector — **em produção**
+- **Asciline Engine:** Streamer procedural ASCII em tempo real transmitindo animações e fractais matemáticos via Axum WebSockets com zero overhead de CPU — **em produção**
 
-Stack: FastAPI (async) + React 19 + TypeScript 6 + PostgreSQL 16 + Valkey 8 + Docker Swarm (3 nós). SaaS com Mercado Pago, Google OAuth, Grafana/Loki. Processamento local com sincronização sob demanda. Privado, LGPD.
+Ganhos arquiteturais (v3.0 / 100% Rust): Eliminação completa de runtimes dinâmicos em Python/FastAPI, memória em repouso reduzida de ~2.5 GB para **~25–35 MB**, imagem Docker reduzida de ~20 GB para **~500 MB**, cold start acelerado de ~20s para **<100ms** e concorrência multithread real com Tokio work-stealing.
 
-**StênioKernel — Kernel de Governança para Agentes de IA:**
-- Kernel proprietário (21.435 linhas, 22 módulos kernel, 132 drivers) governando todos os agentes de IA do projeto. Ecossistema total: **~8M+ linhas e crescendo** (inclui código fonte, documentação e assets), 1.227+ arquivos, 10 anos como projeto de vida (~2 de desenvolvimento ativo)
-- Arquitetura anti-bypass em 10 camadas: pre-commit gates, bypass guard, scope guard, imutabilidade do kernel, leis de agentes com assinatura criptográfica, protocolo de conhecimento, repetição→regra, jurisdição universal ("A Teia"), promoção WARN→FAIL, bloqueio de reassinatura automatizado
-- Correção automatizada com rollback via negative registry, Knowledge Graph, auto-commit em correções bem-sucedidas
-- Análise de tendências: detecção via regressão linear, auto-suppress, detecção de flakiness, promoção de canary
-- Memória e aprendizado: persistência de histórico, aprendizado contínuo (`--learn`), padrões de bug com auto-fix commands, sugestões proativas
-- Ecossistema de documentação: 185 arquivos, DocBot
-- FMEA vivo, Audio WAL, Neural Flow, circuit breaker adaptativo
+**StenioSentinel v3.1.0 — Sentinela de Governança Estática & Anti-Bypass:**
+- Sentinela de auditoria estática ultrarrápida e integridade arquitetural escrito em **Rust 2024** puro, auditando o ecossistema completo em sub-milissegundos (<1ms a <500ms)
+- Arquitetura anti-bypass em 10 camadas: Quality gates pre-commit (Regra 0), bypass guard, scope guard, imutabilidade do motor, leis de agentes assinadas criptograficamente, promoção repetição→regra, jurisdição universal de arquivos, rollback com negative registry e autocorreção (`--fix`)
+- Escala do ecossistema: **~8M+ linhas** de código com curadoria, documentação e assets multimodais governados por regras determinísticas em 5 nós do homelab
 
 **Relatoria & Sistematização de Dados** (paralelo à StênioBOT):
 - Consultor independente em relatoria, sistematização de dados e planejamento estratégico
@@ -136,16 +131,15 @@ O **Homelab Mnemocine** é a infraestrutura da **Sumænimá**. São indistinguí
 
 | Categoria | Tecnologias |
 |-----------|-------------|
-| **Backend** | FastAPI, Python, SQLAlchemy, asyncpg, REST APIs, WebSockets |
-| **Front-end** | React, TypeScript, Vite, Tailwind, Material Web Components |
-| **Banco de Dados** | PostgreSQL, Alembic, SQL, modelagem de dados |
-| **Infraestrutura** | Docker Swarm, Nginx, Tailscale, Linux (Arch), GPU passthrough |
-| **AI/ML** | Whisper (transcrição), LLMs (Gemma), GroundingDINO, SAM 2, embeddings |
-| **QA & Governança** | StênioKernel (21K linhas, 132 drivers, 22 módulos kernel), FMEA, ADRs, docs-first CI/CD |
-| **Governança de Agentes** | StênioKernel arquitetura anti-bypass (10 camadas), design de workflow para agentes, aplicação criptográfica de regras, correção automatizada com rollback |
-| **Observabilidade** | Grafana, Loki, Promtail, health endpoints |
+| **Backend** | Rust (Axum 0.8, Tokio, SQLx, whisper.cpp), Python, WebSockets, REST APIs |
+| **Front-end** | React 19, TypeScript, Rust WebAssembly (AudioWorklet DSP), Vite, Tailwind |
+| **Banco de Dados** | PostgreSQL 16 (pgvector), migrações SQLx, Valkey 8 / Redis, modelagem |
+| **Infraestrutura** | Docker Swarm, Nginx, Malha Tailscale WireGuard, CachyOS (Arch Linux), Ubuntu 24.04 LTS |
+| **AI/ML & DSP** | Whisper CUDA 13 (sm_120 / RTX 5050), Gemma 3 IT, DSP de áudio WebAssembly no cliente, embeddings |
+| **Governança & QA** | StenioSentinel v3.1.0 (motor de auditoria estática em Rust 2024), ADRs, Regra 0 anti-bypass |
+| **Observabilidade** | Prometheus, Grafana, Loki, Promtail, Alertmanager, ntfy |
 | **Métodos** | Agile/Scrum (Scrum Master), pesquisa etnográfica, UX Research, OKRs |
-| **Ferramentas** | Git, Adobe Creative Suite, QGIS, Google Earth Engine |
+| **Ferramentas** | Git, Cargo, Suite moderna de CLI em Rust (rg, fd, eza, bat, delta), QGIS |
 
 ---
 

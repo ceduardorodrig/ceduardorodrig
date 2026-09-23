@@ -25,16 +25,12 @@ Profissional híbrido que une tecnologia open-source local, dados e antropologia
 
 Sumænimá é meu projeto de vida. Existe há quase 10 anos como entidade criativa independente, atravessando toda minha carreira em paralelo aos empregos formais. Nasceu da convicção de que dados sensíveis de comunidades tradicionais não podem depender de big tech. O sonho é construir um **Bureau de Dados** com alma antropológica: projetos como o Tô no Mapa, visualizações de dados e pesquisa etnográfica em escala.
 
-**StênioBOT** (2024–presente): plataforma de captura de dados com IA 100% local e privada. Quatro módulos:
+**Sumænimá Hub v3.1.0** (2024–presente): Plataforma de inteligência e captura de dados local-first de nível corporativo, operando com backend 100% nativo em Rust (`stenio-server` Axum 0.8 / Tokio / SQLx) e frontend React 19 / TypeScript com processamento DSP de áudio em Rust WebAssembly no navegador. Construída para soberania, proteção de dados e resiliência:
 
-- **StênioREC** 🟢: transcrição em tempo real (Whisper) — **em produção**, funcional e testado em campo
-- **StênioPANEL** 🔴: scanner de workshops com visão computacional — **concepção**, aguardando recursos
-- **StênioDIVE** 🔴: mineração semântica — **concepção**, aguardando recursos
-- **DataVis** 🔴: visualizações climáticas — **concepção**, em estágio inicial
+- **Bureau Sumænimá (StênioREC & Biblioteca):** Cockpit de transcrição em tempo real com aceleração local por GPU (whisper.cpp com CUDA 13 nativo na NVIDIA RTX 5050 sm_120, Gemma 3 IT, Anti-Loop Shield, Local Agreement, drenagem contínua para Google Docs) e CMS institucional em Markdown — **em produção**, funcional e testado em campo em assembleias governamentais e comunitárias
+- **Arquitetura de Soberania de Dados:** Inferência 100% local eliminando dependência de nuvens corporativas externas para deliberações comunitárias sensíveis; buffer local no IndexedDB do navegador garantindo operação contínua mesmo sob queda total de internet
 
-Stack: FastAPI + React + PostgreSQL + Docker Swarm. Processamento local, privado.
-
-**StênioKernel — Kernel de Governança para Agentes de IA:** construiu um kernel proprietário de governança (21.435 linhas, 132 drivers, 22 módulos kernel) que aplica regras estritas e com verificação criptográfica para agentes de IA lidando com dados sensíveis de comunidades. Ecossistema total: **~8M+ linhas e crescendo** (inclui código fonte, documentação e assets), 1.227+ arquivos, 10 anos como projeto de vida (~2 de desenvolvimento ativo). Arquitetura anti-bypass em 10 camadas visa prevenir vazamentos; correção automatizada busca conformidade contínua; jurisdição universal ("A Teia") significa que ativos são monitorados por auditoria. Projetado para tornar a IA soberana, auditável e responsável — não apenas poderosa.
+**StenioSentinel v3.1.0 — Sentinela de Governança Estática:** Sentinela de auditoria arquitetural e integridade estática de alta performance escrito em **Rust 2024** puro, aplicando regras determinísticas estritas para agentes de IA e infraestrutura. Arquitetura anti-bypass em 10 camadas previne vazamento de dados e regressões, assegurando que o ecossistema permaneça soberano, auditável e confiável. Ecossistema total: **~8M+ linhas** de código com curadoria, documentação e assets multimodais em 5 nós de homelab.
 
 **Relatoria & Sistematização de Dados** (paralelo à StênioBOT):
 - **Semana da Sociobiodiversidade (2025):** Sistematização das formulações de dezenas de jovens de povos e comunidades tradicionais de todo o Brasil durante o **3º Encontro Nacional da Juventude PCT** (IEB/CNS/MCM/CONFREM), resultando em diagnóstico estratégico. Realizada com **Stênio v1** — primeira versão operacional da plataforma em produção.

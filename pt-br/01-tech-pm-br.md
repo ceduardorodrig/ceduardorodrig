@@ -20,7 +20,7 @@ tags: [meta, docs, personal]
 | **Dados & Analytics** | Métricas de Produto, Google Analytics, Testes A/B, Decisões Baseadas em Dados, Dashboards |
 | **Frameworks & Métodos** | Agile/Scrum (Scrum Master), Jobs-to-be-Done, Mapeamento de Stakeholders (RACI), Gantt, Sprint Planning |
 | **Pesquisa & UX** | Etnografia, Pesquisa Qualitativa, Entrevistas com Usuários, UX Research, Observação Participante |
-| **Tecnologia** | Python, SQL, React, PostgreSQL, Docker, FastAPI, Git, IA Local (Whisper, LLMs) |
+| **Tecnologia** | Rust (Axum, Tokio), React 19, SQL, PostgreSQL, Docker, Python, Git, IA Local (Whisper, LLMs) |
 | **Domínio** | Impacto Socioambiental, Políticas Públicas, Comunidades Tradicionais, Dados Territoriais |
 
 ---
@@ -36,10 +36,10 @@ Product Manager com trajetória em produtos de dados e impacto socioambiental. C
 ### 🚀 Sumænimá — Fundador & Product Owner
 *2016 — presente · Brasília-DF / Remoto*
 
-- **Liderou** o ciclo de vida completo do StênioBOT, definindo roadmap e priorizando funcionalidades em 4 módulos com base em discovery de campo com 5+ parceiros institucionais
+- **Liderou** o ciclo de vida completo do Sumænimá Hub (StênioREC, Biblioteca, Arandu TCG, Asciline), definindo roadmap e priorizando funcionalidades com base em discovery de campo com 5+ parceiros institucionais
 - **Entregou** produto de transcrição em tempo real com IA validado em instância máxima de governo (CNPCT/Planalto), atendendo 30+ stakeholders por sessão
 - **Coordenou** projetos de relatoria multi-stakeholder (IPEA — 3 dias de planejamento estratégico, IEB — encontro nacional da juventude, CNPCT — conselho governamental), traduzindo necessidades de pesquisa qualitativa em requisitos de produto
-- **Gerenciou** backlog e roadmap de entrega de plataforma SaaS com 30+ contêineres (FastAPI + React + PostgreSQL + Docker) — do conceito à validação em campo e produção
+- **Gerenciou** backlog e roadmap de entrega de plataforma local-first soberana (Rust Axum + React 19 + PostgreSQL + Docker Swarm) — do conceito à validação em campo e produção
 - **Conduziu** discovery de produto com comunidades tradicionais e clientes institucionais, aplicando abordagem Jobs-to-be-Done para definir escopo de MVP e priorizar funcionalidades sob restrição de recursos
 
 ### 🌳 IPAM — Instituto de Pesquisa Ambiental da Amazônia

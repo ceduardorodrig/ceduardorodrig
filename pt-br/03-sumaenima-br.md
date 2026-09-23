@@ -2,9 +2,9 @@
 tags: [meta, docs, personal]
 ---
 
-# 🚀 Sumænimá — StênioBOT
+# 🚀 Sumænimá Hub v3.1.0
 
-**Plataforma de Captura de Dados com IA Local, Privada e Open-Source**
+**Plataforma de Inteligência e Captura de Dados Local-First & Etnográfica**
 
 [sumaenima.chimaera-heptatonic.ts.net](https://sumaenima.chimaera-heptatonic.ts.net) | [github.com/ceduardorodrig](https://github.com/ceduardorodrig)
 
@@ -14,21 +14,19 @@ tags: [meta, docs, personal]
 
 **Fundador & Product Owner:** Carlos Eduardo Rodrigues
 
-Sumænimá é meu projeto de vida. Existe há quase 10 anos como entidade criativa independente, atravessando toda minha carreira em paralelo aos empregos formais. Nasceu de uma convicção: pesquisa qualitativa — especialmente com comunidades tradicionais, indígenas e grupos vulneráveis — não deveria depender de infraestrutura de big tech para processar dados sensíveis. Mas por falta de recursos, seguiu como projeto paralelo durante anos — até que em 2024 comecei a construir a **StênioBOT**.
+Sumænimá é meu projeto de vida. Existe há quase 10 anos como entidade criativa independente, atravessando toda minha carreira em paralelo aos empregos formais. Nasceu de uma convicção: pesquisa qualitativa — especialmente com comunidades tradicionais, indígenas e grupos vulneráveis — não deveria depender de infraestrutura de big tech para processar dados sensíveis. O que começou como uma prática de pesquisa independente amadureceu no **Sumænimá Hub v3.1.0**: um monorepo unificado com backend 100% nativo em Rust (`stenio-server` Axum 0.8 / Tokio / SQLx) integrado a um frontend React 19 acelerado por processamento DSP em Rust WebAssembly no navegador.
 
-O sonho é captar recursos para ter equipe e construir um **Bureau de Dados** com alma antropológica: uma estrutura que produza projetos como o Tô no Mapa, visualizações de dados e pesquisa etnográfica em escala — unindo ciência, território e tecnologia de forma soberana.
+A missão central é operar um **Bureau de Dados** com alma antropológica: uma estrutura institucional que produza projetos como o *Tô no Mapa*, bases territoriais e pesquisa etnográfica em escala — unindo ciência, território e engenharia de software de forma determinística e privada.
 
-Mas a camada mais profunda e valiosa da Sumænimá é invisível: o **StênioKernel** — um Kernel proprietário de Governança para Agentes de IA (21.435 linhas, 22 módulos de kernel, 132 drivers automatizados, 10 camadas anti-bypass) que governa todos os agentes de IA trabalhando no projeto. Ele aplica criptograficamente regras de governança, tenta corrigir violações automaticamente com rollback, detecta tentativas de bypass e é projetado para impedir que agentes burlem a governança. É o sistema operacional que torna a IA confiável, auditável e responsável.
+A fundação do ecossistema é o **StenioSentinel v3.1.0** — nosso sentinela open-source de governança para agentes de IA escrito em **Rust 2024** puro (agora público em `ceduardorodrig/STENIO-SENTINEL`). Ele fiscaliza regras arquiteturais em sub-milissegundos (<1ms a <500ms), aplica correções cirúrgicas automatizadas e garante que agentes de código adiram a quality gates determinísticos (Regra 0).
 
-**StênioBOT** é uma plataforma de captura de dados assistida por IA com processamento local (inferência em hardware próprio); documentos são sincronizados via Google Docs quando necessário. Quatro módulos integrados que cobrem o ciclo completo da pesquisa qualitativa: da coleta em campo à análise e visualização.
-
-Ao todo, o ecossistema Sumænimá soma **~8M+ linhas e crescendo** (inclui código fonte, documentação e assets) — distribuídas em 1.227+ arquivos, ao longo de 10 anos como projeto de vida.
+Ao todo, o ecossistema Sumænimá soma **~8M+ linhas e crescendo** (inclui código fonte, documentação e assets multimodais) — distribuídas em 1.227+ arquivos estritamente governados em nossa infraestrutura de 5 nós do homelab.
 
 ---
 
 ## 🖥️ Design & Experiência
 
-A interface da StênioBOT segue **Material Design 3** com glassmorfismo, tipografia Lexend e tema dinâmico — responsiva em todos os dispositivos.
+A interface do Sumænimá Hub segue **Material Design 3** com glassmorfismo, tipografia Lexend e tema dinâmico — responsiva em todos os dispositivos.
 
 | Mobile · iPhone SE | Tablet · iPad Pro | Desktop |
 |:---:|:---:|:---:|
@@ -39,24 +37,26 @@ A interface da StênioBOT segue **Material Design 3** com glassmorfismo, tipogra
 ## ❓ O Problema
 
 Pesquisadores, ONGs e instituições que trabalham com dados sensíveis enfrentam um dilema:
-- Serviços cloud (Google, OpenAI, AWS) são caros e exigem envio de dados para servidores externos
+- Serviços cloud (Google, OpenAI, AWS) são caros e exigem envio de áudios e transcrições confidenciais para servidores estrangeiros
 - Alternativas locais são fragmentadas, mal documentadas e exigem conhecimento técnico profundo
-- LGPD, GDPR e comitês de ética restringem cada vez mais o uso de soluções cloud para dados de pesquisa
+- LGPD, GDPR e comitês de ética restringem cada vez mais o uso de soluções cloud para dados de deliberação institucional e comunitária
 
-Não encontramos uma plataforma integrada que atendesse estas necessidades específicas de pesquisa qualitativa assistida por IA — local, privada e acessível.
+O Sumænimá Hub soluciona esse impasse oferecendo uma plataforma soberana integrada — local, privada e determinística.
 
 ---
 
-## 💡 A Solução — StênioBOT
+## 💡 A Solução — Sumænimá Hub v3.1.0
 
-### 🎙️ StênioREC — Transcrição em Tempo Real
-**Status:** 🟢 Em produção — funcional, validado em relatoria de campo
+### 🏛️ Bureau Sumænimá
+
+#### 🎙️ StênioREC — Cockpit de Transcrição & Relatoria
+**Status:** 🟢 **Em produção** — Validado em instâncias máximas de governo e relatorias de campo
 
 <p align="center">
   <img src="../assets/hub-rec.png" width="600" alt="StênioREC — Cockpit de Transcrição" />
 </p>
 
-Cockpit de transcrição em tempo real com IA 100% local. Captura áudio via AudioWorklet API, transcreve com Whisper large-v3-turbo (CTranslate2 + cuBLAS) e purifica com Gemma 3 1B IT em pipeline paralelo — processamento de IA 100% local; transcrições sincronizadas via Google Docs com autenticação OAuth por usuário, em modo colaborativo.
+Cockpit de transcrição em tempo real com inferência 100% local. Captura áudio via `AudioWorklet` no navegador com detecção acústica RMS (VAD) em Rust WebAssembly, transcreve com whisper.cpp acelerado nativamente por CUDA 13 na NVIDIA RTX 5050 (Blackwell sm_120) e purifica com Gemma 3 IT em pipeline neural paralelo — 100% processamento local; transcrições sincronizadas sob demanda via Google Docs com autenticação OAuth por usuário.
 
 **✨ Destaques:**
 - 🧠 Pipeline Neural Flow dual-stage: Whisper draft sub-500ms + Gemma 3 purificação paralela
@@ -161,30 +161,27 @@ Painel central de administração da plataforma: métricas, usuários, contatos,
 
 | Camada | Tecnologia |
 |--------|-----------|
-| **Backend** | FastAPI (async) · Python 3.12+ · SQLAlchemy 2.0 (asyncpg) |
-| **Front-end** | React 19 · Vite 8 · TypeScript 6 · Material Web Components (MD3) · Tailwind |
-| **Banco** | PostgreSQL 16 · Alembic (migrations) |
-| **Cache/Queue** | Valkey 8 (Redis-compatível) · Streams, Pub/Sub, arq job queues |
-| **AI Áudio** | Whisper large-v3-turbo (transformers/PyTorch) · Gemma 3 (1B) |
-| **AI Visão** | GroundingDINO · SAM 2 · PaddleOCR · Gemma 4B |
-| **Infra** | Docker Swarm multi-nó · Docker Compose · NVIDIA GPU (RTX 5050) |
-| **Rede** | Tailscale Funnel · Nginx reverse proxy |
-| **Pagamentos** | Mercado Pago SDK |
-| **Analytics** | Umami (self-hosted, privacy-first) |
-| **Governança** | StênioKernel (21.435 linhas, 132 drivers, 22 módulos kernel) |
-| **Monitoramento** | Grafana · Loki · Promtail |
-| **Ecossistema** | **~8M+ linhas e crescendo** · 1.227+ arquivos · 10 anos (projeto) · ~2 (ativo) |
+| **Backend** | 100% Rust (`stenio-server`) · Axum 0.8 · Tokio Work-Stealing · SQLx · whisper.cpp |
+| **Front-end** | React 19 · Vite · TypeScript 6 · Rust WebAssembly (AudioWorklet DSP) · Tailwind |
+| **Banco** | PostgreSQL 16 (pgvector) · SQLx (consultas checadas em compilação & migrações) |
+| **Cache/Estado** | Valkey 8 (estado em memória, pub/sub, filas em tempo real) |
+| **AI Áudio** | whisper.cpp CUDA 13 (NVIDIA RTX 5050 sm_120) · Gemma 3 IT |
+| **Infra** | Docker Swarm (kavure manager, psicopompo worker) · Malha Tailscale WireGuard |
+| **Rede** | Gateway Tailscale Funnel (`ybyra`) · Proxy reverso Nginx |
+| **Observabilidade** | Prometheus · Grafana · Loki · Promtail · Alertmanager · ntfy |
+| **Governança** | StenioSentinel v3.1.0 (motor de auditoria estática em Rust 2024, execução sub-milissegundo) |
+| **Ecossistema** | **~8M+ linhas e crescendo** · 1.227+ arquivos · 10 anos (projeto) · ~2.5 anos (ativo) |
 
 ---
 
-## 🏗️ StênioKernel — Kernel de Governança para Agentes de IA
+## 🛡️ StenioSentinel v3.1.0 — Sentinela de Governança Estática
 
-Este é o ativo mais profundo e valioso da Sumænimá. O StênioKernel não é um framework de QA — é um **Kernel proprietário de Governança para Agentes de IA** (construído sobre ecossistema open-source — Python, FastAPI, Pydantic, Typer — com arquitetura original e código proprietário) projetado para governar agentes de IA em todo o ciclo de vida do software: código, documentação, infraestrutura e o próprio comportamento dos agentes.
+Esta é a fundação de engenharia mais profunda da Sumænimá. O StenioSentinel é um sentinela open-source de análise estática e governança arquitetural escrito em **Rust 2024** puro (`ceduardorodrig/STENIO-SENTINEL`). Foi concebido para governar o pareamento humano-IA e agentes de código em todo o ciclo de vida do software: código, documentação, infraestrutura e o próprio comportamento dos agentes.
 
-- **22 módulos de kernel** (scheduler, guardian, healer, docbot, learner, registry, self-test, history, flakiness, classifier, impact, entre outros)
-- **132 drivers de verificação** (governança, segurança, front-end, infraestrutura, documentação, backend, dados, GPU, API, CMS)
-- **21.435 linhas** de Python, zero dependência de frameworks de QA externos
-- **Arquitetura plugin**: auto-descoberta via `CHECK_METADATA` em cada driver, scheduler com ThreadPoolExecutor + asyncio
+- **Arquitetura 100% Rust 2024:** Auditoria estática em sub-milissegundos (<1ms a <500ms) aproveitando paralelismo via Rayon.
+- **Regra 0 & Quality Gate:** Verificação pré-commit obrigatória e inegociável. Tolerância zero para código não auditado ou tentativas de bypass (`// @ts-ignore`, `.unwrap()` em Rust de produção).
+- **Escopos Setorizados:** Auditoria granular para `hub` (backend Rust, frontend React 19), `homelab` (infraestrutura, systemd, mounts) e `vault` (tags e links Obsidian).
+- **Autocorreção Cirúrgica (`--fix`):** Correções automatizadas linha a linha com rollback preventivo contra regressões.
 
 ### 🛡️ Arquitetura Anti-Bypass (10 Camadas)
 

@@ -25,11 +25,11 @@ Consultor de dados especializado em **auditoria e organização de dados para o 
 
 Sumænimá é meu projeto de vida — quase 10 anos integrando tecnologia, dados e pesquisa para resolver problemas complexos de informação. O sonho é construir um **Bureau de Dados** que atenda negócios, instituições e comunidades com auditorias precisas e soluções sob medida.
 
-**StênioBOT** (2024–presente): plataforma própria de captura, processamento e auditoria de dados com IA 100% local. Em produção, validada em campo — do IPEA e CNPCT/Planalto a eventos culturais multi-stakeholder.
+**Sumænimá Hub v3.1.0** (2024–presente): Plataforma própria de captura de dados, transcrição em tempo real (StênioREC), gestão do conhecimento e auditoria com backend 100% nativo em Rust (`stenio-server` Axum / Tokio / SQLx) e inferência local via GPU (RTX 5050). Em produção, validada em campo — do IPEA e CNPCT/Planalto a assembleias institucionais multi-stakeholder.
 
-**StênioKernel:** sistema proprietário de governança e auditoria de dados (21.435 linhas, 132 verificações automatizadas) que garante integridade, rastreabilidade e conformidade em todo fluxo de informação. O mesmo kernel usado para governar agentes de IA pode auditar e validar dados empresariais.
+**StenioSentinel v3.1.0:** Sentinela de auditoria estática e governança ultrarrápida escrito em Rust 2024 que garante integridade, rastreabilidade e conformidade em todo fluxo de informação e código. O mesmo sentinela determinístico que governa arquitetura de software pode auditar e validar conjuntos de dados empresariais.
 
-**Projetos de Sistematização de Dados** (realizados com StênioBOT):
+**Projetos de Sistematização de Dados** (realizados com Sumænimá Hub):
 - **Semana da Sociobiodiversidade (2025)** — 3º Encontro Nacional da Juventude PCT: captura e sistematização de dados com dezenas de jovens de todo o Brasil
 - **Encontro de Planejamento Estratégico do IPEA (2026)** — 3 dias de relatoria e dados em tempo real, contratado via Imagine Gestão Social, resultando na agenda 2026–2027 do instituto
 - **CNPCT — Palácio do Planalto (2026)** — captura e auditoria de dados da 22ª Reunião Ordinária do Conselho Nacional dos Povos e Comunidades Tradicionais, com transcrição em tempo real
@@ -116,7 +116,7 @@ Infraestrutura própria para processamento e armazenamento de dados: cluster mul
 | **Banco de Dados** | PostgreSQL, SQL, modelagem, consultas analíticas |
 | **Pipeline de Dados** | Coleta, processamento, sistematização, análise e visualização |
 | **Infraestrutura** | Docker Swarm, Linux, Tailscale, redes, servidores, soberania de dados |
-| **Governança** | StênioKernel, verificações automatizadas, integridade, rastreabilidade |
+| **Governança** | StenioSentinel v3.1.0 (auditoria estática em Rust 2024), verificações automatizadas, integridade, rastreabilidade |
 | **Análise de Negócios** | Google Analytics, métricas de audiência, otimização de processos, OKRs |
 | **Métodos** | Agile/Scrum (Scrum Master), pesquisa etnográfica, discovery de produto |
 | **Ferramentas** | Git, Python, QGIS, Adobe Creative Suite, planilhas avançadas |

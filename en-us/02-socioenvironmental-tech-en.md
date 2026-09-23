@@ -25,16 +25,12 @@ Hybrid professional who combines local open-source technology, data, and anthrop
 
 Sumænimá is my life project. It has existed for nearly 10 years as an independent creative entity, running alongside formal employment throughout my entire career. Born from the conviction that sensitive data from traditional communities should never depend on big tech. The dream is to build a **Data Bureau** with an anthropological soul: projects like Tô no Mapa, data visualizations, and ethnographic research at scale.
 
-**StênioBOT** (2024–present): data capture platform with 100% local, private AI. Four modules:
+**Sumænimá Hub v3.1.0** (2024–present): Enterprise-grade, local-first data capture and reporting platform operating with 100% native Rust backend (`stenio-server` Axum 0.8 / Tokio / SQLx) and React 19 / TypeScript client with in-browser Rust WebAssembly audio processing. Built specifically for sovereignty, data protection, and field reliability:
 
-- **StênioREC** 🟢: real-time transcription (Whisper) — **in production**, functional and field-tested
-- **StênioPANEL** 🔴: workshop scanning with computer vision — **concept**, awaiting resources
-- **StênioDIVE** 🔴: semantic mining — **concept**, awaiting resources
-- **DataVis** 🔴: climate visualizations — **concept**, early stage
+- **Bureau Sumænimá (StênioREC & Biblioteca):** Real-time transcription cockpit with local GPU acceleration (whisper.cpp with native CUDA 13 on NVIDIA RTX 5050 sm_120, Gemma 3 IT, Anti-Loop Shield, Local Agreement, continuous Google Docs sync) and sovereign Markdown CMS — **in production**, functional and field-tested in high-stakes governance assemblies
+- **Data Sovereignty Architecture:** 100% private, local inference eliminating big-tech cloud dependence for sensitive community deliberations; offline buffering in browser IndexedDB ensuring resilience during field network blackouts
 
-Stack: FastAPI + React + PostgreSQL + Docker Swarm. Local processing, private.
-
-**StênioKernel — Agent Governance Kernel:** built a proprietary governance kernel (21.435 lines, 132 drivers, 22 kernel modules) that enforces strict, cryptographically-verified rules for AI agents handling sensitive community data. Total ecosystem: **~8M+ lines and growing** (includes source code, documentation, and assets), 1,227+ files, 10 years as life project (~2 active development). 10-layer anti-bypass architecture aims to prevent data leaks; automated correction seeks continuous compliance; universal file jurisdiction ("A Teia") means assets are monitored by audit. Designed to make AI sovereign, auditable, and accountable — not just powerful.
+**StenioSentinel v3.1.0 — Static Governance Sentinel:** High-performance architectural governance and integrity sentinel written in pure **Rust 2024** enforcing strict, deterministic rules for AI agents and infrastructure. The 10-layer anti-bypass architecture prevents data leaks and code regressions, ensuring that AI-assisted workflows remain sovereign, auditable, and accountable. Total ecosystem: **~8M+ lines** of curated source code, documentation, and multimodal assets across 5 homelab nodes.
 
 **Reporting & Data Systematization** (alongside StênioBOT):
 - **Sociobiodiversity Week (2025):** Systematization of formulations from dozens of youth leaders from traditional communities across Brazil during the **3rd National Youth Meeting of Extractive and Traditional Populations** (IEB/CNS/MCM/CONFREM). Produced with **Stênio v1** — the first operational version of the platform in production.

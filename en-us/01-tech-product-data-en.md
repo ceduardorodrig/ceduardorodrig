@@ -25,23 +25,18 @@ Data and product architect who bridges open-source technology and qualitative re
 
 Sumænimá is my life project. It has existed for nearly 10 years as an independent creative entity, running alongside formal employment throughout my entire career. What keeps me going is the dream of one day raising resources to build a team and create a **Data Bureau** with an anthropological soul.
 
-**StênioBOT** (2024–present): an AI-assisted data capture platform running 100% local inference. Four modules:
+**Sumænimá Hub v3.1.0** (2024–present): An enterprise-grade, local-first intelligence and data capture platform with 100% native Rust backend (`stenio-server` Axum 0.8 / Tokio / SQLx) and React 19 / TypeScript 6 client accelerated by in-browser Rust WebAssembly DSP (`AudioWorklet`). Three core operational pillars:
 
-- **StênioREC** 🟢: real-time transcription (Whisper large-v3-turbo) with VAD, Gemma 3 purification pipeline, Google Docs export — **in production**, validated in field reporting
-- **StênioPANEL** 🔴: physical workshop scanner with computer vision (GroundingDINO + SAM 2 + PaddleOCR) — **concept**, awaiting resources
-- **StênioDIVE** 🔴: cross-semantic mining of wikilinks, tags, and notes in an interactive graph — **concept**, awaiting resources
-- **DataVis** 🔴: interactive climate visualizations with particle physics and real-time data — **concept**, early stage
+- **Bureau Sumænimá (StênioREC & Biblioteca):** Real-time transcription cockpit (whisper.cpp with native CUDA 13 on NVIDIA RTX 5050 sm_120, Gemma 3 IT, Anti-Loop Shield, Local Agreement, continuous Google Docs sync) and sovereign Markdown CMS (TipTap, dynamic tagging, draft workflows) — **in production**, validated in high-stakes field reporting
+- **Arandu TCG Platform:** Ultra-fast card analytics and social trading platform for Magic: The Gathering with sub-millisecond atomic heuristics (`arandu-engine` in Rust), 3x3 virtual binder, trade radar, P2P matching, and PostgreSQL 16 + pgvector — **in production**
+- **Asciline Engine:** Real-time procedural ASCII streamer transmitting animations and mathematical fractals over Axum WebSockets with zero CPU overhead — **in production**
 
-Stack: FastAPI (async) + React 19 + TypeScript 6 + PostgreSQL 16 + Valkey 8 + Docker Swarm (3 nodes). SaaS with Mercado Pago billing, Google OAuth, Grafana/Loki observability. Local processing with on-demand sync. Private, LGPD-compliant.
+Architectural gains (v3.0 / 100% Rust): Zero dynamic Python/FastAPI runtimes, idle RAM dropped from ~2.5 GB to **~25–35 MB**, container image reduced from ~20 GB to **~500 MB**, cold start reduced from ~20s to **<100ms**, and true multi-core concurrency via Tokio work-stealing.
 
-**StênioKernel — Agent Governance Kernel:**
-- Proprietary kernel (21.435 lines, 22 kernel modules, 132 check drivers) governing every AI agent on the project. Total ecosystem: **~8M+ lines and growing** (includes source code, documentation, and assets), 1,227+ files, 10 years as life project (~2 active development)
-- 10-layer anti-bypass architecture: pre-commit gates, bypass guard, scope guard, kernel immutability, cryptographically-signed agent laws, knowledge protocol, repetition→rule, universal file jurisdiction ("A Teia"), WARN→FAIL promotion, automated re-signing blockade
-- Automated repair with rollback via negative registry, Knowledge Graph, auto-commit on fix
-- Trend analysis: detection via linear regression, auto-suppress, flakiness detection, canary promotion
-- Memory & learning: history persistence, continuous learning (`--learn`), curated bug patterns with auto-fix commands, proactive suggestions
-- Full documentation ecosystem: 185 files, DocBot
-- Living FMEA, Audio WAL, Neural Flow, adaptive circuit breaker
+**StenioSentinel v3.1.0 — Static Governance & Anti-Bypass Sentinel:**
+- High-performance static analysis and architectural governance sentinel written in pure **Rust 2024**, auditing the entire ecosystem in sub-milliseconds (<1ms to <500ms)
+- 10-layer anti-bypass architecture: pre-commit quality gates (Rule 0), bypass guard, scope guard, kernel immutability, cryptographically-signed agent laws, repetition→rule promotion, universal file jurisdiction, automated rollback with negative registry, and automated self-remediation (`--fix`)
+- Ecosystem scale: **~8M+ lines** of curated code, documentation, and multimodal assets across 5 networked homelab nodes governed by deterministic rules
 
 **Reporting & Data Systematization** (alongside StênioBOT):
 - Independent consultant for reporting, data systematization, and strategic planning
@@ -136,16 +131,15 @@ The **Mnemocine Homelab** is the **Sumænimá** infrastructure. They are indisti
 
 | Category | Technologies |
 |----------|-------------|
-| **Backend** | FastAPI, Python, SQLAlchemy, asyncpg, REST APIs, WebSockets |
-| **Frontend** | React, TypeScript, Vite, Tailwind, Material Web Components |
-| **Database** | PostgreSQL, Alembic, SQL, data modeling |
-| **Infrastructure** | Docker Swarm, Nginx, Tailscale, Linux (Arch), GPU passthrough |
-| **AI/ML** | Whisper (transcription), LLMs (Gemma), GroundingDINO, SAM 2, embeddings |
-| **QA & Governance** | StênioKernel (21K lines, 132 drivers, 22 kernel modules), FMEA, ADRs, docs-first CI/CD |
-| **Agent Governance** | StênioKernel anti-bypass architecture (10 layers), agent workflow design, cryptographic rule enforcement, automated repair with rollback governance |
-| **Observability** | Grafana, Loki, Promtail, health endpoints |
+| **Backend** | Rust (Axum 0.8, Tokio, SQLx, whisper.cpp), Python, WebSockets, REST APIs |
+| **Frontend** | React 19, TypeScript, Rust WebAssembly (AudioWorklet DSP), Vite, Tailwind |
+| **Database** | PostgreSQL 16 (pgvector), SQLx migrations, Valkey 8 / Redis, data modeling |
+| **Infrastructure** | Docker Swarm, Nginx, Tailscale WireGuard Mesh, CachyOS (Arch Linux), Ubuntu 24.04 LTS |
+| **AI/ML & DSP** | Whisper CUDA 13 (sm_120 / RTX 5050), Gemma 3 IT, WebAssembly client audio DSP, vector embeddings |
+| **Governance & QA** | StenioSentinel v3.1.0 (pure Rust 2024 static audit engine), ADRs, Rule 0 anti-bypass |
+| **Observability** | Prometheus, Grafana, Loki, Promtail, Alertmanager, ntfy |
 | **Methods** | Agile/Scrum (Scrum Master), ethnographic research, UX Research, OKRs |
-| **Tools** | Git, Adobe Creative Suite, QGIS, Google Earth Engine |
+| **Tools** | Git, Cargo, Modern Rust CLI suite (rg, fd, eza, bat, delta), QGIS |
 
 ---
 

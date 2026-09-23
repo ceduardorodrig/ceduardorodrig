@@ -25,11 +25,11 @@ Data consultant specialized in **data auditing and organization for the culture 
 
 Sumænimá is my life project — nearly 10 years integrating technology, data, and research to solve complex information problems. The dream is to build a **Data Bureau** serving businesses, institutions, and communities with precise audits and tailored solutions.
 
-**StênioBOT** (2024–present): proprietary data capture, processing, and auditing platform running 100% local AI. In production, field-validated — from IPEA and CNPCT/Planalto to multi-stakeholder cultural events.
+**Sumænimá Hub v3.1.0** (2024–present): Proprietary data capture, real-time transcription (StênioREC), knowledge management, and auditing platform running 100% native Rust backend (`stenio-server` Axum / Tokio / SQLx) with local GPU inference (RTX 5050). In production, field-validated — from IPEA and CNPCT/Planalto to multi-stakeholder institutional assemblies.
 
-**StênioKernel:** proprietary data governance and auditing system (21,435 lines, 132 automated checks) ensuring integrity, traceability, and compliance across every information flow. The same kernel governing AI agents can audit and validate business data.
+**StenioSentinel v3.1.0:** Sub-millisecond static governance and auditing sentinel written in pure Rust 2024 ensuring integrity, traceability, and compliance across every information and code flow. The same deterministic sentinel governing software architecture can audit and validate business datasets.
 
-**Data Systematization Projects** (delivered with StênioBOT):
+**Data Systematization Projects** (delivered with Sumænimá Hub):
 - **Sociobiodiversity Week (2025)** — 3rd National Youth PCT Meeting: data capture and systematization with dozens of youth leaders from across Brazil
 - **IPEA Strategic Planning Meeting (2026)** — 3 days of real-time reporting and data, contracted through Imagine Gestão Social, resulting in the institute's 2026–2027 agenda
 - **CNPCT — Planalto Palace (2026)** — data capture and audit of the 22nd Ordinary Meeting of the National Council of Traditional Peoples and Communities, with real-time transcription
@@ -116,7 +116,7 @@ Own infrastructure for data processing and storage: multi-node cluster orchestra
 | **Database** | PostgreSQL, SQL, data modeling, analytical queries |
 | **Data Pipeline** | Collection, processing, systematization, analysis, and visualization |
 | **Infrastructure** | Docker Swarm, Linux, Tailscale, networking, servers, data sovereignty |
-| **Governance** | StênioKernel, automated verification, integrity, traceability |
+| **Governance** | StenioSentinel v3.1.0 (pure Rust static audit), automated verification, integrity, traceability |
 | **Business Analysis** | Google Analytics, audience metrics, process optimization, OKRs |
 | **Methods** | Agile/Scrum (Scrum Master), ethnographic research, product discovery |
 | **Tools** | Git, Python, QGIS, Adobe Creative Suite, advanced spreadsheets |
