@@ -319,8 +319,8 @@ A visual testimony to the fieldwork and institutional assemblies shaping this pl
 
 <div align="center">
 
-> 🔮 **Vibe Coded with StenioSentinel**
+> **Yes... This is a Vibe Coded project**
 >
-> Governed by **StenioSentinel** (our Rust-based AI Governance Sentinel) with **Carlos Eduardo Rodrigues** ([@ceduardorodrig](https://github.com/ceduardorodrig)).
+> Governed by 🤖 **StenioSentinel** (our Rust-based AI Governance Sentinel) with **Carlos Eduardo Rodrigues** ([@ceduardorodrig](https://github.com/ceduardorodrig)).
 
 </div>
