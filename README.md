@@ -15,11 +15,10 @@
 - 🌍 [About](#-about)
 - 📑 [Curriculum Versions](#-curriculum-versions)
 - 🚀 [Sumænimá Hub v3.1.0](#-sumænimá-hub-v310)
-  - 🎙️ [StênioREC — Real-Time Transcription Cockpit](#️-stêniorec--real-time-transcription-cockpit)
-  - 🗂️ [StênioPANEL — Workshop Computer Vision Scanner](#️-stêniopanel--workshop-computer-vision-scanner)
-  - 🔍 [StênioDIVE — Cross-Domain Semantic Knowledge Graph](#-stêniodive--cross-domain-semantic-knowledge-graph)
-  - 🌡️ [DataVis — Environmental Generative Art](#️-datavis--environmental-generative-art)
-  - ⚙️ [Admin & ERP — Platform Management](#️-admin--erp--platform-management)
+  - 🏛️ [Bureau Sumænimá](#️-bureau-sumænimá)
+  - 🃏 [Arandu TCG Platform](#-arandu-tcg--card-analytics--social-trading-platform)
+  - 🌌 [Asciline Engine](#-asciline--real-time-procedural-ascii-engine)
+  - ⚡ [Architectural Breakthroughs](#-architectural-breakthroughs-v30--100-rust)
 - 🛡️ [StenioSentinel v3.1.0 — Rust AI Governance Engine](#️-steniosentinel-v310--rust-ai-governance-engine)
 - 🖥️ [Mnemocine Homelab Infrastructure (5 Nodes)](#️-mnemocine-homelab-infrastructure-5-nodes)
 - 📦 [Featured Open-Source Projects](#-featured-open-source-projects)
@@ -75,7 +74,7 @@ Choose the profile that matches your focus:
 ## 🚀 Sumænimá Hub v3.1.0
 
 **Private, Local-First Intelligence & Ethnographic Data Capture Platform**  
-*Unified Monorepo · Rust Native Backend (Axum 0.8 / Tokio) · React 19 / TypeScript · In-Browser Rust WebAssembly DSP · Dual-Stage Neural Pipeline*
+*Unified Monorepo · 100% Rust Native Backend (`stenio-server` Axum 0.8 / Tokio / SQLx) · React 19 / TypeScript 6 · In-Browser Rust WebAssembly DSP · Dual-Stage Neural Pipeline*
 
 <p align="center">
   <img src="assets/hub-mobile.png" width="220" alt="Mobile View - iPhone SE" />
@@ -87,89 +86,83 @@ Choose the profile that matches your focus:
 >
 > — Carlos Eduardo Rodrigues, Sumænimá Architectural Manifesto
 
-Sumænimá Hub is an enterprise-grade, local-first platform built to eliminate dependency on foreign corporate clouds for sensitive socio-environmental and institutional data.
+Sumænimá Hub is an enterprise-grade, local-first platform built to eliminate dependency on foreign corporate clouds for sensitive socio-environmental, governmental, and analytical data.
 
-### 🎙️ StênioREC — Real-Time Transcription Cockpit
+### 🏛️ Bureau Sumænimá
+
+#### 🎙️ StênioREC — Real-Time Transcription & Reporting Cockpit
 **Status:** 🟢 **Production** — Deployed and verified in high-stakes governmental and territorial assemblies.
 
 <p align="center">
   <img src="assets/hub-rec.png" width="600" alt="StênioREC — Real-Time Transcription Cockpit" />
 </p>
 
-- **Client-Side DSP via Rust WebAssembly:** Captures high-fidelity 16kHz audio using the `AudioWorklet` API. Audio buffers are normalized and pre-filtered in real time right inside the browser using compiled Rust WebAssembly before reaching the network.
+- **Client-Side DSP via Rust WebAssembly:** Captures high-fidelity 16kHz audio using the browser's `AudioWorklet` API. Audio buffers are normalized, pre-filtered, and analyzed in real time with acoustic RMS (VAD) inside compiled Rust WebAssembly before streaming.
 - **Dual-Stage Neural Flow:**
-  1. *Sub-500ms Draft Stage:* Fast speech recognition powered by Whisper GGML (Q8_0 quantized on NVIDIA RTX GPU).
+  1. *Sub-500ms Draft Stage:* Fast speech recognition powered by whisper.cpp with native CUDA 13 acceleration on NVIDIA GeForce RTX 5050 (Blackwell sm_120).
   2. *Parallel Semantic Purification:* Contextual cleansing, speaker disambiguation, and parliamentary-grade punctuation using Gemma 3 IT.
+- **Anti-Loop Shield & Local Agreement:** Real-time heuristic agreement engine prevents hallucination loops and audio packet drift during long deliberative sessions.
 - **Fail-Safe Offline Resilience:** Two-tier local buffer (57 MB RAM + 171 MB IndexedDB) ensures up to 2 hours of continuous recording during complete network blackouts without a single frame dropped.
 - **Zero-Cloud Data Sovereignty:** 100% of audio and inference operates within local homelab hardware (`psicopompo`), with selective OAuth export to Google Docs for cooperative live editing.
 
-#### 📋 Field Validation & Battle Testing:
+##### 📋 Field Validation & Battle Testing:
 - 🏛️ **Presidency of Brazil / Palácio do Planalto (CNPCT):** Live documentation and legal reporting for the National Council of Traditional Peoples and Communities across multiple ordinary sessions, including the historic 22nd Assembly presenting the Land Regularization Decree with Minister **Marina Silva**.
 - 📊 **IPEA (Institute for Applied Economic Research):** Official reporting for Movements 5 (Integration) and 7 (Information Management) during the institute's Multi-Year Strategic Planning summit.
 - 🏫 **FLONA de Tefé (Amazon):** Intensive ethnographic reporting for 39 community leaders in the *"Formar Protagonistas"* program (IEB / APAFE / Rainforest Trust).
 - 🌱 **Sociobiodiversity National Summit:** Youth leadership assemblies with IEB, CNS, MCM, and CONFREM.
 - 🌰 **OCA — Brazil Nut Observatory:** Live reporting across extractive communities in the Amazon basin.
 
----
-
-### 🗂️ StênioPANEL — Workshop Computer Vision Scanner
-**Status:** 🔵 Architectural Prototype — Fully modeled, awaiting active deployment.
-
-<p align="center">
-  <img src="assets/hub-panel.png" width="600" alt="StênioPANEL — Computer Vision Workshop Scanner" />
-</p>
-
-Transforms physical workshop walls, flipcharts, and post-it arrangements into native, interactive **Obsidian Canvas (`.canvas`)** graph files using local computer vision:
-- **Zero-Shot Localization:** Post-it and handwritten note detection via GroundingDINO and SAM 2.
-- **Dual OCR Engine:** Automatic confidence arbitration between PaddleOCR and EasyOCR.
-- **Spatial Topology Engine:** Clusters physical spatial arrangements into semantic nodes and directed edges using DBSCAN.
-- **Privacy Guarantees:** Ephemeral in-memory image buffers destroyed immediately after vector extraction.
+#### 📚 Biblioteca — Institutional Knowledge CMS
+**Status:** 🟢 **Production** — Sovereign content management and institutional publishing.
+- Dynamic Markdown CMS powered by TipTap, dynamic tagging, document drafting workflows, and instant publishing.
+- Direct integration with PostgreSQL 16 via SQLx and local disk mirrors for zero-cloud resilience.
 
 ---
 
-### 🔍 StênioDIVE — Cross-Domain Semantic Knowledge Graph
-**Status:** 🔵 Architectural Prototype — Hybrid search engine implemented.
+### 🃏 Arandu TCG — Card Analytics & Social Trading Platform
 
-<p align="center">
-  <img src="assets/hub-dive.png" width="600" alt="StênioDIVE — Semantic Knowledge Graph" />
-</p>
-
-Fuses heterogeneous institutional records into a unified semantic graph:
-- **Hybrid Retrieval:** Reciprocal Rank Fusion (RRF) joining BM25 sparse keyword queries with 384-dimensional dense neural embeddings (ONNX CPU inference).
-- **Omnichannel Ingestion:** Automatically ingests live meeting transcripts, physical workshop canvases, Obsidian markdown notes, and geospatial datasets.
-- **Interactive Relationship Graph:** Renders real-time wikilink topologies, recurring themes, and policy impacts.
+**Status:** 🟢 **Production** — Ultra-fast heuristics, inventory management, and P2P matching.
+- **Atomic In-Memory Heuristics (<1ms):** Native Rust computational engine (`arandu-engine`) computing mana curves, color distributions, converted mana cost (CMC), and real-time USD/BRL currency conversions.
+- **Interactive 3x3 Virtual Binder & Wishlist:** Drag-and-drop tactile portfolio management replicating physical trade binders in high-refresh React 19.
+- **Algorithmic Trade Radar:** P2P card matching algorithms cross-referencing collections and wishlists with PostgreSQL 16 + pgvector.
 
 ---
 
-### 🌡️ DataVis — Environmental Generative Art
-**Status:** 🟡 Experimental — Interactive fluid canvas and particulate dynamics.
+### 🌌 Asciline — Real-Time Procedural ASCII Engine
 
-<p align="center">
-  <img src="assets/hub-datavis.png" width="600" alt="DataVis — Particulate Air Quality Visualization" />
-</p>
-
-- Generative WebGL/Canvas simulation translating real-time air quality metrics (PM2.5, wind vectors, barometric pressure) into responsive particulate fields.
-- Multi-source integration with WAQI and OpenAQ APIs with adaptive 30s-to-15min caching.
-- Designed as an open data journalism tool to make invisible environmental crises visceral to citizens.
+**Status:** 🟢 **Production** — Ultra-low-overhead visual streaming.
+- Real-time procedural ASCII streamer transmitting animations, mathematical fractals, and cosmic visualizations over Axum WebSockets with zero CPU overhead.
 
 ---
 
-### ⚙️ Admin & ERP — Platform Management
-**Status:** 🟢 **Production** — Live telemetry, access control, and business pipeline.
+### ⚡ Architectural Breakthroughs (v3.0 / 100% Rust)
 
-<p align="center">
-  <img src="assets/hub-admin.png" width="600" alt="Admin Panel — Telemetry & Operations" />
-</p>
+```
+                     ┌─────────────────────────────────────────────────────────┐
+                     │            stenio-server (Native Rust Binary)           │
+                     │   Axum 0.8 · Tokio Work-Stealing · SQLx · whisper.cpp   │
+                     └────────────────────────────┬────────────────────────────┘
+                                                  │
+                 ┌────────────────────────────────┼────────────────────────────────┐
+                 ▼                                ▼                                ▼
+   ┌───────────────────────────┐    ┌───────────────────────────┐    ┌───────────────────────────┐
+   │    HTTP REST & Frontend   │    │  WebSocket Audio Daemon   │    │     Arandu Engine TCG     │
+   │  SPA React 19 + MD3 PWA   │    │  Whisper CUDA 13 (sm_120) │    │  In-Memory Heuristics     │
+   │  Catalogs / Auth / CMS    │    │  Local Agreement & Purify │    │   Curves, CMC & Binders   │
+   └───────────────────────────┘    └───────────────────────────┘    └───────────────────────────┘
+```
 
-- **Real-Time Operational Cockpit:** Live monitoring of WebSocket connections, active transcribers, GPU VRAM pressure, token ingestion, and audio streaming bitrate.
-- **Sovereign ERP / CRM:** Native Kanban for institutional proposals, contract lifecycles, and milestone delivery.
-- **LGPD & GDPR Compliant:** PII data masking, automated log rotation, and single-owner zero-trust authentication.
+- **Zero Dynamic Runtimes:** Total elimination of legacy Python, FastAPI, uvicorn, PyTorch, and Celery/arq workers.
+- **Drastic RAM Reduction:** Idle memory dropped from ~2.5 GB to **~25 to 35 MB**.
+- **Ultralight Container:** Production Docker CUDA image shrank from ~20 GB to **~500 MB**.
+- **Instant Cold Start:** Startup time accelerated from ~20 seconds to **< 100 milliseconds**.
+- **True Multi-Thread Concurrency:** Tokio work-stealing scheduler leveraging all physical cores without Python GIL contention.
 
 ---
 
 ## 🛡️ StenioSentinel v3.1.0 — Rust AI Governance Engine
 
-Developed to address the critical risks of autonomous coding agents (sycophancy, hallucinated tests, silent regressions, and dependency bloat), **StenioSentinel** is our proprietary static analysis and architectural governance sentinel written in pure **Rust 2024**.
+Developed to address the critical risks of autonomous coding agents (sycophancy, hallucinated tests, silent regressions, and dependency bloat), **StenioSentinel** is our open-source static analysis and architectural governance sentinel written in pure **Rust 2024**.
 
 - **Sub-Millisecond Auditing (<1ms to <500ms):** Validates whole workspaces and monorepos instantaneously using Rayon multi-threading.
 - **Mandatory Quality Gate (Rule 0):** Zero tolerance for blind commits or suppressed checks (`// @ts-ignore`, `// stenio-ignore`, `.unwrap()` in production Rust).
@@ -184,45 +177,52 @@ Developed to address the critical risks of autonomous coding agents (sycophancy,
 
 ## 🖥️ Mnemocine Homelab Infrastructure (5 Nodes)
 
-Our infrastructure embodies the principle that cutting-edge AI and data engineering do not require massive cloud expenditures. The **Mnemocine Homelab** operates as a resilient, encrypted 5-node hybrid topology:
+Our infrastructure embodies the principle that cutting-edge AI and data engineering do not require massive corporate cloud expenditures. The **Mnemocine Homelab** operates as a resilient, encrypted 5-node hybrid topology across local hardware and edge cloud compute:
 
 ```mermaid
 flowchart TD
-    subgraph WAN ["🌐 Secure Perimeter"]
-        YBYRA["☁️ ybyra (Oracle Cloud Free Tier)<br/>Edge Reverse Proxy · WireGuard Gateway · SSL"]
+    subgraph WAN ["🌐 Public Internet & Reverse Edge"]
+        YBYRA["☁️ ybyra (Oracle Cloud Always-Free)<br/>AMD EPYC · 1GB RAM · Ubuntu 24.04 LTS<br/>Edge Nginx Proxy · Tailscale Funnel Gateway"]
     end
 
-    subgraph MESH ["🔒 Encrypted Tailscale / WireGuard Mesh"]
-        PSICOPOMPO["🖥️ psicopompo (CachyOS / Arch Linux)<br/>AMD Ryzen · NVIDIA RTX 5050 · 64GB RAM<br/>Whisper / Gemma 3 · Local LLMs · Primary Development"]
-        YBYTU["🖧 ybytu (Local Server)<br/>PostgreSQL / Valkey · Docker Swarm Services"]
-        KUARAY["💾 kuaray (Syncthing & Vault Storage)<br/>NVMe RAID · Continuous Replication Node"]
-        KAVURE["🍓 kavure (Micro Edge & IoT)<br/>Homelab Telemetry · Network Sentinel"]
+    subgraph MESH ["🔒 Encrypted Tailscale / WireGuard Mesh (100.x.y.z)"]
+        direction TB
+
+        PSICOPOMPO["🖥️ psicopompo (Primary Workstation & AI Host)<br/>Intel Xeon E-2246G 6C/12T · 46GB RAM<br/>NVIDIA GeForce RTX 5050 (Driver 615.x / cuBLAS)<br/>CachyOS (Arch Linux) · Whisper / Gemma 3 Engine"]
+
+        YBYTU["☁️ ybytu (Oracle Cloud Edge DNS)<br/>AMD EPYC · 1GB RAM · Ubuntu 24.04 LTS<br/>AdGuard Home DNS · Homepage · Uptime Kuma"]
+
+        KAVURE["🍓 kavure (Dedicated Services & Swarm Manager)<br/>Intel Core i3-8100 4C/4T · 12GB RAM · Ubuntu 24.04 LTS<br/>Docker Swarm (sae-core) · Grafana/Prometheus · Game Servers"]
+
+        KUARAY["💾 kuaray (Standby Mirror · Deprecated)<br/>Intel Core i5-4200U · 6GB RAM<br/>Linux Mint 22.3 · 224GB SSD + 1TB HDD"]
     end
 
-    subgraph BACKUP ["🛡️ Redundant Disaster Recovery"]
-        NAS["📦 Synology NAS (RAID-1)<br/>Nightly restic snapshots · Encrypted cold archives"]
+    subgraph STORAGE ["🛡️ Backup & Disaster Recovery Layer"]
+        NAS["📦 Synology NAS Mirror (RAID-1)<br/>Nightly restic snapshots · Encrypted cold backups"]
     end
 
-    YBYRA <-->|Encrypted Tunnel| PSICOPOMPO
-    YBYRA <-->|Encrypted Tunnel| YBYTU
+    YBYRA <-->|WireGuard Mesh| PSICOPOMPO
+    YBYRA <-->|WireGuard Mesh| KAVURE
     PSICOPOMPO <--> KUARAY
-    PSICOPOMPO -->|Nightly Automated Sync| NAS
-    YBYTU -->|Automated Dump| NAS
+    PSICOPOMPO -->|Automated Nightly Snapshot| NAS
+    KAVURE -->|Automated Dump| NAS
 ```
 
-- **Zero Passwords in Code:** Secret management via cryptographic SOPS / Age keyrings.
-- **Automated Snapshots:** Btrfs copy-on-write subvolumes combined with offsite encrypted Restic backups.
+- **Zero Secrets in Code:** Cryptographic SOPS / Age keyrings protecting environment configurations.
+- **Resilient Storage & Snapshots:** Btrfs copy-on-write subvolumes, Snapper triggers, and automated nightly offsite Restic backups to NAS storage.
 
 ---
 
 ## 📦 Featured Open-Source Projects
 
-- **[`WITH-SMOOTH-MOTION`](https://github.com/ceduardorodrig/WITH-SMOOTH-MOTION)** (Rust 2024)  
-  Dynamic adaptive tearing governor for high-refresh-rate Wayland compositors (Hyprland / Valve games), ensuring stutter-free rendering and automatic display sync management.
 - **[`STENIO-SENTINEL`](https://github.com/ceduardorodrig/STENIO-SENTINEL)** (Rust 2024)  
-  High-performance AI governance sentinel and architectural enforcement engine for multi-agent human-AI pairing.
+  Sub-millisecond static governance engine, anti-bypass quality gate, and architectural integrity sentinel for AI coding agents.
+- **[`WITH-SMOOTH-MOTION`](https://github.com/ceduardorodrig/WITH-SMOOTH-MOTION)** (Rust 2024)  
+  Dynamic adaptive tearing governor and direct scanout manager for high-refresh-rate Wayland compositors (Hyprland / Valve games).
+- **[`MNEMOCINE`](https://github.com/ceduardorodrig/MNEMOCINE)** (Homelab Architecture & Manifests)  
+  5-node sovereign hybrid cloud, bare-metal AI infrastructure, and self-hosted service manifests.
 - **[`CURRICULUM-VITAE`](https://github.com/ceduardorodrig/CURRICULUM-VITAE)** (Markdown / Automation)  
-  Self-auditing bilingual professional portfolio and live curriculum repository.
+  Bilingual executive portfolio and self-auditing curriculum across 6 dedicated profiles.
 
 ---
 
