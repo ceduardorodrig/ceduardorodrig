@@ -1,3 +1,7 @@
+---
+tags: [meta, docs, personal]
+---
+
 # 👤 Carlos Eduardo Rodrigues
 
 **Arquiteto de Dados & Produto | Governança de IA | Fundador @ Sumænimá**

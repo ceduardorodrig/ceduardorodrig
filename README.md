@@ -1,5 +1,11 @@
 # 📋 Carlos Eduardo Rodrigues — Currículo / Resume
 
+[![CI](https://github.com/ceduardorodrig/CURRICULUM-VITAE/actions/workflows/ci.yml/badge.svg)](https://github.com/ceduardorodrig/CURRICULUM-VITAE/actions/workflows/ci.yml)
+[![License](https://img.shields.io/badge/license-MIT%20%7C%20CC--BY--4.0-blue)](LICENSE.md)
+[![Governance](https://img.shields.io/badge/governance-StenioSentinel-brightgreen)](https://github.com/ceduardorodrig/STENIO-SENTINEL)
+[![Versions](https://img.shields.io/badge/versions-4%20x%20PT%2FEN-orange)](#-versões--versions)
+[![Location](https://img.shields.io/badge/location-Brasília--DF%2C%20Brazil-informational)](https://github.com/ceduardorodrig)
+
 > **"Uso tecnologia open-source local de maneira engenhosa para unir antropologia, dados, ciência e comunicação."**
 
 ---
@@ -310,5 +316,12 @@ Este repositório inclui o **cvcheck**, uma versão reduzida e portátil do Stê
 - 📍 **Location:** Brasília-DF, Brazil
 
 ---
+
+<div align="center">
+
+> 🔮 **Vibe Coded with StenioSentinel AI**  
+> Developed and curated through autonomous human-AI pair-programming governed by **StenioSentinel** (our Rust-based AI Governance Sentinel) with **Carlos Eduardo Rodrigues** ([@ceduardorodrig](https://github.com/ceduardorodrig)) for the **Mnemocine Homelab** & Professional Portfolio.
+
+</div>
 
 🕐 *Última atualização / Last updated: julho 2026*

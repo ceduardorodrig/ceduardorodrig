@@ -1,6 +1,10 @@
+---
+tags: [meta, agents, governance]
+---
+
 # AGENTS.md — Regras de Governança para Agentes de IA
 
-Este repositório contém **3 versões de currículo em PT e EN** (tech, socioambiental, sumænimá), **duas sub-versões** (`02-socioambiental-nichado-br.md` para contexto institucional [PT], `02-socioenvironmental-niche-en.md` para o mesmo contexto em EN, e `01-tech-dados-negocios-br.md` para consultoria em dados de negócios), um **README narrativo**, e um sistema de validação (cvcheck) que é uma miniatura funcional do StênioKernel.
+Este repositório contém **3 versões de currículo em PT e EN** (tech, socioambiental, sumænimá), **duas sub-versões** (`02-socioambiental-nichado-br.md` para contexto institucional [PT], `02-socioenvironmental-niche-en.md` para o mesmo contexto em EN, e `01-tech-dados-negocios-br.md` para consultoria em dados de negócios), um **README narrativo**, e a validação integrada ao **StenioSentinel**.
 
 Ao modificar qualquer arquivo deste repositório, siga estas regras obrigatoriamente:
 
@@ -18,9 +22,9 @@ Ao modificar qualquer arquivo deste repositório, siga estas regras obrigatoriam
 
 ## ✅ Verificação Obrigatória
 
-6. **Rode `./scripts/stenio_check` antes de todo commit** — a verificação cobre ortografia (PT e EN), estrutura, links, datas, consistência bilíngue, paridade PT↔EN. A validação é feita pelo StênioKernel unificado (`python -m steniocheck --tag resume`). Nunca commite sem rodar.
+6. **Rode `./scripts/stenio_check` antes de todo commit** — a verificação cobre estrutura, links, tags e integridade. A validação é feita pelo **StenioSentinel** unificado (`stenio --scope vault`). Nunca commite sem rodar.
 
-7. **O cvcheck foi substituído** — o diretório `cvcheck/` foi removido. O kernel unificado está em `/mnt/NVME_PCI/sumaenimahub/SUMAENIMA-HUB/scripts/steniocheck/`. Use `./scripts/stenio_check` que chama o kernel com o perfil `resume`. Não edite drivers do steniocheck sem seguir o onboarding (Lei 16 do AGENTS.md do kernel).
+7. **Governança Integrada via StenioSentinel** — O sistema em Rust está integrado via `stenio` (instalado no PATH). Use `./scripts/stenio_check` ou chame `stenio` diretamente. Regras gerais seguem as convenções de governança universal do ecossistema.
 
 8. **README como fonte da verdade narrativa** — a seção "Narrativa" é o único lugar onde a história é contada de forma contínua. Os CVs são versões recortadas para públicos específicos. Se uma informação nova for adicionada a um CV, verifique se ela merece um lugar na narrativa do README.
 

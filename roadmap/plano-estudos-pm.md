@@ -1,3 +1,7 @@
+---
+tags: [meta, docs, roadmap]
+---
+
 # 📘 Plano de Estudos — Product Manager
 
 > **Meta:** Transição de carreira para Product Manager, com mentoria sênior, em time estruturado.

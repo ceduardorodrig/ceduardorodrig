@@ -4,7 +4,7 @@ Este diretório substitui o antigo `cvcheck/`. A validação agora é feita
 pelo **StênioKernel** unificado, localizado em:
 
 ```
-/mnt/NVME_PCI/sumaenimahub/SUMAENIMA-HUB/scripts/steniocheck
+/mnt/NVME_PCI/agentic-ai/sumaenimahub/sumaenima-hub/scripts/steniocheck
 ```
 
 ## Uso

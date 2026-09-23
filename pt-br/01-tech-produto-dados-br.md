@@ -1,3 +1,7 @@
+---
+tags: [meta, docs, personal]
+---
+
 # 👤 Carlos Eduardo Rodrigues
 
 **Arquiteto de Dados & Produto** | Antropologia + Engenharia de IA Local

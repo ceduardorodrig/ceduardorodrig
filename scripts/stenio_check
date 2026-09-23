@@ -1,32 +1,40 @@
 #!/bin/bash
-# StênioKernel — Ponto de entrada para validação de currículos.
-# Substitui o antigo cvcheck. Chama o kernel unificado com perfil resume.
+# StênioSentinel (Rust v3.0) — Ponto de entrada para validação de currículos.
+# Executa a suíte de auditoria e consistência de CVs com velocidade nativa Rust.
 #
 # Uso: ./scripts/stenio_check [--fix] [--self-test] [--list]
 
-STENIO_DIR="/mnt/NVME_PCI/sumaenimahub/SUMAENIMA-HUB/scripts"
-export PYTHONPATH="$STENIO_DIR:$PYTHONPATH"
+# Localiza o binário stenio (PATH ou cargo bin)
+if command -v stenio >/dev/null 2>&1; then
+    STENIO_BIN="stenio"
+elif [ -x "$HOME/.cargo/bin/stenio" ]; then
+    STENIO_BIN="$HOME/.cargo/bin/stenio"
+else
+    echo "Erro: binário stenio não encontrado no PATH nem em ~/.cargo/bin/stenio."
+    echo "Compile em /mnt/NVME_PCI/agentic-ai/governance/stenio com: cargo build --release"
+    exit 1
+fi
 
 CMD="$1"
 shift 2>/dev/null || true
 
 case "$CMD" in
     --self-test)
-        python3 -m steniocheck --self-test "$@"
+        "$STENIO_BIN" --self-test "$@"
         ;;
     --fix)
-        python3 -m steniocheck --fix --tag resume "$@"
+        "$STENIO_BIN" --fix --scope vault --path "$(pwd)" "$@"
         ;;
     --list)
-        python3 -m steniocheck --tag resume "$@" 2>&1 | grep -E '(resume_|passed|failed)'
+        "$STENIO_BIN" --list-rules "$@"
         ;;
     --health)
-        python3 -m steniocheck --health "$@"
+        "$STENIO_BIN" --health "$@"
         ;;
     "")
-        python3 -m steniocheck --tag resume "$@"
+        "$STENIO_BIN" --scope vault --path "$(pwd)" "$@"
         ;;
     *)
-        python3 -m steniocheck "$CMD" "$@"
+        "$STENIO_BIN" "$CMD" "$@"
         ;;
 esac

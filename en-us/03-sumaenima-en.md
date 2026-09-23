@@ -1,3 +1,7 @@
+---
+tags: [meta, docs, personal]
+---
+
 # 🚀 Sumænimá — StênioBOT
 
 **Data Capture Platform with Local, Private, Open-Source AI**

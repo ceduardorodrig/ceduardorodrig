@@ -1,3 +1,7 @@
+---
+tags: [meta, docs, personal]
+---
+
 # 👤 Carlos Eduardo Rodrigues
 
 **Data & Product Architect** | Anthropology meets Local AI Engineering
