@@ -1,6 +1,6 @@
 # 📋 Carlos Eduardo Rodrigues — Curriculum Vitae & Portfolio
 
-[![CI](https://github.com/ceduardorodrig/CURRICULUM-VITAE/actions/workflows/ci.yml/badge.svg)](https://github.com/ceduardorodrig/CURRICULUM-VITAE/actions/workflows/ci.yml)
+[![CI](https://github.com/ceduardorodrig/ceduardorodrig/actions/workflows/ci.yml/badge.svg)](https://github.com/ceduardorodrig/ceduardorodrig/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%7C%20CC--BY--4.0-blue)](LICENSE.md)
 [![Governance](https://img.shields.io/badge/governance-StenioSentinel-brightgreen)](https://github.com/ceduardorodrig/STENIO-SENTINEL)
 [![Versions](https://img.shields.io/badge/versions-6%20Specializations%20(PT%2FEN)-orange)](#-curriculum-versions)
@@ -221,8 +221,8 @@ flowchart TD
   Dynamic adaptive tearing governor and direct scanout manager for high-refresh-rate Wayland compositors (Hyprland / Valve games).
 - **[`MNEMOCINE`](https://github.com/ceduardorodrig/MNEMOCINE)** (Homelab Architecture & Manifests)  
   5-node sovereign hybrid cloud, bare-metal AI infrastructure, and self-hosted service manifests.
-- **[`CURRICULUM-VITAE`](https://github.com/ceduardorodrig/CURRICULUM-VITAE)** (Markdown / Automation)  
-  Bilingual executive portfolio and self-auditing curriculum across 6 dedicated profiles.
+- **[`ceduardorodrig`](https://github.com/ceduardorodrig/ceduardorodrig)** (Special Profile / Portfolio)  
+  GitHub Special Profile repository hosting the bilingual executive portfolio and self-auditing curriculum across 6 dedicated profiles.
 
 ---
 
