@@ -1,5 +1,18 @@
 name: cvcheck
 
+# Auditoria de governança do currículo pelo StenioSentinel.
+#
+# POR QUE MUDOU (29/09/2026): este workflow clonava o SUMAENIMA-HUB, compilava
+# `scripts/steniocheck-rs` e rodava `--tag resume`. Os três pontos apodreceram:
+#   - `scripts/steniocheck-rs` foi purgado do hub (commit 70d7132) e o CI passou
+#     a falhar com "manifest path ... does not exist";
+#   - o motor saiu do hub e vive no seu próprio repositório;
+#   - `--tag resume` foi substituído por `--scope cv`.
+#
+# Agora usa a composite action publicada pelo próprio motor, que baixa o binário
+# já compilado (release pública, sem token) em vez de compilar Rust aqui.
+# Uma única fonte de verdade para todos os repositórios que usam o Stênio.
+
 on: [push, pull_request]
 
 concurrency:
@@ -12,27 +25,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: StenioSentinel — auditar currículo
+        uses: ceduardorodrig/STENIO-SENTINEL/.github/actions/stenio-check@v1
         with:
-          path: curriculum-vitae
-
-      - uses: actions/checkout@v4
-        with:
-          repository: ceduardorodrig/SUMAENIMA-HUB
-          path: sumaenima-hub
-          ssh-key: ${{ secrets.STENIOCHECK_SSH_KEY }}
-
-      - name: Setup Rust Toolchain
-        uses: dtolnay/rust-toolchain@stable
-
-      - name: Rust Cache
-        uses: Swatinem/rust-cache@v2
-        with:
-          workspaces: sumaenima-hub/scripts/steniocheck-rs -> target
-
-      - name: Compilar stenio-check (Release)
-        run: cargo build --release --manifest-path sumaenima-hub/scripts/steniocheck-rs/Cargo.toml
-
-      - name: Rodar stenio-check (perfil resume)
-        working-directory: curriculum-vitae
-        run: |
-          ${{ github.workspace }}/sumaenima-hub/scripts/steniocheck-rs/target/release/stenio-check --tag resume --github-format
+          scope: cv
+          path: .
+          github-format: "true"
