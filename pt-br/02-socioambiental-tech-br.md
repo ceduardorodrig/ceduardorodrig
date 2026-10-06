@@ -4,7 +4,7 @@ tags: [meta, docs, personal]
 
 # 👤 Carlos Eduardo Rodrigues
 
-**Arquiteto de Dados & Produto | Governança de IA | Fundador @ Sumænimá**
+**Arquiteto de Produto | Governança de IA | Fundador @ Sumænimá**
 
 [ceduardorodrig@gmail.com](mailto:ceduardorodrig@gmail.com) | +55 (61) 9-9803-3546 | Brasília-DF
 

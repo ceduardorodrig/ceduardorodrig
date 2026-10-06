@@ -4,7 +4,7 @@ tags: [meta, docs, personal]
 
 # 👤 Carlos Eduardo Rodrigues
 
-**Arquiteto de Dados & Produto** | Antropologia + Engenharia de IA Local
+**Arquiteto de Produto** | Antropologia + Engenharia de IA Local
 
 [ceduardorodrig@gmail.com](mailto:ceduardorodrig@gmail.com) | +55 (61) 9-9803-3546 | Brasília-DF
 
@@ -14,7 +14,7 @@ tags: [meta, docs, personal]
 
 ## 👤 Perfil
 
-Arquiteto de dados e produto que constrói pontes entre tecnologia open-source e pesquisa qualitativa. Experiência comprovada em projetar pipelines de IA local (Whisper, LLMs, GroundingDINO, SAM 2), orquestrar clusters Docker Swarm multi-nó e gerenciar produtos de dados completos, do conceito à entrega. Uso engenhoso de hardware reaproveitado e software livre para entregar soluções de IA privadas, offline e economicamente viáveis — sem depender de infraestrutura de big tech. Projetou o StênioKernel — um Kernel proprietário de Governança para Agentes de IA (21.435 linhas, 132 drivers, 10 camadas anti-bypass) que governa o comportamento de agentes por meio de integridade criptográfica, correção automatizada com rollback e análise de tendências. Formação em Antropologia pela UnB como base para design de produto centrado em humanos.
+Arquiteto de produto que constrói pontes entre tecnologia open-source e pesquisa qualitativa. Experiência comprovada em projetar pipelines de IA local (Whisper, LLMs, GroundingDINO, SAM 2), orquestrar clusters Docker Swarm multi-nó e gerenciar produtos de dados completos, do conceito à entrega. Uso engenhoso de hardware reaproveitado e software livre para entregar soluções de IA privadas, offline e economicamente viáveis — sem depender de infraestrutura de big tech. Projetou o StênioKernel — um Kernel proprietário de Governança para Agentes de IA (21.435 linhas, 132 drivers, 10 camadas anti-bypass) que governa o comportamento de agentes por meio de integridade criptográfica, correção automatizada com rollback e análise de tendências. Formação em Antropologia pela UnB como base para design de produto centrado em humanos.
 
 ---
 

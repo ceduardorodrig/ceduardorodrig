@@ -4,7 +4,7 @@ tags: [meta, docs, personal]
 
 # 👤 Carlos Eduardo Rodrigues
 
-**Data & Product Architect | AI Governance | Founder @ Sumænimá**
+**Product Architect | AI Governance | Founder @ Sumænimá**
 
 [ceduardorodrig@gmail.com](mailto:ceduardorodrig@gmail.com) | +55 (61) 9-9803-3546 | Brasília-DF, Brazil
 
@@ -16,7 +16,7 @@ tags: [meta, docs, personal]
 
 | Area | Skills |
 |------|--------|
-| **Product Management** | Roadmap & Strategy, Product Discovery, Backlog Prioritization, Minimum Viable Product (MVP) Definition, OKRs, User Stories |
+| **Product Architecture** | Roadmap & Strategy, Product Discovery, Backlog Prioritization, Minimum Viable Product (MVP) Definition, OKRs, User Stories |
 | **Data & Analytics** | Product Metrics, Google Analytics, A/B Testing, Data-Driven Decision Making, Dashboards |
 | **Frameworks & Methods** | Agile/Scrum (Scrum Master), Jobs-to-be-Done, Stakeholder Mapping (RACI), Gantt, Sprint Planning |
 | **Research & UX** | Ethnography, Qualitative Research, User Interviews, UX Research, Participant Observation |
@@ -27,7 +27,7 @@ tags: [meta, docs, personal]
 
 ## 👤 Profile
 
-Product Manager with a track record in data products and socio-environmental impact. Built and shipped a SaaS platform from zero to production — defining roadmap, prioritizing backlog, conducting user discovery, and validating MVPs (Minimum Viable Products) with institutional clients (IPEA, CNPCT/Planalto, IEB). Led data-driven digital strategy achieving +143% growth and 2M+ reach, managed US$ 10K/month budget as Scrum Master, and conducted product discovery that shaped a national platform adopted by Brazil's Federal Public Ministry. Anthropology background provides deep user empathy and ability to translate qualitative insights into product requirements. Seeking first formal Product Manager (PM) role in a team with senior mentorship to accelerate growth.
+Product Architect with a track record in data products and socio-environmental impact. Built and shipped a SaaS platform from zero to production — defining roadmap, prioritizing backlog, conducting user discovery, and validating MVPs (Minimum Viable Products) with institutional clients (IPEA, CNPCT/Planalto, IEB). Led data-driven digital strategy achieving +143% growth and 2M+ reach, managed US$ 10K/month budget as Scrum Master, and conducted product discovery that shaped a national platform adopted by Brazil's Federal Public Ministry. Anthropology background provides deep user empathy and ability to translate qualitative insights into product requirements. Seeking to work as a Product Architect in a team with senior mentorship to accelerate growth.
 
 ---
 
@@ -84,7 +84,7 @@ Product Manager with a track record in data products and socio-environmental imp
 **University of Brasília (UnB)** — Bachelor's Degree in Social Sciences / Anthropology (2016–2023)
 
 **Master's in Anthropology** — UnB (2024–2025, 2 semesters completed)
-Left the program to dedicate myself fully to product management and systems architecture.
+Left the program to dedicate myself fully to product and systems architecture.
 
 ---
 

@@ -53,10 +53,10 @@ Choose the profile that matches your focus:
 |:---:|:---|:---|:---:|
 | **01** | **🖥️ Tech / Product / Data** | Technology companies, AI/data startups, senior product engineering roles | [`en-us/01-tech-product-data-en.md`](en-us/01-tech-product-data-en.md) |
 | **01b** | **📊 Tech / Business Data** | Enterprises, consultancies, process diagnostics, data analytics & automation | [`en-us/01-tech-business-data-en.md`](en-us/01-tech-business-data-en.md) |
-| **01c** | **🎯 Product Manager** | Digital product management, agile delivery, tech-for-good, platform strategy | [`en-us/01-tech-pm-en.md`](en-us/01-tech-pm-en.md) |
+| **01c** | **🎯 Product Architecture** | Digital product architecture, agile delivery, tech-for-good, platform strategy | [`en-us/01-tech-pm-en.md`](en-us/01-tech-pm-en.md) |
+| **01d** | **🎧 Product & Technical Support** | Digital product support, ticket triage, documentation & usability, product analysis | [`en-us/01-tech-product-support-en.md`](en-us/01-tech-product-support-en.md) |
 | **02** | **🌳 Socioenvironmental-Tech** | Research institutes, international foundations, NGOs, climate impact initiatives | [`en-us/02-socioenvironmental-tech-en.md`](en-us/02-socioenvironmental-tech-en.md) |
 | **02b** | **🏛️ Socioenvironmental (Institutional)** | Public agencies, multilateral governance, land demarcation, traditional communities policy | [`en-us/02-socioenvironmental-niche-en.md`](en-us/02-socioenvironmental-niche-en.md) |
-| **03** | **🚀 Sumænimá (Venture & Vision)** | Accelerators, innovation funds, academic partnerships, institutional grants | [`en-us/03-sumaenima-en.md`](en-us/03-sumaenima-en.md) |
 
 ### 🇧🇷 Português (PT-BR)
 
@@ -64,10 +64,10 @@ Choose the profile that matches your focus:
 |:---:|:---|:---|:---:|
 | **01** | **🖥️ Tech / Produto / Dados** | Startups de tecnologia, empresas de produto, vagas em engenharia de dados e IA | [`pt-br/01-tech-produto-dados-br.md`](pt-br/01-tech-produto-dados-br.md) |
 | **01b** | **📊 Tech / Dados & Negócios** | Empresas, diagnóstico de processos, consultoria em dados e inteligência de negócios | [`pt-br/01-tech-dados-negocios-br.md`](pt-br/01-tech-dados-negocios-br.md) |
-| **01c** | **🎯 Product Manager** | Gestão de produtos digitais, liderança ágil, impacto socioambiental e estratégia | [`pt-br/01-tech-pm-br.md`](pt-br/01-tech-pm-br.md) |
+| **01c** | **🎯 Arquitetura de Produto** | Arquitetura de produtos digitais, liderança ágil, impacto socioambiental e estratégia | [`pt-br/01-tech-pm-br.md`](pt-br/01-tech-pm-br.md) |
+| **01d** | **🎧 Produto & Suporte Técnico** | Suporte a produto digital, triagem de chamados, documentação e usabilidade, análise de produto | [`pt-br/01-tech-produto-suporte-br.md`](pt-br/01-tech-produto-suporte-br.md) |
 | **02** | **🌳 Socioambiental-Tech** | Institutos de pesquisa, organismos multilaterais, fundações, projetos de impacto socioambiental | [`pt-br/02-socioambiental-tech-br.md`](pt-br/02-socioambiental-tech-br.md) |
 | **02b** | **🏛️ Socioambiental (Institucional)** | Órgãos públicos, regularização fundiária, políticas para Povos e Comunidades Tradicionais (PCTs) | [`pt-br/02-socioambiental-nichado-br.md`](pt-br/02-socioambiental-nichado-br.md) |
-| **03** | **🚀 Sumænimá (Negócios & Visão)** | Aceleradoras, investidores de impacto, editais de fomento e parcerias institucionais | [`pt-br/03-sumaenima-br.md`](pt-br/03-sumaenima-br.md) |
 
 ---
 
@@ -256,7 +256,7 @@ Since 2025, that vision has been tested at the highest echelons of public delibe
 
 To sustain this work independently, I constructed the **Mnemocine Homelab**: five networked nodes running open-source systems, orchestrated through Tailscale and Docker, proving that sovereign local artificial intelligence is both feasible and superior.
 
-Today, I stand as a **hybrid**: a product and data architect who thinks like an ethnographer. I translate ambiguous human needs into resilient distributed software, and complex systems architecture into lasting socio-environmental impact.
+Today, I stand as a **hybrid**: a product architect who thinks like an ethnographer. I translate ambiguous human needs into resilient distributed software, and complex systems architecture into lasting socio-environmental impact.
 
 ---
 

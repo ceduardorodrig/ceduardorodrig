@@ -4,7 +4,7 @@ tags: [meta, docs, personal]
 
 # 👤 Carlos Eduardo Rodrigues
 
-**Data & Product Architect** | Anthropology meets Local AI Engineering
+**Product Architect** | Anthropology meets Local AI Engineering
 
 [ceduardorodrig@gmail.com](mailto:ceduardorodrig@gmail.com) | +55 (61) 9-9803-3546 | Brasília-DF, Brazil
 
@@ -14,7 +14,7 @@ tags: [meta, docs, personal]
 
 ## 👤 Profile
 
-Data and product architect who bridges open-source technology and qualitative research. Proven track record designing local AI pipelines (Whisper, LLMs, GroundingDINO, SAM 2), orchestrating multi-node Docker Swarm clusters, and building end-to-end data products. Ingenious use of repurposed hardware and free software to deliver private, offline, cost-effective AI solutions — with zero dependency on big tech infrastructure. Designed the StênioKernel — a proprietary AI Agent Governance Kernel (21.435 lines, 132 check drivers, 10 anti-bypass layers) that governs agent behavior through cryptographic integrity, automated repair with rollback, and trend analysis. Anthropology degree from UnB as the foundation for human-centered product design.
+Product architect who bridges open-source technology and qualitative research. Proven track record designing local AI pipelines (Whisper, LLMs, GroundingDINO, SAM 2), orchestrating multi-node Docker Swarm clusters, and building end-to-end data products. Ingenious use of repurposed hardware and free software to deliver private, offline, cost-effective AI solutions — with zero dependency on big tech infrastructure. Designed the StênioKernel — a proprietary AI Agent Governance Kernel (21.435 lines, 132 check drivers, 10 anti-bypass layers) that governs agent behavior through cryptographic integrity, automated repair with rollback, and trend analysis. Anthropology degree from UnB as the foundation for human-centered product design.
 
 ---
 

@@ -4,7 +4,7 @@ tags: [meta, docs, personal]
 
 # 👤 Carlos Eduardo Rodrigues
 
-**Arquiteto de Dados & Produto | Governança de IA | Fundador @ Sumænimá**
+**Arquiteto de Produto | Governança de IA | Fundador @ Sumænimá**
 
 [ceduardorodrig@gmail.com](mailto:ceduardorodrig@gmail.com) | +55 (61) 9-9803-3546 | Brasília-DF
 
@@ -16,7 +16,7 @@ tags: [meta, docs, personal]
 
 | Área | Habilidades |
 |------|-------------|
-| **Product Management** | Roadmap & Estratégia, Product Discovery, Backlog Prioritization, Minimum Viable Product (MVP) Definition, OKRs, User Stories |
+| **Product Architecture** | Roadmap & Estratégia, Product Discovery, Backlog Prioritization, Minimum Viable Product (MVP) Definition, OKRs, User Stories |
 | **Dados & Analytics** | Métricas de Produto, Google Analytics, Testes A/B, Decisões Baseadas em Dados, Dashboards |
 | **Frameworks & Métodos** | Agile/Scrum (Scrum Master), Jobs-to-be-Done, Mapeamento de Stakeholders (RACI), Gantt, Sprint Planning |
 | **Pesquisa & UX** | Etnografia, Pesquisa Qualitativa, Entrevistas com Usuários, UX Research, Observação Participante |
@@ -27,7 +27,7 @@ tags: [meta, docs, personal]
 
 ## 👤 Perfil
 
-Product Manager com trajetória em produtos de dados e impacto socioambiental. Construiu e entregou plataforma SaaS do zero à produção — definindo roadmap, priorizando backlog, conduzindo discovery com usuários e validando MVPs (Minimum Viable Products) com clientes institucionais (IPEA, CNPCT/Planalto, IEB). Liderou estratégia data-driven com +143% de crescimento e 2M+ de alcance, geriu orçamento de US$ 10K/mês como Scrum Master e conduziu discovery que resultou em plataforma adotada pelo Ministério Público Federal. Formação em Antropologia como base para escuta ativa de usuários e tradução de necessidades qualitativas em requisitos de produto. Buscando primeira oportunidade como Product Manager em time com mentoria sênior para acelerar crescimento.
+Arquiteto de Produto com trajetória em produtos de dados e impacto socioambiental. Construiu e entregou plataforma SaaS do zero à produção — definindo roadmap, priorizando backlog, conduzindo discovery com usuários e validando MVPs (Minimum Viable Products) com clientes institucionais (IPEA, CNPCT/Planalto, IEB). Liderou estratégia data-driven com +143% de crescimento e 2M+ de alcance, geriu orçamento de US$ 10K/mês como Scrum Master e conduziu discovery que resultou em plataforma adotada pelo Ministério Público Federal. Formação em Antropologia como base para escuta ativa de usuários e tradução de necessidades qualitativas em requisitos de produto. Buscando atuar como Arquiteto de Produto em time com mentoria sênior para acelerar crescimento.
 
 ---
 
@@ -84,7 +84,7 @@ Product Manager com trajetória em produtos de dados e impacto socioambiental. C
 **Universidade de Brasília (UnB)** — Bacharelado em Ciências Sociais / Antropologia (2016–2023)
 
 **Mestrado em Antropologia** — UnB (2024–2025, 2 semestres concluídos)
-Saí do programa para me dedicar integralmente a gestão de produto e arquitetura de sistemas.
+Saí do programa para me dedicar integralmente a arquitetura de produto e de sistemas.
 
 ---
 

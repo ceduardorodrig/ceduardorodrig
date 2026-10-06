@@ -4,7 +4,7 @@ tags: [meta, agents, governance]
 
 # AGENTS.md — Regras de Governança para Agentes de IA
 
-Este repositório contém **3 versões de currículo em PT e EN** (tech, socioambiental, sumænimá), **duas sub-versões** (`02-socioambiental-nichado-br.md` para contexto institucional [PT], `02-socioenvironmental-niche-en.md` para o mesmo contexto em EN, e `01-tech-dados-negocios-br.md` para consultoria em dados de negócios), um **README narrativo**, e a validação integrada ao **StenioSentinel**.
+Este repositório contém **currículos bilíngues em PT e EN** (tech/produto/dados, arquitetura de produto, produto & suporte técnico, dados & negócios, socioambiental-tech e socioambiental institucional), um **README narrativo**, e a validação integrada ao **StenioSentinel**.
 
 Ao modificar qualquer arquivo deste repositório, siga estas regras obrigatoriamente:
 
@@ -12,7 +12,7 @@ Ao modificar qualquer arquivo deste repositório, siga estas regras obrigatoriam
 
 1. **Revise o README.md** — toda experiência nova, evento ou conquista adicionada em qualquer CV deve estar refletida na seção "Narrativa" do README (PT e EN). Se não estiver, o README está desatualizado.
 
-2. **Revise TODAS as versões pertinentes** — uma mudança no `02-socioambiental` pode ser relevante para `01-tech` e `03-sumaenima`. Exemplo: adicionar uma relatoria do CNPCT no 02-socioambiental significa que o 01-tech e 03-sumaenima também devem mencionar se for relevante ao perfil.
+2. **Revise TODAS as versões pertinentes** — uma mudança no `02-socioambiental` pode ser relevante para `01-tech`. Exemplo: adicionar uma relatoria do CNPCT no 02-socioambiental significa que o 01-tech também deve mencionar se for relevante ao perfil.
 
 3. **Mantenha PT e EN sincronizados** — se adicionou conteúdo em português, crie a versão em inglês no arquivo correspondente em `en-us/`. Revise a tradução: termos técnicos e nomes de instituições brasileiras podem ser mantidos em português com explicação em inglês na primeira ocorrência.
 
