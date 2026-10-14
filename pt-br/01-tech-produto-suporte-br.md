@@ -19,8 +19,8 @@ tags: [meta, docs, personal]
 | **Suporte & Atendimento** | Gestão de chamados e demandas, atendimento ao usuário, triagem de bugs, comunicação clara e resolutiva, tradução de problemas técnicos em linguagem acessível |
 | **Produto & UX** | Product Discovery, organização e priorização de backlog, user stories, UX Research, testes de usabilidade, validação em homologação, visão de produto |
 | **Documentação** | Manuais, guias e base de conhecimento, registros de sistema, documentação de processos, relatórios técnicos |
-| **Técnico** | Noções de HTML/CSS e lógica de sistemas, familiaridade com front-end (React 19, Tailwind), SQL/PostgreSQL, Git, APIs REST, Docker/Linux, ambientes Windows/Mac |
-| **Ferramentas** | Trello, Notion, Obsidian, Directus (CMS/headless, em aprendizado), Google Workspace |
+| **Técnico** | Noções de HTML/CSS (incluindo Bootstrap) e lógica de sistemas, familiaridade com front-end (React 19, Tailwind), SQL/PostgreSQL, Git, APIs REST, Docker/Linux, ambientes Windows/Mac |
+| **Ferramentas** | Jira, Trello, Notion, Obsidian, Directus (CMS/headless, em aprendizado), Google Workspace |
 | **Dados & Governança** | LGPD aplicada a privacidade e segurança de dados, gestão de acessos e permissões, qualidade e soberania de dados |
 | **Métodos** | Agile/Scrum (Scrum Master), Kanban, etnografia e pesquisa qualitativa, escuta ativa de usuários |
 | **Soft skills** | Comunicação escrita clara e objetiva, organização e atenção a detalhes, perfil analítico e resolutivo, autonomia no trabalho remoto, gestão de múltiplas demandas |
@@ -29,7 +29,7 @@ tags: [meta, docs, personal]
 
 ## 👤 Perfil
 
-Arquiteto de Produto com trajetória híbrida entre tecnologia, dados e ciências sociais. Atuo como a ponte entre usuários, produto e desenvolvimento. Organizo fluxos de demandas e backlog, documento sistemas (manuais, guias e registros), valido entregas em homologação e atuo como “voz do usuário” na priorização de melhorias. Construí e mantenho uma plataforma local-first de gestão de dados (backend em Rust, front-end React 19, PostgreSQL e Docker) e presto suporte a usuários institucionais de alto nível. Minha formação em Antropologia sustenta escuta ativa, tradução de problemas técnicos em linguagem acessível e forte compromisso com privacidade e LGPD.
+Arquiteto de Produto com trajetória híbrida entre tecnologia, dados e ciências sociais. Atuo como a ponte entre usuários, produto e desenvolvimento. Uno escuta ativa de usuário à visão técnica de ponta a ponta: organizo fluxos de demandas e backlog, documento sistemas (manuais, guias e registros), valido entregas em homologação e atuo como “voz do usuário” na priorização de melhorias. Orientado por princípios inegociáveis de **otimização, design systems e segurança digital**, concebi e opero em produção uma plataforma própria de alta performance (interface autoral em React 19 / Tailwind CSS, arquitetura em Rust, PostgreSQL e contêineres Docker em regime contínuo/rolling release). Minha formação em Antropologia (UnB) sustenta empatia com o usuário de campo, tradução de problemas técnicos em linguagem acessível e forte compromisso com governança e LGPD.
 
 ---
 
@@ -44,7 +44,7 @@ Arquiteto de Produto com trajetória híbrida entre tecnologia, dados e ciência
 - **Valido funcionalidades** em ambiente de homologação, testando entregas contra o uso real antes de liberar para produção
 - **Faço triagem de bugs**, coletando evidências reproduzíveis e encaminhando de forma estruturada ao desenvolvimento
 - **Atuo como “voz do usuário”**, conduzindo discovery e testes de usabilidade com comunidades e clientes institucionais para propor melhorias de UX e de produto
-- **Realizo ajustes de interface** (HTML/CSS) e **consultas a banco de dados** (PostgreSQL/SQL) para apoiar o diagnóstico e a validação de demandas
+- **Realizo ajustes de interface** (HTML/ Tailwind, CSS, Bootstrap) e **consultas a banco de dados** (PostgreSQL/SQL) para apoiar o diagnóstico e a validação de demandas
 - **Aplico governança de dados e privacidade** alinhada à LGPD — gestão de acessos, controle de permissões e soberania de dados sensíveis
 
 ### 🌳 IPAM — Instituto de Pesquisa Ambiental da Amazônia
@@ -104,9 +104,9 @@ Saí do programa para me dedicar integralmente a produto digital e arquitetura d
 
 ---
 
-## 📡 Infraestrutura
+## 📡 Infraestrutura & Ciclo de Vida
 
-Infraestrutura própria para processamento e armazenamento de dados: cluster multi-nó orquestrado via Docker Swarm com PostgreSQL, cache, monitoramento e borda web. Processamento local com soberania e privacidade de dados garantidas. 30+ contêineres em produção.
+Operação de cluster multi-nó em produção orquestrado com Docker Swarm, PostgreSQL, monitoramento contínuo e rede segura com Tailscale. Gestão em ciclo contínuo de atualizações (*rolling release*), com 30+ contêineres ativos, foco em soberania de dados, alta disponibilidade e governança estrita de segurança.
 
 ---
 

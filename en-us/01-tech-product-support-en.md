@@ -19,8 +19,8 @@ tags: [meta, docs, personal]
 | **Support & Service** | Ticket and demand management, user support, bug triage, clear and resolutive communication, translating technical problems into accessible language |
 | **Product & UX** | Product Discovery, backlog organization and prioritization, user stories, UX Research, usability testing, staging validation, product vision |
 | **Documentation** | Manuals, guides and knowledge base, system records, process documentation, technical reports |
-| **Technical** | Basics of HTML/CSS and systems logic, familiarity with front-end (React 19, Tailwind), SQL/PostgreSQL, Git, REST APIs, Docker/Linux, Windows/Mac environments |
-| **Tooling** | Trello, Notion, Obsidian, Directus (headless CMS, learning), Google Workspace |
+| **Technical** | Basics of HTML/CSS (including Bootstrap) and systems logic, familiarity with front-end (React 19, Tailwind), SQL/PostgreSQL, Git, REST APIs, Docker/Linux, Windows/Mac environments |
+| **Tooling** | Jira, Trello, Notion, Obsidian, Directus (headless CMS, learning), Google Workspace |
 | **Data & Governance** | LGPD (Brazilian data protection law) applied to privacy and data security, access and permission management, data quality and sovereignty |
 | **Methods** | Agile/Scrum (Scrum Master), Kanban, ethnography and qualitative research, active user listening |
 | **Soft skills** | Clear and objective written communication, organization and attention to detail, analytical and resolutive profile, autonomy in remote work, managing multiple demands |
@@ -29,7 +29,7 @@ tags: [meta, docs, personal]
 
 ## 👤 Profile
 
-Product architect with a hybrid background across technology, data and social sciences — I act as the bridge between users, product and development. I organize demand flows and backlog, document systems (manuals, guides and records), validate releases in staging and act as the "voice of the user" when prioritizing improvements. I built and maintain a local-first data management platform (Rust backend, React 19 front-end, PostgreSQL and Docker) and provide support to high-level institutional users. My background in Anthropology underpins active listening, the translation of technical problems into accessible language and a strong commitment to privacy and LGPD.
+Product architect with a hybrid background across technology, data and social sciences — I act as the bridge between users, product and development. I merge active user listening with end-to-end technical vision: I organize demand flows and backlog, document systems (manuals, guides and records), validate releases in staging and act as the "voice of the user" when prioritizing improvements. Driven by non-negotiable principles of **optimization, design systems, and digital security**, I architected and operate in production a proprietary high-performance platform (bespoke React 19 / Tailwind interface, Rust backend architecture, PostgreSQL and Docker containers under continuous updates / rolling release). My background in Anthropology (UnB) underpins empathy for field users, translating technical problems into accessible language, and a strong commitment to governance and LGPD.
 
 ---
 
@@ -44,7 +44,7 @@ Product architect with a hybrid background across technology, data and social sc
 - **Validate features** in a staging environment, testing releases against real usage before publishing to production
 - **Triage bugs**, collecting reproducible evidence and routing it to development in a structured way
 - **Act as the "voice of the user"**, conducting discovery and usability testing with communities and institutional clients to propose UX and product improvements
-- **Make interface adjustments** (HTML/CSS) and **run database queries** (PostgreSQL/SQL) to support diagnosis and demand validation
+- **Make interface adjustments** (HTML/CSS, Bootstrap) and **run database queries** (PostgreSQL/SQL) to support diagnosis and demand validation
 - **Apply data governance and privacy** aligned with LGPD — access management, permission control and sovereignty over sensitive data
 
 ### 🌳 IPAM — Amazon Environmental Research Institute
@@ -104,9 +104,9 @@ Left the program to dedicate myself fully to digital product and systems archite
 
 ---
 
-## 📡 Infrastructure
+## 📡 Infrastructure & Lifecycle
 
-Own infrastructure for data processing and storage: multi-node cluster orchestrated via Docker Swarm with PostgreSQL, cache, monitoring and web edge services. Local processing with guaranteed data sovereignty and privacy. 30+ containers in production.
+Operation of a multi-node production cluster orchestrated via Docker Swarm, PostgreSQL, continuous monitoring, and secure networking via Tailscale. Managed under continuous update cycles (*rolling release*), with 30+ active containers, focused on data sovereignty, high availability, and strict security governance.
 
 ---
 
