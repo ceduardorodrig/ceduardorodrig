@@ -4,7 +4,7 @@ tags: [meta, agents, governance]
 
 # AGENTS.md — Regras de Governança para Agentes de IA
 
-Este repositório contém **currículos bilíngues em PT e EN** (tech/produto/dados, arquitetura de produto, produto & suporte técnico, dados & negócios, socioambiental-tech e socioambiental institucional), um **README narrativo**, e a validação integrada ao **StenioSentinel**.
+Este repositório contém **currículos bilíngues em PT e EN** (tech/produto/dados, arquitetura de produto, produto & suporte técnico, dados & negócios, dados & analytics, comunicação & relações públicas, socioambiental-tech e socioambiental institucional), um **README narrativo**, e a validação integrada ao **StenioSentinel**.
 
 Ao modificar qualquer arquivo deste repositório, siga estas regras obrigatoriamente:
 

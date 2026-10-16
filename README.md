@@ -3,7 +3,7 @@
 [![CI](https://github.com/ceduardorodrig/ceduardorodrig/actions/workflows/ci.yml/badge.svg)](https://github.com/ceduardorodrig/ceduardorodrig/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%7C%20CC--BY--4.0-blue)](LICENSE.md)
 [![Governance](https://img.shields.io/badge/governance-StenioSentinel-brightgreen)](https://github.com/ceduardorodrig/STENIO-SENTINEL)
-[![Versions](https://img.shields.io/badge/versions-6%20Specializations%20(PT%2FEN)-orange)](#-curriculum-versions)
+[![Versions](https://img.shields.io/badge/versions-8%20Specializations%20(PT%2FEN)-orange)](#-curriculum-versions)
 [![Location](https://img.shields.io/badge/location-Brasília--DF%2C%20Brazil-informational)](https://github.com/ceduardorodrig)
 
 > **"Using open-source local technology ingeniously to bridge anthropology, data science, and communications."**
@@ -37,7 +37,7 @@ I am a **hybrid product architect, data engineer, and anthropologist** based in 
 
 Throughout my decade-long trajectory, I have designed and deployed high-performance technological systems that turn complex, unstructured field realities — traditional community territorial claims, high-level governmental deliberative meetings, and qualitative ethnographies — into actionable, verifiable, and secure digital assets.
 
-This repository hosts my comprehensive curriculum vitae organized across **6 dedicated profiles**, fully synchronized and version-controlled in both **English (US)** and **Brazilian Portuguese (PT-BR)**. 
+This repository hosts my comprehensive curriculum vitae organized across **8 dedicated profiles**, fully synchronized and version-controlled in both **English (US)** and **Brazilian Portuguese (PT-BR)**. 
 
 The accompanying ecosystem reflects a 10-year life endeavor encompassing **~8M+ lines of source code, structured documentation, and multimodal assets** governed by deterministic, verifiable rules.
 
@@ -55,6 +55,8 @@ Choose the profile that matches your focus:
 | **01b** | **📊 Tech / Business Data** | Enterprises, consultancies, process diagnostics, data analytics & automation | [`en-us/01-tech-business-data-en.md`](en-us/01-tech-business-data-en.md) |
 | **01c** | **🎯 Product Architecture** | Digital product architecture, agile delivery, tech-for-good, platform strategy | [`en-us/01-tech-pm-en.md`](en-us/01-tech-pm-en.md) |
 | **01d** | **🎧 Product & Technical Support** | Digital product support, ticket triage, documentation & usability, product analysis | [`en-us/01-tech-product-support-en.md`](en-us/01-tech-product-support-en.md) |
+| **01e** | **📈 Data & Analytics** | Data analysis, ETL, dashboards & reporting, databases, monitoring & evaluation, technical documentation | [`en-us/01e-data-analytics-en.md`](en-us/01e-data-analytics-en.md) |
+| **01f** | **📣 Communications & PR** | Public relations, media monitoring & opportunity tracking, editorial calendars, approvals, reporting, digital marketing, SEO & link building | [`en-us/01f-communications-pr-en.md`](en-us/01f-communications-pr-en.md) |
 | **02** | **🌳 Socioenvironmental-Tech** | Research institutes, international foundations, NGOs, climate impact initiatives | [`en-us/02-socioenvironmental-tech-en.md`](en-us/02-socioenvironmental-tech-en.md) |
 | **02b** | **🏛️ Socioenvironmental (Institutional)** | Public agencies, multilateral governance, land demarcation, traditional communities policy | [`en-us/02-socioenvironmental-niche-en.md`](en-us/02-socioenvironmental-niche-en.md) |
 
@@ -66,6 +68,8 @@ Choose the profile that matches your focus:
 | **01b** | **📊 Tech / Dados & Negócios** | Empresas, diagnóstico de processos, consultoria em dados e inteligência de negócios | [`pt-br/01-tech-dados-negocios-br.md`](pt-br/01-tech-dados-negocios-br.md) |
 | **01c** | **🎯 Arquitetura de Produto** | Arquitetura de produtos digitais, liderança ágil, impacto socioambiental e estratégia | [`pt-br/01-tech-pm-br.md`](pt-br/01-tech-pm-br.md) |
 | **01d** | **🎧 Produto & Suporte Técnico** | Suporte a produto digital, triagem de chamados, documentação e usabilidade, análise de produto | [`pt-br/01-tech-produto-suporte-br.md`](pt-br/01-tech-produto-suporte-br.md) |
+| **01e** | **📈 Dados & Analytics** | Análise de dados, ETL, painéis e relatoria, bancos de dados, monitoramento e avaliação, documentação técnica | [`pt-br/01e-dados-analytics-br.md`](pt-br/01e-dados-analytics-br.md) |
+| **01f** | **📣 Comunicação & Relações Públicas** | Relações públicas, monitoramento de mídia e oportunidades, calendários editoriais, aprovações, relatoria, marketing digital, SEO e link building | [`pt-br/01f-comunicacao-pr-br.md`](pt-br/01f-comunicacao-pr-br.md) |
 | **02** | **🌳 Socioambiental-Tech** | Institutos de pesquisa, organismos multilaterais, fundações, projetos de impacto socioambiental | [`pt-br/02-socioambiental-tech-br.md`](pt-br/02-socioambiental-tech-br.md) |
 | **02b** | **🏛️ Socioambiental (Institucional)** | Órgãos públicos, regularização fundiária, políticas para Povos e Comunidades Tradicionais (PCTs) | [`pt-br/02-socioambiental-nichado-br.md`](pt-br/02-socioambiental-nichado-br.md) |
 
@@ -222,7 +226,7 @@ flowchart TD
 - **[`MNEMOCINE`](https://github.com/ceduardorodrig/MNEMOCINE)** (Homelab Architecture & Manifests)  
   5-node sovereign hybrid cloud, bare-metal AI infrastructure, and self-hosted service manifests.
 - **[`ceduardorodrig`](https://github.com/ceduardorodrig/ceduardorodrig)** (Special Profile / Portfolio)  
-  GitHub Special Profile repository hosting the bilingual executive portfolio and self-auditing curriculum across 6 dedicated profiles.
+  GitHub Special Profile repository hosting the bilingual executive portfolio and self-auditing curriculum across 8 dedicated profiles.
 
 ---
 
