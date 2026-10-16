@@ -24,7 +24,7 @@ jobs:
     name: CV Audit (Rust Native)
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: StenioSentinel — auditar currículo
         uses: ceduardorodrig/STENIO-SENTINEL/.github/actions/stenio-check@v1
