@@ -3,7 +3,7 @@
 [![CI](https://github.com/ceduardorodrig/ceduardorodrig/actions/workflows/ci.yml/badge.svg)](https://github.com/ceduardorodrig/ceduardorodrig/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%7C%20CC--BY--4.0-blue)](LICENSE.md)
 [![Governance](https://img.shields.io/badge/governance-StenioSentinel-brightgreen)](https://github.com/ceduardorodrig/STENIO-SENTINEL)
-[![Versions](https://img.shields.io/badge/versions-8%20Specializations%20(PT%2FEN)-orange)](#-curriculum-versions)
+[![Versions](https://img.shields.io/badge/versions-9%20Versions%20(PT%2FEN)-orange)](#-curriculum-versions)
 [![Location](https://img.shields.io/badge/location-Brasília--DF%2C%20Brazil-informational)](https://github.com/ceduardorodrig)
 
 > **"Using open-source local technology ingeniously to bridge anthropology, data science, and communications."**
@@ -37,7 +37,7 @@ I am a **hybrid product architect, data engineer, and anthropologist** based in 
 
 Throughout my decade-long trajectory, I have designed and deployed high-performance technological systems that turn complex, unstructured field realities — traditional community territorial claims, high-level governmental deliberative meetings, and qualitative ethnographies — into actionable, verifiable, and secure digital assets.
 
-This repository hosts my comprehensive curriculum vitae organized across **8 dedicated profiles**, fully synchronized and version-controlled in both **English (US)** and **Brazilian Portuguese (PT-BR)**. 
+This repository hosts my comprehensive curriculum vitae organized across **9 versions** (8 dedicated profiles plus a general coringa version for local distribution), fully synchronized and version-controlled in both **English (US)** and **Brazilian Portuguese (PT-BR)**. 
 
 The accompanying ecosystem reflects a 10-year life endeavor encompassing **~8M+ lines of source code, structured documentation, and multimodal assets** governed by deterministic, verifiable rules.
 
@@ -51,6 +51,8 @@ Choose the profile that matches your focus:
 
 | # | Profile | Target Audience & Focus | Document Link |
 |:---:|:---|:---|:---:|
+| **00** | **🛠️ General — On-Site IT & Support (coringa)** | General-purpose version for distributing to businesses: on-site IT & technical support, networking, POS, backups & LGPD, with digital product as a differentiator | [`en-us/00-general-ti-product-en.md`](en-us/00-general-ti-product-en.md) |
+| **00s** | **💻 Services Flyer (SUMÆNIMÁ MEI)** | One-page services & pricing sheet to leave at stores and small businesses | [`en-us/00-services-flyer-en.md`](en-us/00-services-flyer-en.md) |
 | **01** | **🖥️ Tech / Product / Data** | Technology companies, AI/data startups, senior product engineering roles | [`en-us/01-tech-product-data-en.md`](en-us/01-tech-product-data-en.md) |
 | **01b** | **📊 Tech / Business Data** | Enterprises, consultancies, process diagnostics, data analytics & automation | [`en-us/01-tech-business-data-en.md`](en-us/01-tech-business-data-en.md) |
 | **01c** | **🎯 Product Architecture** | Digital product architecture, agile delivery, tech-for-good, platform strategy | [`en-us/01-tech-pm-en.md`](en-us/01-tech-pm-en.md) |
@@ -64,6 +66,8 @@ Choose the profile that matches your focus:
 
 | # | Versão | Público & Foco | Arquivo |
 |:---:|:---|:---|:---:|
+| **00** | **🛠️ Geral — TI em Estabelecimentos & Suporte (coringa)** | Versão geral para distribuir em lojas e empresas: TI e suporte técnico presencial, redes, PDV, backups e LGPD, com produto digital como diferencial | [`pt-br/00-geral-ti-produto-br.md`](pt-br/00-geral-ti-produto-br.md) |
+| **00s** | **💻 Flyer de Serviços (SUMÆNIMÁ MEI)** | Folha única de serviços e preços para deixar em lojas e pequenos negócios | [`pt-br/00-servicos-flyer-br.md`](pt-br/00-servicos-flyer-br.md) |
 | **01** | **🖥️ Tech / Produto / Dados** | Startups de tecnologia, empresas de produto, vagas em engenharia de dados e IA | [`pt-br/01-tech-produto-dados-br.md`](pt-br/01-tech-produto-dados-br.md) |
 | **01b** | **📊 Tech / Dados & Negócios** | Empresas, diagnóstico de processos, consultoria em dados e inteligência de negócios | [`pt-br/01-tech-dados-negocios-br.md`](pt-br/01-tech-dados-negocios-br.md) |
 | **01c** | **🎯 Arquitetura de Produto** | Arquitetura de produtos digitais, liderança ágil, impacto socioambiental e estratégia | [`pt-br/01-tech-pm-br.md`](pt-br/01-tech-pm-br.md) |
@@ -260,7 +264,7 @@ Since 2025, that vision has been tested at the highest echelons of public delibe
 
 To sustain this work independently, I constructed the **Mnemocine Homelab**: five networked nodes running open-source systems, orchestrated through Tailscale and Docker, proving that sovereign local artificial intelligence is both feasible and superior.
 
-Today, I stand as a **hybrid**: a product architect who thinks like an ethnographer. I translate ambiguous human needs into resilient distributed software, and complex systems architecture into lasting socio-environmental impact.
+Today, I stand as a **hybrid**: a product architect who thinks like an ethnographer. I translate ambiguous human needs into resilient distributed software, and complex systems architecture into lasting socio-environmental impact. Locally, I also bring that discipline back to the everyday: a general profile and a services sheet ([`pt-br/00-geral-ti-produto-br.md`](pt-br/00-geral-ti-produto-br.md)) for supporting stores and small businesses in Brasília with on-site IT, networking, backups and LGPD.
 
 ---
 
