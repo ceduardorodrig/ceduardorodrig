@@ -14,7 +14,7 @@ tags: [meta, docs, personal]
 
 ## 👤 Perfil
 
-Profissional de comunicação especializado no lado operacional das relações públicas: monitoramento e avaliação de oportunidades de mídia, manutenção de calendários editoriais, coordenação de aprovações de conteúdo, acompanhamento de prazos e de cobertura conquistada em planilhas e transformação de tudo isso em relatórios semanais. Mais de 10 anos entre comunicação estratégica, marketing digital e instituições socioambientais. No IPAM liderei a presença digital de um dos principais institutos de pesquisa climática da Amazônia: +143,3% de crescimento no Facebook, +100% no Instagram, 2+ milhões de alcance, Google Ad Grants (US$ 10K/mês) e trabalho de SEO (técnico, on-page, palavras-chave, conteúdo e link building) medido em Google Analytics e Search Console. Prêmio Mercosul de Jornalismo Científico, 1º lugar (2024). Uso ferramentas de IA para pesquisa e redação e reviso cada entrega quanto a qualidade e conformidade com detecção de IA, com apoio de um gate determinístico de qualidade que eu mesmo construí. Inglês fluente, disponibilidade full-time no fuso Eastern Time.
+Profissional de comunicação especializado em estratégia institucional, assessoria e relações públicas: monitoramento e avaliação de oportunidades de mídia, manutenção de calendários editoriais, coordenação de fluxos de aprovação de conteúdo, acompanhamento de cobertura em imprensa e produção de relatórios e relatorias executivas. Mais de 10 anos entre comunicação estratégica, jornalismo, marketing digital e instituições públicas e socioambientais. No IPAM liderei a presença digital de um dos principais institutos de pesquisa climática da Amazônia: +143,3% de crescimento no Facebook, +100% no Instagram, 2+ milhões de alcance, Google Ad Grants (US$ 10K/mês) e trabalho de SEO (técnico, on-page, palavras-chave, conteúdo e link building) medido em Google Analytics e Search Console. Prêmio Mercosul de Jornalismo Científico, 1º lugar (2024). Traduzo temas complexos de tecnologia, inovação e dados em narrativas acessíveis. Uso ferramentas de IA para pesquisa e redação e reviso cada entrega quanto a qualidade e conformidade com detecção de IA, com apoio de um gate determinístico de qualidade que eu mesmo construí. Inglês fluente, disponibilidade full-time para atuação remota (home based) ou presencial.
 
 ---
 
@@ -22,14 +22,14 @@ Profissional de comunicação especializado no lado operacional das relações p
 
 | Área | Competências e ferramentas |
 |------|----------------------------|
-| **Monitoramento de mídia e oportunidades** | Busca e avaliação de oportunidades de mídia, conexão entre pedidos de repórteres e a expertise institucional, acompanhamento de submissões, prazos e cobertura conquistada, listas de mídia |
-| **Comunicação com cliente e aprovações** | Comunicação direta com clientes, ciclos de aprovação, follow-up de pendências sem escalada desnecessária, gestão de prazos |
-| **Relatoria e operação** | Relatórios semanais, planilhas de acompanhamento, controle de status, calendários editoriais, documentação |
-| **Marketing digital e analytics** | Google Ad Grants (US$ 10K/mês), Meta Ads, Google Analytics/GA4, Meta Business Suite, segmentação de audiência, testes A/B |
-| **SEO e link building** | SEO técnico e on-page, pesquisa de palavras-chave, otimização de conteúdo, aquisição de backlinks, Google Search Console, Ahrefs/SEMrush/Moz, Yoast/Rank Math |
-| **Conteúdo e produção** | Conteúdo editorial e para imprensa, produção de documentário, Adobe Creative Suite (Premiere, After Effects, Audition, Illustrator, InDesign, Photoshop, Lightroom), QGIS |
+| **Monitoramento de mídia e oportunidades** | Busca e avaliação de oportunidades de mídia, conexão entre pedidos de repórteres e expertise institucional, clipping analítico, acompanhamento de prazos e cobertura conquistada |
+| **Comunicação institucional e aprovações** | Comunicação com partes interessadas, ciclos de aprovação, alinhamento entre equipes técnicas e comunicação, gestão de prazos |
+| **Relatoria, editoração e operação** | Relatórios periódicos, relatoria executiva, editoração de publicações institucionais (manuais, guias, cartilhas, e-books), calendários editoriais, documentação e gestão do conhecimento |
+| **Marketing digital e analytics** | Google Ad Grants (US$ 10K/mês), Meta Ads, Google Analytics/GA4, Meta Business Suite, plataformas de e-mail marketing, testes A/B |
+| **SEO e presença digital** | SEO técnico e on-page, pesquisa de palavras-chave, otimização de conteúdo, aquisição de backlinks, Google Search Console, Ahrefs/SEMrush/Moz, Yoast/Rank Math |
+| **Conteúdo, design e produção** | Redação jornalística, releases, roteiros de vídeo, tradução técnica de soluções digitais, Canva, Microsoft Office 365, Adobe Creative Suite (InDesign, Illustrator, Photoshop, Premiere, After Effects, Audition), QGIS |
 | **Governança de IA e conformidade** | Ferramentas de IA para pesquisa e redação, revisão de entregas quanto a qualidade e conformidade com detecção de IA, gates determinísticos de qualidade |
-| **Pesquisa e estratégia** | Planejamento de calendário editorial, leitura de tendências, articulação multiatores, facilitação de oficinas, Agile/Scrum (Scrum Master) |
+| **Pesquisa, judiciário e estratégia** | Planejamento de comunicação, leitura de tendências, articulação com o Poder Judiciário e órgãos públicos, facilitação de oficinas, Agenda 2030 / ODS, Agile/Scrum |
 
 ---
 

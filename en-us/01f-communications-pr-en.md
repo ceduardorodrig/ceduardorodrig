@@ -14,7 +14,7 @@ tags: [meta, docs, personal]
 
 ## 👤 Profile
 
-Communications professional specialised in the operational side of public relations: monitoring and evaluating media opportunities, keeping editorial calendars, coordinating content approvals, tracking deadlines and secured coverage in spreadsheets, and turning all of it into weekly reports. Over 10 years across strategic communication, digital marketing and socio-environmental institutions. At IPAM I led the digital presence of one of the Amazon's leading climate research institutes: +143.3% growth on Facebook, +100% on Instagram, 2+ million reach, Google Ad Grants (US$ 10K/month), and SEO work (technical, on-page, keywords, content and link building) measured in Google Analytics and Search Console. Mercosur Scientific Journalism Award, 1st place (2024). I use AI tools for research and drafting and review every output for quality and AI-detection compliance, backed by a deterministic quality gate I built myself. Fluent English, available full-time on Eastern Time.
+Communications professional specialised in institutional strategy, public relations, and technical editorial management: monitoring and evaluating media opportunities, maintaining editorial calendars, coordinating content approval workflows, tracking press coverage, and producing executive reports and rapporteurships. Over 10 years across strategic communication, journalism, digital marketing, and public and socio-environmental institutions. At IPAM I led the digital presence of one of the Amazon's leading climate research institutes: +143.3% growth on Facebook, +100% on Instagram, 2+ million reach, Google Ad Grants (US$ 10K/month), and SEO work (technical, on-page, keywords, content, and link building) measured in Google Analytics and Search Console. Mercosur Scientific Journalism Award, 1st place (2024). I translate complex technical topics in technology, innovation, and data into accessible narratives. I use AI tools for research and drafting and review every output for quality and AI-detection compliance, backed by a deterministic quality gate I built myself. Fluent English, available full-time for remote (home-based) or on-site engagement.
 
 ---
 
@@ -22,14 +22,14 @@ Communications professional specialised in the operational side of public relati
 
 | Area | Competencies and tools |
 |------|------------------------|
-| **Media monitoring & opportunities** | Sourcing and evaluating media opportunities, connecting reporter requests to institutional expertise, tracking submissions, deadlines and secured coverage, media lists |
-| **Client communication & approvals** | Direct client communication, approval cycles, follow-up on pending items without unnecessary escalation, deadline management |
-| **Reporting & operations** | Weekly reporting, tracking spreadsheets, status tracking, editorial calendars, documentation |
-| **Digital marketing & analytics** | Google Ad Grants (US$ 10K/month), Meta Ads, Google Analytics/GA4, Meta Business Suite, audience segmentation, A/B testing |
-| **SEO & link building** | Technical and on-page SEO, keyword research, content optimisation, backlink acquisition, Google Search Console, Ahrefs/SEMrush/Moz, Yoast/Rank Math |
-| **Content & production** | Editorial and press content, documentary production, Adobe Creative Suite (Premiere, After Effects, Audition, Illustrator, InDesign, Photoshop, Lightroom), QGIS |
+| **Media monitoring & opportunities** | Sourcing and evaluating media opportunities, connecting reporter requests to institutional expertise, analytical clipping, tracking deadlines and secured coverage |
+| **Institutional communication & approvals** | Stakeholder communication, approval cycles, alignment between technical and communications teams, deadline management |
+| **Reporting, publishing & operations** | Periodic reports, executive rapporteurship, institutional publishing management (manuals, toolkits, policy briefs, e-books), editorial calendars, documentation, and knowledge management |
+| **Digital marketing & analytics** | Google Ad Grants (US$ 10K/month), Meta Ads, Google Analytics/GA4, Meta Business Suite, email marketing platforms, A/B testing |
+| **SEO & digital presence** | Technical and on-page SEO, keyword research, content optimisation, backlink acquisition, Google Search Console, Ahrefs/SEMrush/Moz, Yoast/Rank Math |
+| **Content, design & production** | Journalistic writing, press releases, video scripts, technical translation of digital solutions, Canva, Microsoft Office 365, Adobe Creative Suite (InDesign, Illustrator, Photoshop, Premiere, After Effects, Audition), QGIS |
 | **AI governance & compliance** | AI tools for research and drafting, output review for quality and AI-detection compliance, deterministic quality gates |
-| **Research & strategy** | Editorial calendar planning, trend spotting, multi-stakeholder engagement, workshop facilitation, Agile/Scrum (Scrum Master) |
+| **Research, judiciary & strategy** | Communications planning, trend analysis, multi-stakeholder engagement (including the Judiciary and federal government bodies), workshop facilitation, UN 2030 Agenda / SDGs, Agile/Scrum |
 
 ---
 

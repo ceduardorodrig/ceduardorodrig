@@ -2,26 +2,29 @@
 
 [![CI](https://github.com/ceduardorodrig/ceduardorodrig/actions/workflows/ci.yml/badge.svg)](https://github.com/ceduardorodrig/ceduardorodrig/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%7C%20CC--BY--4.0-blue)](LICENSE.md)
-[![Governance](https://img.shields.io/badge/governance-StenioSentinel-brightgreen)](https://github.com/ceduardorodrig/STENIO-SENTINEL)
-[![Versions](https://img.shields.io/badge/versions-9%20Versions%20(PT%2FEN)-orange)](#-curriculum-versions)
-[![Location](https://img.shields.io/badge/location-Brasília--DF%2C%20Brazil-informational)](https://github.com/ceduardorodrig)
+[![Governance](https://img.shields.io/badge/governance-StenioSentinel%20v4.6.0-brightgreen)](https://github.com/ceduardorodrig/STENIO-SENTINEL)
+[![Versions](https://img.shields.io/badge/profiles-10%20Bilingual%20Versions%20(PT%2FEN)-orange)](#-curriculum-versions)
+[![Nodes](https://img.shields.io/badge/infrastructure-6%20Mnemocine%20Nodes-informational)](https://github.com/ceduardorodrig/MNEMOCINE)
+[![Location](https://img.shields.io/badge/location-Brasília--DF%2C%20Brazil-blueviolet)](https://github.com/ceduardorodrig)
 
-> **"Using open-source local technology ingeniously to bridge anthropology, data science, and communications."**
+> **"Using open-source local technology ingeniously to bridge anthropology, systems engineering, and data sovereignty."**
 
 ---
 
 ## 📑 Table of Contents
 
 - 🌍 [About](#-about)
-- 📑 [Curriculum Versions](#-curriculum-versions)
-- 🚀 [Sumænimá Hub v3.1.0](#-sumænimá-hub-v310)
-  - 🏛️ [Bureau Sumænimá](#️-bureau-sumænimá)
-  - 🃏 [Arandu TCG Platform](#-arandu-tcg--card-analytics--social-trading-platform)
-  - 🌌 [Asciline Engine](#-asciline--real-time-procedural-ascii-engine)
-  - ⚡ [Architectural Breakthroughs](#-architectural-breakthroughs-v30--100-rust)
-- 🛡️ [StenioSentinel v3.1.0 — Rust AI Governance Engine](#️-steniosentinel-v310--rust-ai-governance-engine)
-- 🖥️ [Mnemocine Homelab Infrastructure (5 Nodes)](#️-mnemocine-homelab-infrastructure-5-nodes)
-- 📦 [Featured Open-Source Projects](#-featured-open-source-projects)
+- 📑 [Curriculum Versions (10 Dedicated Profiles)](#-curriculum-versions)
+- ⚡ [Sumænimá Ecosystem — Sovereign Intelligence & Multi-Layer Bureau](#-sumænimá-ecosystem--sovereign-intelligence--multi-layer-bureau)
+  - 🎙️ [StênioREC — Real-Time Sovereign Transcription & Deliberative Cockpit](#️-stêniorec--real-time-sovereign-transcription--deliberative-cockpit)
+  - 📜 [Sumænimá Multi-Layer Reporting Methodology](#-sumænimá-multi-layer-reporting-methodology)
+  - 🤖 [Sumænimá Social Media Autopilot — Autonomous Rust Engine](#-sumænimá-social-media-autopilot--autonomous-rust-engine)
+  - 🃏 [Arandu TCG & Asciline Engine](#-arandu-tcg--asciline-engine)
+  - ⚡ [Architectural Breakthroughs (100% Native Rust Stack)](#-architectural-breakthroughs-100-native-rust-stack)
+- 🛡️ [StenioSentinel v4.6.0 — Universal Rust AI Governance Sentinel](#️-steniosentinel-v460--universal-rust-ai-governance-sentinel)
+- 🖥️ [Mnemocine Homelab Infrastructure (6 Hybrid Nodes)](#️-mnemocine-homelab-infrastructure-6-hybrid-nodes)
+  - 🔒 [Encrypted Mesh & GitOps Tailnet Policy (`MNEMOCINE-ACL`)](#-encrypted-mesh--gitops-tailnet-policy-mnemocine-acl)
+- 📦 [Featured Repositories & Open-Source Engineering](#-featured-repositories--open-source-engineering)
 - 📊 [By the Numbers](#-by-the-numbers)
 - 🧵 [The Thread (Narrative)](#-the-thread-narrative)
 - 📸 [Fieldwork & Photographic Archive](#-fieldwork--photographic-archive)
@@ -33,13 +36,13 @@
 
 ## 🌍 About
 
-I am a **hybrid product architect, data engineer, and anthropologist** based in Brasília, Brazil. 
+I am a **hybrid product architect, systems engineer, and anthropologist** based in Brasília, Brazil. 
 
-Throughout my decade-long trajectory, I have designed and deployed high-performance technological systems that turn complex, unstructured field realities — traditional community territorial claims, high-level governmental deliberative meetings, and qualitative ethnographies — into actionable, verifiable, and secure digital assets.
+Throughout my decade-long trajectory, I have designed and deployed high-performance technological systems that turn complex, unstructured human and territorial realities — traditional community territorial claims, high-level governmental deliberative assemblies, and qualitative ethnographies — into actionable, verifiable, and sovereign digital assets.
 
-This repository hosts my comprehensive curriculum vitae organized across **9 versions** (8 dedicated profiles plus a general coringa version for local distribution), fully synchronized and version-controlled in both **English (US)** and **Brazilian Portuguese (PT-BR)**. 
+This repository hosts my comprehensive curriculum vitae organized across **10 dedicated profiles** (including specialized technical tracks and an on-site IT/business continuity coringa profile for local enterprises), fully synchronized and version-controlled in both **English (US)** and **Brazilian Portuguese (PT-BR)**. 
 
-The accompanying ecosystem reflects a 10-year life endeavor encompassing **~8M+ lines of source code, structured documentation, and multimodal assets** governed by deterministic, verifiable rules.
+The accompanying ecosystem reflects an ongoing life endeavor encompassing **8M+ lines of source code, structured documentation, and multimodal assets** governed by deterministic, verifiable rules.
 
 ---
 
@@ -79,10 +82,11 @@ Choose the profile that matches your focus:
 
 ---
 
-## 🚀 Sumænimá Hub v3.1.0
+## ⚡ Sumænimá Ecosystem — Sovereign Intelligence & Multi-Layer Bureau
 
-**Private, Local-First Intelligence & Ethnographic Data Capture Platform**  
-*Unified Monorepo · 100% Rust Native Backend (`stenio-server` Axum 0.8 / Tokio / SQLx) · React 19 / TypeScript 6 · In-Browser Rust WebAssembly DSP · Dual-Stage Neural Pipeline*
+> *"Sumænimá is born from the union of **Ænima** (the vital breath, restless strategy, and creative spark) and **Sumé** (the civilizing mythical creator who masters technique, structure, and order from chaos). We are the bridge: soul with method, technique with soul."*
+
+Sumænimá operates as an independent technological venture, sovereign data processing bureau, and autonomous software laboratory. Rather than delegating critical intelligence to extractive corporate clouds, Sumænimá delivers end-to-end data sovereignty through native Rust systems, local neural inference, and strict multi-layer quality control.
 
 <p align="center">
   <img src="assets/hub-mobile.png" width="220" alt="Mobile View - iPhone SE" />
@@ -90,60 +94,80 @@ Choose the profile that matches your focus:
   <img src="assets/hub-desktop.png" width="400" alt="Desktop Interface" />
 </p>
 
-> *"Contemporary information architecture requires deep listening and deterministic pipelines. We fuse anthropological ethnography with systems engineering to build fluid, sovereign, and privacy-preserving documentation platforms."*
->
-> — Carlos Eduardo Rodrigues, Sumænimá Architectural Manifesto
+### 🎙️ StênioREC — Real-Time Sovereign Transcription & Deliberative Cockpit
 
-Sumænimá Hub is an enterprise-grade, local-first platform built to eliminate dependency on foreign corporate clouds for sensitive socio-environmental, governmental, and analytical data.
-
-### 🏛️ Bureau Sumænimá
-
-#### 🎙️ StênioREC — Real-Time Transcription & Reporting Cockpit
-**Status:** 🟢 **Production** — Deployed and verified in high-stakes governmental and territorial assemblies.
+**Status:** 🟢 **Production** — Battle-tested and certified in historic federal assemblies and high-stakes policy meetings.
 
 <p align="center">
   <img src="assets/hub-rec.png" width="600" alt="StênioREC — Real-Time Transcription Cockpit" />
 </p>
 
-- **Client-Side DSP via Rust WebAssembly:** Captures high-fidelity 16kHz audio using the browser's `AudioWorklet` API. Audio buffers are normalized, pre-filtered, and analyzed in real time with acoustic RMS (VAD) inside compiled Rust WebAssembly before streaming.
-- **Dual-Stage Neural Flow:**
-  1. *Sub-500ms Draft Stage:* Fast speech recognition powered by whisper.cpp with native CUDA 13 acceleration on NVIDIA GeForce RTX 5050 (Blackwell sm_120).
-  2. *Parallel Semantic Purification:* Contextual cleansing, speaker disambiguation, and parliamentary-grade punctuation using Gemma 3 IT.
-- **Anti-Loop Shield & Local Agreement:** Real-time heuristic agreement engine prevents hallucination loops and audio packet drift during long deliberative sessions.
-- **Fail-Safe Offline Resilience:** Two-tier local buffer (57 MB RAM + 171 MB IndexedDB) ensures up to 2 hours of continuous recording during complete network blackouts without a single frame dropped.
-- **Zero-Cloud Data Sovereignty:** 100% of audio and inference operates within local homelab hardware (`psicopompo`), with selective OAuth export to Google Docs for cooperative live editing.
+- **Client-Side DSP via Rust WebAssembly:** High-fidelity 16kHz audio capture through browser `AudioWorklet`. Buffers are normalized, pre-filtered, and analyzed with acoustic RMS Voice Activity Detection (VAD) inside compiled Rust WebAssembly before streaming.
+- **Dual-Stage Neural Inference:**
+  1. *Sub-500ms Draft Stage:* Ultra-fast speech recognition powered by whisper.cpp with native CUDA 13 acceleration on NVIDIA GeForce RTX 5050 (Blackwell sm_120 architecture).
+  2. *Parallel Semantic Purification:* Contextual cleansing, speaker disambiguation, and parliamentary punctuation powered by local Gemma 3 IT.
+- **Anti-Loop Shield & Local Agreement:** Real-time heuristic agreement engine eliminates hallucination loops and timestamp drift during multi-hour deliberative sessions.
+- **Air-Gapped Offline Resilience:** Two-tier local buffer (57 MB RAM ring + 171 MB IndexedDB cache) guarantees up to 2 hours of continuous recording during complete network blackouts without a single lost audio packet.
+- **Zero-Cloud Data Sovereignty:** 100% of raw audio and inference remains within encrypted local homelab hardware (`psicopompo`), with optional OAuth streaming directly to live shared documents.
 
-##### 📋 Field Validation & Battle Testing:
-- 🏛️ **Presidency of Brazil / Palácio do Planalto (CNPCT):** Live documentation and legal reporting for the National Council of Traditional Peoples and Communities across multiple ordinary sessions, including the historic 22nd Assembly presenting the Land Regularization Decree with Minister **Marina Silva**.
+#### 📋 Battle-Tested Institutional Deployments:
+- 🏛️ **Presidency of Brazil / Palácio do Planalto (CNPCT):** Live documentation and legal reporting for the National Council of Traditional Peoples and Communities, including the historic 22nd Assembly presenting the Land Regularization Decree with Minister **Marina Silva**.
 - 📊 **IPEA (Institute for Applied Economic Research):** Official reporting for Movements 5 (Integration) and 7 (Information Management) during the institute's Multi-Year Strategic Planning summit.
-- 🏫 **FLONA de Tefé (Amazon):** Intensive ethnographic reporting for 39 community leaders in the *"Formar Protagonistas"* program (IEB / APAFE / Rainforest Trust).
-- 🌱 **Sociobiodiversity National Summit:** Youth leadership assemblies with IEB, CNS, MCM, and CONFREM.
-- 🌰 **OCA — Brazil Nut Observatory:** Live reporting across extractive communities in the Amazon basin.
-
-#### 📚 Biblioteca — Institutional Knowledge CMS
-**Status:** 🟢 **Production** — Sovereign content management and institutional publishing.
-- Dynamic Markdown CMS powered by TipTap, dynamic tagging, document drafting workflows, and instant publishing.
-- Direct integration with PostgreSQL 16 via SQLx and local disk mirrors for zero-cloud resilience.
+- 🏫 **FLONA de Tefé (Central Amazonia):** Intensive ethnographic reporting for 39 community leaders in the *"Formar Protagonistas"* program (IEB / APAFE / Rainforest Trust).
+- 🌱 **National Sociobiodiversity Youth Assembly:** Multilateral leadership meetings with IEB, CNS, MCM, and CONFREM.
+- 🌰 **OCA (Brazil Nut Observatory):** Live reporting across extractive and traditional community meetings in the Amazon basin.
 
 ---
 
-### 🃏 Arandu TCG — Card Analytics & Social Trading Platform
+### 📜 Sumænimá Multi-Layer Reporting Methodology
 
-**Status:** 🟢 **Production** — Ultra-fast heuristics, inventory management, and P2P matching.
-- **Atomic In-Memory Heuristics (<1ms):** Native Rust computational engine (`arandu-engine`) computing mana curves, color distributions, converted mana cost (CMC), and real-time USD/BRL currency conversions.
-- **Interactive 3x3 Virtual Binder & Wishlist:** Drag-and-drop tactile portfolio management replicating physical trade binders in high-refresh React 19.
-- **Algorithmic Trade Radar:** P2P card matching algorithms cross-referencing collections and wishlists with PostgreSQL 16 + pgvector.
+Sumænimá transforms transcription and reporting from unpredictable craft into an **auditable industrial process** governed by deterministic quality checkpoints:
+
+```mermaid
+flowchart TD
+    AUDIO["🎙️ Audio Capture (Dual Redundancy: Native Streams + StênioREC)"] --> C1
+    
+    subgraph PIPELINE ["Industrial Multi-Layer Processing"]
+        C1["Layer 1: Thematic Block Extraction<br/>Cross-referenced with Official Agenda"]
+        C2["Layer 2: Draft Synthesis via Domain Skill<br/>12+ Objective Quality Criteria"]
+        C25["Layer 2.5: Exhaustive Cross-Referencing<br/>Source Document & Quotation Audit"]
+        C3["Layer 3: Independent Governance Audit<br/>Rule-by-rule Static Quality Gate"]
+        C4["Layer 4: Shift Finalization & Action Items<br/>Formal Referral Extract"]
+        C5["Layer 5: Daily Multi-Agent Consolidation<br/>Parallel Independent Source Verification"]
+        C6["Layer 6: Final Executive Publishing<br/>Institutional Layout & Multi-Format PDF"]
+    end
+
+    C1 --> C2 --> C25 --> C3 --> C4 --> C5 --> C6
+    C6 --> OUT["📋 Sovereign Audit-Proof Institutional Report (PDF/DOCX)"]
+```
+
+- **Total Rastreability:** Every editorial decision and summary point is cross-referenced back to timestamps and verified source quotes.
+- **Same-Day Turnaround:** Preliminary structured reports delivered on the exact same morning or afternoon of the assembly.
 
 ---
 
-### 🌌 Asciline — Real-Time Procedural ASCII Engine
+### 🤖 Sumænimá Social Media Autopilot — Autonomous Rust Engine
 
-**Status:** 🟢 **Production** — Ultra-low-overhead visual streaming.
-- Real-time procedural ASCII streamer transmitting animations, mathematical fractals, and cosmic visualizations over Axum WebSockets with zero CPU overhead.
+**Status:** 🟢 **Production** — Autonomous social media operation engineered in pure Rust.
+
+A stateless, ultra-reliable autonomous daemon executing the full lifecycle of content intelligence:
+`Harvest → Triage → LLM Drafting → Deterministic Guardrails → Multi-Channel Publishing → Metrics Ingestion → Algorithmic Feedback Loop`.
+
+- **One Engine, Many Personas:** Single compiled Rust harness reading structured persona packs (YAML) to drive distinct voices across Bluesky, X, LinkedIn, and Instagram.
+- **Resilient Multi-Provider Fallback:** Dynamic runtime probing prioritizing OpenCode (`mimo-v2.6-flash`), falling back to Gemini Developer API, and concluding on local homelab Ollama (Gemma 3 on RTX 5050).
+- **Deterministic Rust Guardrails:** Absolute separation of concerns: brand safety, blocklist compliance, and tone verification are enforced by deterministic Rust rules — never delegated to probabilistic LLMs.
+- **GPU Scheduling Protocol:** Strict zero-CPU fallback rule; VRAM is claimed on demand and freed immediately upon pipeline completion.
 
 ---
 
-### ⚡ Architectural Breakthroughs (v3.0 / 100% Rust)
+### 🃏 Arandu TCG & Asciline Engine
+
+- **Arandu TCG Platform:** Sub-millisecond computational engine (`arandu-engine` in Rust) calculating mana curves, rarity distributions, and card economics. High-refresh React 19 UI featuring an interactive 3x3 virtual trade binder and algorithmic P2P trade radar backed by PostgreSQL 16 + `pgvector`.
+- **Asciline Procedural Streamer:** Zero-CPU-overhead procedural ASCII visual engine streaming mathematical fractals and cosmic animations directly over Axum WebSockets.
+
+---
+
+### ⚡ Architectural Breakthroughs (100% Native Rust Stack)
 
 ```
                      ┌─────────────────────────────────────────────────────────┐
@@ -160,77 +184,114 @@ Sumænimá Hub is an enterprise-grade, local-first platform built to eliminate d
    └───────────────────────────┘    └───────────────────────────┘    └───────────────────────────┘
 ```
 
-- **Zero Dynamic Runtimes:** Total elimination of legacy Python, FastAPI, uvicorn, PyTorch, and Celery/arq workers.
-- **Drastic RAM Reduction:** Idle memory dropped from ~2.5 GB to **~25 to 35 MB**.
-- **Ultralight Container:** Production Docker CUDA image shrank from ~20 GB to **~500 MB**.
-- **Instant Cold Start:** Startup time accelerated from ~20 seconds to **< 100 milliseconds**.
-- **True Multi-Thread Concurrency:** Tokio work-stealing scheduler leveraging all physical cores without Python GIL contention.
+- **Zero Dynamic Runtimes:** Eliminated legacy Python, FastAPI, uvicorn, PyTorch, and Celery dependencies.
+- **Radical RAM Efficiency:** Server idle memory dropped from ~2.5 GB to **~25 to 35 MB**.
+- **Container Footprint:** Production Docker CUDA image shrank from ~20 GB to **~500 MB**.
+- **Cold Boot Speed:** Startup latency accelerated from ~20 seconds to **< 100 milliseconds**.
+- **True Multi-Core Concurrency:** Tokio work-stealing runtime maximizing hardware saturation without GIL bottlenecks.
 
 ---
 
-## 🛡️ StenioSentinel v3.1.0 — Rust AI Governance Engine
+## 🛡️ StenioSentinel v4.6.0 — Universal Rust AI Governance Sentinel
 
-Developed to address the critical risks of autonomous coding agents (sycophancy, hallucinated tests, silent regressions, and dependency bloat), **StenioSentinel** is our open-source static analysis and architectural governance sentinel written in pure **Rust 2024**.
+Developed to eliminate the acute hazards of autonomous coding agents (sycophancy, hallucinated tests, silent regressions, suppressed linters, and dependency bloat), **StenioSentinel** is our static analysis and architectural governance sentinel written in pure **Rust 2024**.
 
-- **Sub-Millisecond Auditing (<1ms to <500ms):** Validates whole workspaces and monorepos instantaneously using Rayon multi-threading.
-- **Mandatory Quality Gate (Rule 0):** Zero tolerance for blind commits or suppressed checks (`// @ts-ignore`, `// stenio-ignore`, `.unwrap()` in production Rust).
-- **Sectorized Scopes:**
+```
+══════════════════════════════════════════════════════════════════════════════
+StenioSentinel (Rust Engine v4.6.0) — Universal Governance System [79.37ms]
+══════════════════════════════════════════════════════════════════════════════
+── Documentation & Traceability Subsystem ─────────────────────
+   ✅ 80 technical documents audited and intact.
+── Quality Gate Verdict ───────────────────────────────────────
+   🛡️ Zero bypass tolerance enforced: all rules validated.
+```
+
+- **Sub-100ms Monorepo Auditing (<80ms):** Validates entire workspaces and git diffs in parallel using Rayon multi-threading.
+- **Mandatory Quality Gate (Rule 0):** Zero tolerance for blind commits, fake stubs, unhandled `.unwrap()` / `.expect()` calls in production Rust, unbounded channels, or suppressed comments (`// @ts-ignore`, `// stenio-ignore`).
+- **Sectorized Governance Scopes:**
   - `stenio --scope hub`: Enforces backend architecture, frontend reactivity, and ADR standards.
   - `stenio --scope homelab`: Audits network mounts, systemd units, Tailscale topologies, and documentation integrity.
   - `stenio --scope vault`: Enforces Obsidian YAML metadata, official tag taxonomies (`_tags.md`), and markdown link validity.
   - `stenio --scope all`: Comprehensive system-wide multi-subsystem audit.
-- **Automated Remediation (`--fix`):** Safely resolves formatting, taxonomy anomalies, and structural divergences automatically.
+- **Automated Remediation (`--fix`):** Safely and deterministically resolves taxonomy anomalies, frontmatter drift, and formatting regressions.
 
 ---
 
-## 🖥️ Mnemocine Homelab Infrastructure (5 Nodes)
+## 🖥️ Mnemocine Homelab Infrastructure (6 Hybrid Nodes)
 
-Our infrastructure embodies the principle that cutting-edge AI and data engineering do not require massive corporate cloud expenditures. The **Mnemocine Homelab** operates as a resilient, encrypted 5-node hybrid topology across local hardware and edge cloud compute:
+The **Mnemocine Homelab** operates as a sovereign, self-hosted 6-node hybrid infrastructure connecting bare-metal workstations, edge cloud gateways, dedicated headless nodes, and container clusters:
 
 ```mermaid
 flowchart TD
-    subgraph WAN ["🌐 Public Internet & Reverse Edge"]
-        YBYRA["☁️ ybyra (Oracle Cloud Always-Free)<br/>AMD EPYC · 1GB RAM · Ubuntu 24.04 LTS<br/>Edge Nginx Proxy · Tailscale Funnel Gateway"]
+    subgraph WAN ["🌐 Public Edge & Ingress"]
+        YBYRA["☁️ ybyra (Oracle Cloud Always-Free)<br/>AMD EPYC · 1GB RAM · Ubuntu 24.04 LTS<br/>Edge Nginx Reverse Proxy · Tailscale Funnel · SSL"]
+        YBYTU["☁️ ybytu (Oracle Cloud Edge DNS)<br/>AMD EPYC · 1GB RAM · Ubuntu 24.04 LTS<br/>AdGuard Home DNS Resolver · Homepage Dashboard · Uptime Kuma"]
     end
 
-    subgraph MESH ["🔒 Encrypted Tailscale / WireGuard Mesh (100.x.y.z)"]
+    subgraph MESH ["🔒 Encrypted WireGuard / Tailnet Mesh (100.x.y.z)"]
         direction TB
 
-        PSICOPOMPO["🖥️ psicopompo (Primary Workstation & AI Host)<br/>Intel Xeon E-2246G 6C/12T · 46GB RAM<br/>NVIDIA GeForce RTX 5050 (Driver 615.x / cuBLAS)<br/>CachyOS (Arch Linux) · Whisper / Gemma 3 Engine"]
+        PSICOPOMPO["🖥️ psicopompo (Primary AI Workstation & Storage Node)<br/>Intel Xeon E-2246G 6C/12T @ 3.6GHz · 46GB RAM · CachyOS (Arch Linux)<br/>NVIDIA GeForce RTX 5050 (Driver 615.x / CUDA 13 / cuBLAS)<br/>Whisper.cpp · Local Gemma 3 · NFSv4 NAS Host · Snapper Btrfs"]
 
-        YBYTU["☁️ ybytu (Oracle Cloud Edge DNS)<br/>AMD EPYC · 1GB RAM · Ubuntu 24.04 LTS<br/>AdGuard Home DNS · Homepage · Uptime Kuma"]
+        KAVURE["🍓 kavure (Docker Swarm Manager & Observability)<br/>Intel Core i3-8100 4C/4T @ 3.6GHz · 12GB RAM · Ubuntu 24.04 LTS<br/>Docker Swarm (sae-core) · Grafana & Loki Stack · Game Servers"]
 
-        KAVURE["🍓 kavure (Dedicated Services & Swarm Manager)<br/>Intel Core i3-8100 4C/4T · 12GB RAM · Ubuntu 24.04 LTS<br/>Docker Swarm (sae-core) · Grafana/Prometheus · Game Servers (Minecraft, Zomboid, Valheim)"]
+        KURURU["📱 kururu (Dedicated Headless Edge Node)<br/>Marvell PXA986 2C @ 1.2GHz · 1GB RAM · Alpine Linux<br/>Bare-Metal Samsung SM-T110 Transform · Rust Daemons · Tailscale Node"]
 
-        KUARAY["💾 kuaray (Standby Mirror · Deprecated)<br/>Intel Core i5-4200U · 6GB RAM<br/>Linux Mint 22.3 · 224GB SSD + 1TB HDD"]
+        KUARAY["💾 kuaray (Standby Mirror · Deprecated)<br/>Intel Core i5-4200U · 6GB RAM · Linux Mint 22.3"]
     end
 
-    subgraph STORAGE ["🛡️ Backup & Disaster Recovery Layer"]
-        NAS["📦 Synology NAS Mirror (RAID-1)<br/>Nightly restic snapshots · Encrypted cold backups"]
+    subgraph STORAGE ["🛡️ Triple-Redundant Backup Layer"]
+        NAS["📦 Synology NAS Mirror (RAID-1)<br/>Nightly restic snapshots · Encrypted cold backups (05:00 Window)"]
     end
 
-    YBYRA <-->|WireGuard Mesh| PSICOPOMPO
-    YBYRA <-->|WireGuard Mesh| KAVURE
-    PSICOPOMPO <--> KUARAY
+    YBYRA <-->|Encrypted WireGuard| PSICOPOMPO
+    YBYRA <-->|Encrypted WireGuard| KAVURE
+    PSICOPOMPO <-->|Tailnet| KURURU
+    PSICOPOMPO <-->|Tailnet| YBYTU
     PSICOPOMPO -->|Automated Nightly Snapshot| NAS
     KAVURE -->|Automated Dump| NAS
 ```
 
-- **Zero Secrets in Code:** Cryptographic SOPS / Age keyrings protecting environment configurations.
-- **Resilient Storage & Snapshots:** Btrfs copy-on-write subvolumes, Snapper triggers, and automated nightly offsite Restic backups to NAS storage.
+### 🔒 Encrypted Mesh & GitOps Tailnet Policy (`MNEMOCINE-ACL`)
+- **GitOps-Managed Tailnet:** Tailscale network access policies are managed strictly as code in the private [`MNEMOCINE-ACL`](https://github.com/ceduardorodrig/MNEMOCINE-ACL) repository, tested via GitHub Actions and federated OAuth credentials before automatic deployment.
+- **Zero Secrets in Git:** Cryptographic SOPS and age keyrings protect environment files across all nodes.
+- **Triple-Redundant Backups:** Local Snapper Btrfs snapshots, offsite encrypted Restic backups to NAS storage, and automated documentation mirroring via `homelab-docs-sync`.
 
 ---
 
-## 📦 Featured Open-Source Projects
+## 📦 Featured Repositories & Open-Source Engineering
 
-- **[`STENIO-SENTINEL`](https://github.com/ceduardorodrig/STENIO-SENTINEL)** (Rust 2024)  
+### 🌟 AI Governance, Platforms & Sovereign Media
+- **[`STENIO-SENTINEL`](https://github.com/ceduardorodrig/STENIO-SENTINEL)** (Rust 2024 · Public)  
   Sub-millisecond static governance engine, anti-bypass quality gate, and architectural integrity sentinel for AI coding agents.
-- **[`WITH-SMOOTH-MOTION`](https://github.com/ceduardorodrig/WITH-SMOOTH-MOTION)** (Rust 2024)  
-  Dynamic adaptive tearing governor and direct scanout manager for high-refresh-rate Wayland compositors (Hyprland / Valve games).
-- **[`MNEMOCINE`](https://github.com/ceduardorodrig/MNEMOCINE)** (Homelab Architecture & Manifests)  
-  5-node sovereign hybrid cloud, bare-metal AI infrastructure, and self-hosted service manifests.
-- **[`ceduardorodrig`](https://github.com/ceduardorodrig/ceduardorodrig)** (Special Profile / Portfolio)  
-  GitHub Special Profile repository hosting the bilingual executive portfolio and self-auditing curriculum across 8 dedicated profiles.
+- **[`SUMAENIMA-HUB`](https://github.com/ceduardorodrig/SUMAENIMA-HUB)** (Rust / React 19 / TypeScript 6 · Private Core Platform)  
+  Sovereign local-first intelligence platform, real-time ethnographic transcription cockpit (Whisper + Gemma 3), and Arandu TCG knowledge engine.
+- **[`SUMAENIMA-SOCIALMEDIA-AUTOPILOT`](https://github.com/ceduardorodrig/SUMAENIMA-SOCIALMEDIA-AUTOPILOT)** (Rust 2024 · Private Core Engine)  
+  Stateless autonomous social media engine: trend harvesting, LLM drafting, deterministic guardrails, and metrics feedback loop.
+
+### 🖥️ Systems Engineering, Linux & Hardware Daemons
+- **[`WITH-SMOOTH-MOTION`](https://github.com/ceduardorodrig/WITH-SMOOTH-MOTION)** (Rust 2024 · Public)  
+  Dynamic adaptive tearing governor and direct scanout manager for high-refresh-rate Wayland compositors (Hyprland / Linux gaming).
+- **[`KURURU-TAB3LITE-LINUX`](https://github.com/ceduardorodrig/KURURU-TAB3LITE-LINUX)** (Rust / Alpine Linux · Public)  
+  Bare-metal headless Linux transformation and hardware control daemons in Rust for the Samsung Galaxy Tab 3 Lite (SM-T110), turning legacy ARM tablets into persistent homelab nodes.
+- **[`MCMOJAVE-CURSOR-UNIFIED`](https://github.com/ceduardorodrig/MCMOJAVE-CURSOR-UNIFIED)** (Rust 2024 · Public)  
+  Dual-spec unified McMojave cursor theme (Hyprcursor vector + 1:1 calibrated XCursor) powered by a native Rust asset builder.
+- **[`macrokey-driver`](https://github.com/ceduardorodrig/macrokey-driver)** (Python · Public Fork)  
+  Cross-platform user-space driver for configuring custom 6-button USB macro keyboards with rotary encoder (VID:1189 PID:8890).
+
+### 🌐 Sovereign Homelab & GitOps Tooling
+- **[`MNEMOCINE`](https://github.com/ceduardorodrig/MNEMOCINE)** (Shell / Markdown · Public)  
+  6-node sovereign hybrid cloud architecture, bare-metal AI infrastructure, and self-hosted service manifests.
+- **[`MNEMOCINE-ACL`](https://github.com/ceduardorodrig/MNEMOCINE-ACL)** (HuJSON / CI · Private)  
+  Tailnet policy as code managed via GitHub Actions and Tailscale federated identity.
+- **[`MNEMOCINE-OPS`](https://github.com/ceduardorodrig/MNEMOCINE-OPS)** (Rust 2024 · Private)  
+  Homelab operational tooling: Rust utilities, systemd automation, and custom deployment daemons.
+
+### 📄 Native Rust CLI Tools & Specialized Document Parsers
+- **`docx-extractor`** (Rust 2024 · Native Binary)  
+  Blazing-fast native extractor for parsing complex meeting minutes, Microsoft Teams transcripts, and multi-speaker governmental records into clean, structured Markdown.
+- **`validador-roteiro`** (Rust 2024 · Native Binary)  
+  Syntactic and semantic audiovisual script validator enforcing timing, formatting, and character consistency rules.
 
 ---
 
@@ -238,13 +299,14 @@ flowchart TD
 
 | Metric | Measurement | Context |
 |:---|:---:|:---|
-| **Curated Code & Assets** | **~8M+ lines** | Rust, TypeScript, Python, Shell, Markdown, and high-res datasets |
-| **Monorepo Files** | **1,227+** | Tightly coupled, version-governed files across 5 server nodes |
-| **Trajectory** | **10 years** | Integrating anthropology, technology, and public policy |
-| **Active Platform Engineering** | **~2.5 years** | Continuous production development of Sumænimá Hub |
+| **Governed Code & Assets** | **8M+ lines** | Rust, TypeScript, Python, Shell, Markdown, and high-res datasets |
+| **Active Repositories** | **12+ Repositories** | Monitored, versioned, and continuously synchronized under StenioSentinel |
+| **Hybrid Homelab Nodes** | **6 Nodes** | psicopompo, kavure, kururu, ybyra, ybytu, kuaray (standby) |
+| **Governance Static Audit** | **< 80 ms** | Whole-vault and codebase static analysis cycle |
+| **Neural Inference Latency** | **< 500 ms** | Real-time local Whisper transcription response on RTX 5050 hardware |
+| **Trajectory** | **10 years** | Integrating anthropology, systems engineering, and public policy |
 | **Audience Reached** | **2+ Million** | Led digital campaigns and documentary productions at IPAM |
 | **Traditional Territories Mapped** | **+2,500 communities** | Co-architect and field ethnographer for the *Tô no Mapa* platform |
-| **Inference Latency** | **<500ms** | Real-time local Whisper transcription response on RTX hardware |
 
 ---
 
@@ -262,9 +324,9 @@ In 2024, I channeled every lesson learned into building **Sumænimá** — the i
 
 Since 2025, that vision has been tested at the highest echelons of public deliberation. As the official rapporteur for the **National Council of Traditional Peoples and Communities (CNPCT)**, my platform **StênioREC** operated inside the **Palácio do Planalto**, capturing, indexing, and purifying the historic proceedings that culminated in the Land Regularization Decree, inaugurated by Environment Minister **Marina Silva**.
 
-To sustain this work independently, I constructed the **Mnemocine Homelab**: five networked nodes running open-source systems, orchestrated through Tailscale and Docker, proving that sovereign local artificial intelligence is both feasible and superior.
+To sustain this work independently, I constructed the **Mnemocine Homelab**: six networked nodes running open-source systems, orchestrated through Tailscale, Docker Swarm, and native Rust daemons, proving that sovereign local artificial intelligence is both feasible and superior.
 
-Today, I stand as a **hybrid**: a product architect who thinks like an ethnographer. I translate ambiguous human needs into resilient distributed software, and complex systems architecture into lasting socio-environmental impact. Locally, I also bring that discipline back to the everyday: a general profile and a services sheet ([`pt-br/00-geral-ti-produto-br.md`](pt-br/00-geral-ti-produto-br.md)) for supporting stores and small businesses in Brasília with on-site IT, networking, backups and LGPD.
+Today, I stand as a **hybrid**: a product architect and systems engineer who thinks like an ethnographer. I translate ambiguous human needs into resilient distributed software, and complex systems architecture into lasting socio-environmental impact. Locally, I also bring that discipline back to the everyday: a general profile and a services sheet ([`pt-br/00-geral-ti-produto-br.md`](pt-br/00-geral-ti-produto-br.md)) for supporting stores and small businesses in Brasília with on-site IT, networking, backups and LGPD.
 
 ---
 
@@ -331,7 +393,7 @@ A visual testimony to the fieldwork and institutional assemblies shaping this pl
 
 > **Architected by an Anthropologist, Built with Autonomous AI Agents, Governed by Deterministic Code.**
 > 
-> This project was developed through rigorous human-AI pair programming led by **Carlos Eduardo Rodrigues** ([@ceduardorodrig](https://github.com/ceduardorodrig)) — an anthropologist and product architect using autonomous coding agents under strict, sub-millisecond static governance.
+> This project was developed through rigorous human-AI pair programming led by **Carlos Eduardo Rodrigues** ([@ceduardorodrig](https://github.com/ceduardorodrig)) — an anthropologist, systems engineer, and product architect using autonomous coding agents under strict, sub-millisecond static governance.
 >
 > Every commit, driver, and system architecture is continuously audited and enforced by 🤖 **[StenioSentinel](https://github.com/ceduardorodrig/STENIO-SENTINEL)** (our native Rust quality gate) with zero tolerance for hallucinated tests, blind merges, or bypassed checks.
 
