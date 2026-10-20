@@ -33,10 +33,10 @@ Sumænimá é meu projeto de vida. Existe há quase 10 anos como entidade criati
 
 Ganhos arquiteturais (v3.0 / 100% Rust): Eliminação completa de runtimes dinâmicos em Python/FastAPI, memória em repouso reduzida de ~2.5 GB para **~25–35 MB**, imagem Docker reduzida de ~20 GB para **~500 MB**, cold start acelerado de ~20s para **<100ms** e concorrência multithread real com Tokio work-stealing.
 
-**StenioSentinel v3.1.0 — Sentinela de Governança Estática & Anti-Bypass:**
-- Sentinela de auditoria estática ultrarrápida e integridade arquitetural escrito em **Rust 2024** puro, auditando o ecossistema completo em sub-milissegundos (<1ms a <500ms)
+**StenioSentinel v4.6.0 — Sentinela de Governança Estática & Anti-Bypass:**
+- Sentinela de auditoria estática ultrarrápida e integridade arquitetural escrito em **Rust 2024** puro, auditando o ecossistema completo em sub-milissegundos (<1ms a <80ms)
 - Arquitetura anti-bypass em 10 camadas: Quality gates pre-commit (Regra 0), bypass guard, scope guard, imutabilidade do motor, leis de agentes assinadas criptograficamente, promoção repetição→regra, jurisdição universal de arquivos, rollback com negative registry e autocorreção (`--fix`)
-- Escala do ecossistema: **~8M+ linhas** de código com curadoria, documentação e assets multimodais governados por regras determinísticas em 5 nós do homelab
+- Escala do ecossistema: **~110k linhas** de código de produção autoral (53k+ em Rust 2024), documentação estruturada e infraestrutura governadas por regras determinísticas em 6 nós do homelab
 
 **Relatoria & Sistematização de Dados** (paralelo à StênioBOT):
 - Consultor independente em relatoria, sistematização de dados e planejamento estratégico

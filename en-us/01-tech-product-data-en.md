@@ -33,10 +33,10 @@ Sumænimá is my life project. It has existed for nearly 10 years as an independ
 
 Architectural gains (v3.0 / 100% Rust): Zero dynamic Python/FastAPI runtimes, idle RAM dropped from ~2.5 GB to **~25–35 MB**, container image reduced from ~20 GB to **~500 MB**, cold start reduced from ~20s to **<100ms**, and true multi-core concurrency via Tokio work-stealing.
 
-**StenioSentinel v3.1.0 — Static Governance & Anti-Bypass Sentinel:**
-- High-performance static analysis and architectural governance sentinel written in pure **Rust 2024**, auditing the entire ecosystem in sub-milliseconds (<1ms to <500ms)
+**StenioSentinel v4.6.0 — Static Governance & Anti-Bypass Sentinel:**
+- High-performance static analysis and architectural governance sentinel written in pure **Rust 2024**, auditing the entire ecosystem in sub-milliseconds (<1ms to <80ms)
 - 10-layer anti-bypass architecture: pre-commit quality gates (Rule 0), bypass guard, scope guard, kernel immutability, cryptographically-signed agent laws, repetition→rule promotion, universal file jurisdiction, automated rollback with negative registry, and automated self-remediation (`--fix`)
-- Ecosystem scale: **~8M+ lines** of curated code, documentation, and multimodal assets across 5 networked homelab nodes governed by deterministic rules
+- Ecosystem scale: **~110k lines** of authored production code (53k+ in pure Rust 2024), structured documentation, and infrastructure across 6 homelab nodes governed by deterministic rules
 
 **Reporting & Data Systematization** (alongside StênioBOT):
 - Independent consultant for reporting, data systematization, and strategic planning

@@ -42,7 +42,7 @@ Throughout my decade-long trajectory, I have designed and deployed high-performa
 
 This repository hosts my comprehensive curriculum vitae organized across **10 dedicated profiles** (including specialized technical tracks and an on-site IT/business continuity coringa profile for local enterprises), fully synchronized and version-controlled in both **English (US)** and **Brazilian Portuguese (PT-BR)**. 
 
-The accompanying ecosystem reflects an ongoing life endeavor encompassing **8M+ lines of source code, structured documentation, and multimodal assets** governed by deterministic, verifiable rules.
+The accompanying ecosystem reflects an ongoing life endeavor encompassing **~110,000 lines of authored production code** (including **53,000+ LOC in pure Rust 2024** and **18,000+ LOC in TypeScript/React 19**), sovereign hybrid infrastructure, and structured documentation governed by deterministic, verifiable rules.
 
 ---
 
@@ -299,7 +299,7 @@ flowchart TD
 
 | Metric | Measurement | Context |
 |:---|:---:|:---|
-| **Governed Code & Assets** | **8M+ lines** | Rust, TypeScript, Python, Shell, Markdown, and high-res datasets |
+| **Production Codebase** | **~110,000 LOC** | Authored production code: 53k+ pure Rust 2024, 18k+ TSX/TS, zero bloated dependencies |
 | **Active Repositories** | **12+ Repositories** | Monitored, versioned, and continuously synchronized under StenioSentinel |
 | **Hybrid Homelab Nodes** | **6 Nodes** | psicopompo, kavure, kururu, ybyra, ybytu, kuaray (standby) |
 | **Governance Static Audit** | **< 80 ms** | Whole-vault and codebase static analysis cycle |
