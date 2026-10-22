@@ -19,7 +19,7 @@
   - 🎙️ [StênioREC — Real-Time Sovereign Transcription & Deliberative Cockpit](#️-stêniorec--real-time-sovereign-transcription--deliberative-cockpit)
   - 📜 [Sumænimá Multi-Layer Reporting Methodology](#-sumænimá-multi-layer-reporting-methodology)
   - 🤖 [Sumænimá Social Media Autopilot — Autonomous Rust Engine](#-sumænimá-social-media-autopilot--autonomous-rust-engine)
-  - 🃏 [Arandu TCG & Asciline Engine](#-arandu-tcg--asciline-engine)
+  - 🃏 [Arandu TCG & Cockpit de Voo (Cosmic FAB)](#-arandu-tcg--cockpit-de-voo-cosmic-fab)
   - ⚡ [Architectural Breakthroughs (100% Native Rust Stack)](#-architectural-breakthroughs-100-native-rust-stack)
 - 🛡️ [StenioSentinel v4.6.0 — Universal Rust AI Governance Sentinel](#️-steniosentinel-v460--universal-rust-ai-governance-sentinel)
 - 🖥️ [Mnemocine Homelab Infrastructure (6 Hybrid Nodes)](#️-mnemocine-homelab-infrastructure-6-hybrid-nodes)
@@ -160,10 +160,10 @@ A stateless, ultra-reliable autonomous daemon executing the full lifecycle of co
 
 ---
 
-### 🃏 Arandu TCG & Asciline Engine
+### 🃏 Arandu TCG & Cockpit de Voo (Cosmic FAB)
 
 - **Arandu TCG Platform:** Sub-millisecond computational engine (`arandu-engine` in Rust) calculating mana curves, rarity distributions, and card economics. High-refresh React 19 UI featuring an interactive 3x3 virtual trade binder and algorithmic P2P trade radar backed by PostgreSQL 16 + `pgvector`.
-- **Asciline Procedural Streamer:** Zero-CPU-overhead procedural ASCII visual engine streaming mathematical fractals and cosmic animations directly over Axum WebSockets.
+- **Flight Cockpit (Cosmic FAB):** Zero-network-overhead client-side 3D inertial space flight simulation easter egg featuring Canvas 3D warp rings, dynamic starfield, telemetry HUD, and real-time procedural audio synthesis via native Web Audio API.
 
 ---
 
@@ -266,7 +266,7 @@ flowchart TD
   Sub-millisecond static governance engine, anti-bypass quality gate, and architectural integrity sentinel for AI coding agents.
 - **[`SUMAENIMA-HUB`](https://github.com/ceduardorodrig/SUMAENIMA-HUB)** (Rust / React 19 / TypeScript 6 · Private Core Platform)  
   Sovereign local-first intelligence platform, real-time ethnographic transcription cockpit (Whisper + Gemma 3), and Arandu TCG knowledge engine.
-- **[`SUMAENIMA-SOCIALMEDIA-AUTOPILOT`](https://github.com/ceduardorodrig/SUMAENIMA-SOCIALMEDIA-AUTOPILOT)** (Rust 2024 · Private Core Engine)  
+- **[`sumaenima-socialmedia-autopilot`](https://github.com/ceduardorodrig/sumaenima-socialmedia-autopilot)** (Rust 2024 · Public Engine · AGPL-3.0)  
   Stateless autonomous social media engine: trend harvesting, LLM drafting, deterministic guardrails, and metrics feedback loop.
 
 ### 🖥️ Systems Engineering, Linux & Hardware Daemons

@@ -29,7 +29,7 @@ Sumænimá is my life project. It has existed for nearly 10 years as an independ
 
 - **Bureau Sumænimá (StênioREC & Biblioteca):** Real-time transcription cockpit (whisper.cpp with native CUDA 13 on NVIDIA RTX 5050 sm_120, Gemma 3 IT, Anti-Loop Shield, Local Agreement, continuous Google Docs sync) and sovereign Markdown CMS (TipTap, dynamic tagging, draft workflows) — **in production**, validated in high-stakes field reporting
 - **Arandu TCG Platform:** Ultra-fast card analytics and social trading platform for Magic: The Gathering with sub-millisecond atomic heuristics (`arandu-engine` in Rust), 3x3 virtual binder, trade radar, P2P matching, and PostgreSQL 16 + pgvector — **in production**
-- **Asciline Engine:** Real-time procedural ASCII streamer transmitting animations and mathematical fractals over Axum WebSockets with zero CPU overhead — **in production**
+- **Flight Cockpit (Cosmic FAB):** Experiential UNSC-style 3D inertial space flight simulation easter egg triggered via M3 floating action button, featuring Canvas 3D warp rings, dynamic starfield, telemetry HUD, and zero-network procedural audio synthesis via native Web Audio API — **in production**
 
 Architectural gains (v3.0 / 100% Rust): Zero dynamic Python/FastAPI runtimes, idle RAM dropped from ~2.5 GB to **~25–35 MB**, container image reduced from ~20 GB to **~500 MB**, cold start reduced from ~20s to **<100ms**, and true multi-core concurrency via Tokio work-stealing.
 

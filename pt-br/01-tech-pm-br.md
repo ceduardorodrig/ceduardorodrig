@@ -36,7 +36,7 @@ Arquiteto de Produto com trajetória em produtos de dados e impacto socioambient
 ### 🚀 Sumænimá — Fundador & Product Owner
 *2016 — presente · Brasília-DF / Remoto*
 
-- **Liderou** o ciclo de vida completo do Sumænimá Hub (StênioREC, Biblioteca, Arandu TCG, Asciline), definindo roadmap e priorizando funcionalidades com base em discovery de campo com 5+ parceiros institucionais
+- **Liderou** o ciclo de vida completo do Sumænimá Hub (StênioREC, Biblioteca, Arandu TCG, Cockpit Experiencial), definindo roadmap e priorizando funcionalidades com base em discovery de campo com 5+ parceiros institucionais
 - **Entregou** produto de transcrição em tempo real com IA validado em instância máxima de governo (CNPCT/Planalto), atendendo 30+ stakeholders por sessão
 - **Coordenou** projetos de relatoria multi-stakeholder (IPEA — 3 dias de planejamento estratégico, IEB — encontro nacional da juventude, CNPCT — conselho governamental), traduzindo necessidades de pesquisa qualitativa em requisitos de produto
 - **Gerenciou** backlog e roadmap de entrega de plataforma local-first soberana (Rust Axum + React 19 + PostgreSQL + Docker Swarm) — do conceito à validação em campo e produção
