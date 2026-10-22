@@ -266,7 +266,7 @@ flowchart TD
   Sub-millisecond static governance engine, anti-bypass quality gate, and architectural integrity sentinel for AI coding agents.
 - **[`SUMAENIMA-HUB`](https://github.com/ceduardorodrig/SUMAENIMA-HUB)** (Rust / React 19 / TypeScript 6 · Private Core Platform)  
   Sovereign local-first intelligence platform, real-time ethnographic transcription cockpit (Whisper + Gemma 3), and Arandu TCG knowledge engine.
-- **[`SUMAENIMA-SOCIALMEDIA-AUTOPILOT`](https://github.com/ceduardorodrig/SUMAENIMA-SOCIALMEDIA-AUTOPILOT)** (Rust 2024 · Public Engine · AGPL-3.0)  
+- **[`SOCIAL-MEDIA-AUTOPILOT`](https://github.com/ceduardorodrig/SOCIAL-MEDIA-AUTOPILOT)** (Rust 2024 · Public Engine · AGPL-3.0)  
   Stateless autonomous social media engine: trend harvesting, LLM drafting, deterministic guardrails, and metrics feedback loop.
 
 ### 🖥️ Systems Engineering, Linux & Hardware Daemons
