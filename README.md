@@ -3,8 +3,8 @@
 [![CI](https://github.com/ceduardorodrig/ceduardorodrig/actions/workflows/ci.yml/badge.svg)](https://github.com/ceduardorodrig/ceduardorodrig/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%7C%20CC--BY--4.0-blue)](LICENSE.md)
 [![Governance](https://img.shields.io/badge/governance-StenioSentinel%20v4.6.0-brightgreen)](https://github.com/ceduardorodrig/STENIO-SENTINEL)
-[![Versions](https://img.shields.io/badge/profiles-10%20Bilingual%20Versions%20(PT%2FEN)-orange)](#-curriculum-versions)
-[![Nodes](https://img.shields.io/badge/infrastructure-6%20Mnemocine%20Nodes-informational)](https://github.com/ceduardorodrig/MNEMOCINE)
+[![Profiles](https://img.shields.io/badge/profiles-10%20Bilingual%20Versions%20(PT%2FEN)-orange)](pt-br/)
+[![Infrastructure](https://img.shields.io/badge/infrastructure-6%20Mnemocine%20Nodes-informational)](https://github.com/ceduardorodrig/MNEMOCINE)
 [![Location](https://img.shields.io/badge/location-Brasília--DF%2C%20Brazil-blueviolet)](https://github.com/ceduardorodrig)
 
 > **"Using open-source local technology ingeniously to bridge anthropology, systems engineering, and data sovereignty."**
@@ -14,18 +14,15 @@
 ## 📑 Table of Contents
 
 - 🌍 [About](#-about)
-- 📑 [Curriculum Versions (10 Dedicated Profiles)](#-curriculum-versions)
-- ⚡ [Sumænimá Ecosystem — Sovereign Intelligence & Multi-Layer Bureau](#-sumænimá-ecosystem--sovereign-intelligence--multi-layer-bureau)
-  - 🎙️ [StênioREC — Real-Time Sovereign Transcription & Deliberative Cockpit](#️-stêniorec--real-time-sovereign-transcription--deliberative-cockpit)
-  - 📜 [Sumænimá Multi-Layer Reporting Methodology](#-sumænimá-multi-layer-reporting-methodology)
-  - 🤖 [Sumænimá Social Media Autopilot — Autonomous Rust Engine](#-sumænimá-social-media-autopilot--autonomous-rust-engine)
-  - 🃏 [Arandu TCG & Cockpit de Voo (Cosmic FAB)](#-arandu-tcg--cockpit-de-voo-cosmic-fab)
-  - ⚡ [Architectural Breakthroughs (100% Native Rust Stack)](#-architectural-breakthroughs-100-native-rust-stack)
-- 🛡️ [StenioSentinel v4.6.0 — Universal Rust AI Governance Sentinel](#️-steniosentinel-v460--universal-rust-ai-governance-sentinel)
-- 🖥️ [Mnemocine Homelab Infrastructure (6 Hybrid Nodes)](#️-mnemocine-homelab-infrastructure-6-hybrid-nodes)
-  - 🔒 [Encrypted Mesh & GitOps Tailnet Policy (`MNEMOCINE-ACL`)](#-encrypted-mesh--gitops-tailnet-policy-mnemocine-acl)
-- 📦 [Featured Repositories & Open-Source Engineering](#-featured-repositories--open-source-engineering)
 - 📊 [By the Numbers](#-by-the-numbers)
+- 📦 [Featured Repositories & Open-Source Engineering](#-featured-repositories--open-source-engineering)
+- ⚡ [Sumænimá Ecosystem — Sovereign Intelligence & Bureau](#-sumænimá-ecosystem--sovereign-intelligence--bureau)
+  - 🎙️ [StênioREC — Real-Time Deliberative Cockpit](#️-stêniorec--real-time-sovereign-transcription--deliberative-cockpit)
+  - 📜 [Multi-Layer Reporting Methodology](#-sumænimá-multi-layer-reporting-methodology)
+  - 🤖 [Social Media Autopilot — Autonomous Rust Engine](#-sumænimá-social-media-autopilot--autonomous-rust-engine)
+  - ⚡ [Architectural Breakthroughs (100% Native Rust Stack)](#-architectural-breakthroughs-100-native-rust-stack)
+- 🛡️ [StenioSentinel — Universal Rust AI Governance](#️-steniosentinel-v460--universal-rust-ai-governance-sentinel)
+- 🖥️ [Mnemocine Homelab Infrastructure (6 Hybrid Nodes)](#️-mnemocine-homelab-infrastructure-6-hybrid-nodes)
 - 🧵 [The Thread (Narrative)](#-the-thread-narrative)
 - 📸 [Fieldwork & Photographic Archive](#-fieldwork--photographic-archive)
 - 📚 [Publications & Media](#-publications--media)
@@ -40,49 +37,60 @@ I am a **hybrid product architect, systems engineer, and anthropologist** based 
 
 Throughout my decade-long trajectory, I have designed and deployed high-performance technological systems that turn complex, unstructured human and territorial realities — traditional community territorial claims, high-level governmental deliberative assemblies, and qualitative ethnographies — into actionable, verifiable, and sovereign digital assets.
 
-This repository hosts my comprehensive curriculum vitae organized across **10 dedicated profiles** (including specialized technical tracks and an on-site IT/business continuity coringa profile for local enterprises), fully synchronized and version-controlled in both **English (US)** and **Brazilian Portuguese (PT-BR)**. 
+This repository hosts my comprehensive curriculum vitae organized across **10 dedicated profiles** (including specialized technical tracks, data leadership, and an on-site IT/business continuity coringa profile for local enterprises), fully synchronized and version-controlled in both:
+
+👉 [**🇧🇷 Versões em Português (PT-BR)**](pt-br/) &nbsp;·&nbsp; [**🇺🇸 English Versions (US)**](en-us/)
 
 The accompanying ecosystem reflects an ongoing life endeavor encompassing **~110,000 lines of authored production code** (including **53,000+ LOC in pure Rust 2024** and **18,000+ LOC in TypeScript/React 19**), sovereign hybrid infrastructure, and structured documentation governed by deterministic, verifiable rules.
 
 ---
 
-## 📑 Curriculum Versions
+## 📊 By the Numbers
 
-Choose the profile that matches your focus:
-
-### 🇺🇸 English (US)
-
-| # | Profile | Target Audience & Focus | Document Link |
-|:---:|:---|:---|:---:|
-| **00** | **🛠️ General — On-Site IT & Support (coringa)** | General-purpose version for distributing to businesses: on-site IT & technical support, networking, POS, backups & LGPD, with digital product as a differentiator | [`en-us/00-general-ti-product-en.md`](en-us/00-general-ti-product-en.md) |
-| **00s** | **💻 Services Flyer (SUMÆNIMÁ MEI)** | One-page services & pricing sheet to leave at stores and small businesses | [`en-us/00-services-flyer-en.md`](en-us/00-services-flyer-en.md) |
-| **01** | **🖥️ Tech / Product / Data** | Technology companies, AI/data startups, senior product engineering roles | [`en-us/01-tech-product-data-en.md`](en-us/01-tech-product-data-en.md) |
-| **01b** | **📊 Tech / Business Data** | Enterprises, consultancies, process diagnostics, data analytics & automation | [`en-us/01-tech-business-data-en.md`](en-us/01-tech-business-data-en.md) |
-| **01c** | **🎯 Product Architecture** | Digital product architecture, agile delivery, tech-for-good, platform strategy | [`en-us/01-tech-pm-en.md`](en-us/01-tech-pm-en.md) |
-| **01d** | **🎧 Product & Technical Support** | Digital product support, ticket triage, documentation & usability, product analysis | [`en-us/01-tech-product-support-en.md`](en-us/01-tech-product-support-en.md) |
-| **01e** | **📈 Data & Analytics** | Data analysis, ETL, dashboards & reporting, databases, monitoring & evaluation, technical documentation | [`en-us/01e-data-analytics-en.md`](en-us/01e-data-analytics-en.md) |
-| **01f** | **📣 Communications & PR** | Public relations, media monitoring & opportunity tracking, editorial calendars, approvals, reporting, digital marketing, SEO & link building | [`en-us/01f-communications-pr-en.md`](en-us/01f-communications-pr-en.md) |
-| **02** | **🌳 Socioenvironmental-Tech** | Research institutes, international foundations, NGOs, climate impact initiatives | [`en-us/02-socioenvironmental-tech-en.md`](en-us/02-socioenvironmental-tech-en.md) |
-| **02b** | **🏛️ Socioenvironmental (Institutional)** | Public agencies, multilateral governance, land demarcation, traditional communities policy | [`en-us/02-socioenvironmental-niche-en.md`](en-us/02-socioenvironmental-niche-en.md) |
-
-### 🇧🇷 Português (PT-BR)
-
-| # | Versão | Público & Foco | Arquivo |
-|:---:|:---|:---|:---:|
-| **00** | **🛠️ Geral — TI em Estabelecimentos & Suporte (coringa)** | Versão geral para distribuir em lojas e empresas: TI e suporte técnico presencial, redes, PDV, backups e LGPD, com produto digital como diferencial | [`pt-br/00-geral-ti-produto-br.md`](pt-br/00-geral-ti-produto-br.md) |
-| **00s** | **💻 Flyer de Serviços (SUMÆNIMÁ MEI)** | Folha única de serviços e preços para deixar em lojas e pequenos negócios | [`pt-br/00-servicos-flyer-br.md`](pt-br/00-servicos-flyer-br.md) |
-| **01** | **🖥️ Tech / Produto / Dados** | Startups de tecnologia, empresas de produto, vagas em engenharia de dados e IA | [`pt-br/01-tech-produto-dados-br.md`](pt-br/01-tech-produto-dados-br.md) |
-| **01b** | **📊 Tech / Dados & Negócios** | Empresas, diagnóstico de processos, consultoria em dados e inteligência de negócios | [`pt-br/01-tech-dados-negocios-br.md`](pt-br/01-tech-dados-negocios-br.md) |
-| **01c** | **🎯 Arquitetura de Produto** | Arquitetura de produtos digitais, liderança ágil, impacto socioambiental e estratégia | [`pt-br/01-tech-pm-br.md`](pt-br/01-tech-pm-br.md) |
-| **01d** | **🎧 Produto & Suporte Técnico** | Suporte a produto digital, triagem de chamados, documentação e usabilidade, análise de produto | [`pt-br/01-tech-produto-suporte-br.md`](pt-br/01-tech-produto-suporte-br.md) |
-| **01e** | **📈 Dados & Analytics** | Análise de dados, ETL, painéis e relatoria, bancos de dados, monitoramento e avaliação, documentação técnica | [`pt-br/01e-dados-analytics-br.md`](pt-br/01e-dados-analytics-br.md) |
-| **01f** | **📣 Comunicação & Relações Públicas** | Relações públicas, monitoramento de mídia e oportunidades, calendários editoriais, aprovações, relatoria, marketing digital, SEO e link building | [`pt-br/01f-comunicacao-pr-br.md`](pt-br/01f-comunicacao-pr-br.md) |
-| **02** | **🌳 Socioambiental-Tech** | Institutos de pesquisa, organismos multilaterais, fundações, projetos de impacto socioambiental | [`pt-br/02-socioambiental-tech-br.md`](pt-br/02-socioambiental-tech-br.md) |
-| **02b** | **🏛️ Socioambiental (Institucional)** | Órgãos públicos, regularização fundiária, políticas para Povos e Comunidades Tradicionais (PCTs) | [`pt-br/02-socioambiental-nichado-br.md`](pt-br/02-socioambiental-nichado-br.md) |
+| Metric | Measurement | Context |
+|:---|:---:|:---|
+| **Production Codebase** | **~110,000 LOC** | Authored production code: 53k+ pure Rust 2024, 18k+ TSX/TS, zero bloated dependencies |
+| **Active Repositories** | **12 Repositories** | Monitored, versioned, and continuously synchronized under StenioSentinel |
+| **Hybrid Homelab Nodes** | **6 Nodes** | Bare-metal workstations, edge cloud gateways, and dedicated headless daemons |
+| **Governance Static Audit** | **< 80 ms** | Whole-vault and codebase static analysis cycle powered by Rayon multi-threading |
+| **Neural Inference Latency** | **< 500 ms** | Real-time local Whisper transcription response on NVIDIA GeForce RTX 5050 hardware |
+| **Professional Trajectory** | **10 years** | Integrating anthropology, systems engineering, and public policy |
+| **Audience Reached** | **2+ Million** | Led digital campaigns, platform strategy, and documentary productions at IPAM |
+| **Traditional Territories Mapped** | **+2,500 communities** | Co-architect and field ethnographer for the *Tô no Mapa* platform |
 
 ---
 
-## ⚡ Sumænimá Ecosystem — Sovereign Intelligence & Multi-Layer Bureau
+## 📦 Featured Repositories & Open-Source Engineering
+
+### 🌟 AI Governance, Platforms & Sovereign Media
+- **[`STENIO-SENTINEL`](https://github.com/ceduardorodrig/STENIO-SENTINEL)** (Rust 2024 · Public · MIT OR Apache-2.0)  
+  Sub-millisecond static governance engine, anti-bypass quality gate, and architectural integrity sentinel for AI coding agents.
+- **[`SUMAENIMA-HUB`](https://github.com/ceduardorodrig/SUMAENIMA-HUB)** (Rust / React 19 / TypeScript 6 · Private Core Platform · SUMÆNIMÁ)  
+  Sovereign local-first intelligence platform, real-time ethnographic transcription cockpit (Whisper + Gemma 3), and Arandu TCG knowledge engine.
+- **[`SOCIAL-MEDIA-AUTOPILOT`](https://github.com/ceduardorodrig/SOCIAL-MEDIA-AUTOPILOT)** (Rust 2024 · Public Engine · AGPL-3.0)  
+  Stateless autonomous social media engine: trend harvesting, LLM drafting, deterministic guardrails, and metrics feedback loop.
+
+### 🖥️ Systems Engineering, Linux & Hardware Daemons
+- **[`WITH-SMOOTH-MOTION`](https://github.com/ceduardorodrig/WITH-SMOOTH-MOTION)** (Rust 2024 · Public · MIT OR Apache-2.0)  
+  Dynamic adaptive tearing governor and direct scanout manager for high-refresh-rate Wayland compositors (Hyprland / Linux gaming).
+- **[`KURURU-TAB3LITE-LINUX`](https://github.com/ceduardorodrig/KURURU-TAB3LITE-LINUX)** (Rust / Alpine Linux · Public · MIT)  
+  Bare-metal headless Linux transformation and hardware control daemons in Rust for the Samsung Galaxy Tab 3 Lite (SM-T110).
+- **[`MCMOJAVE-CURSOR-UNIFIED`](https://github.com/ceduardorodrig/MCMOJAVE-CURSOR-UNIFIED)** (Rust 2024 · Public · GPL-3.0)  
+  Dual-spec unified McMojave cursor theme (Hyprcursor vector + 1:1 calibrated XCursor) powered by a native Rust asset builder.
+- **[`macrokey-driver`](https://github.com/ceduardorodrig/macrokey-driver)** (Python · Public Fork)  
+  Cross-platform user-space driver for configuring custom 6-button USB macro keyboards with rotary encoder (VID:1189 PID:8890).
+
+### 🌐 Sovereign Homelab & GitOps Tooling
+- **[`MNEMOCINE`](https://github.com/ceduardorodrig/MNEMOCINE)** (Shell / Markdown · Public · MIT OR Apache-2.0)  
+  6-node sovereign hybrid cloud architecture, bare-metal AI infrastructure, and self-hosted service manifests.
+- **[`MNEMOCINE-ACL`](https://github.com/ceduardorodrig/MNEMOCINE-ACL)** (HuJSON / CI · Private · Mnemocine)  
+  Tailnet policy as code managed via GitHub Actions and Tailscale federated identity.
+- **[`MNEMOCINE-OPS`](https://github.com/ceduardorodrig/MNEMOCINE-OPS)** (Rust 2024 · Private · Mnemocine)  
+  Homelab operational tooling: Rust utilities, systemd automation, and custom deployment daemons.
+
+---
+
+## ⚡ Sumænimá Ecosystem — Sovereign Intelligence & Bureau
 
 > *"Sumænimá is born from the union of **Ænima** (the vital breath, restless strategy, and creative spark) and **Sumé** (the civilizing mythical creator who masters technique, structure, and order from chaos). We are the bridge: soul with method, technique with soul."*
 
@@ -155,15 +163,8 @@ A stateless, ultra-reliable autonomous daemon executing the full lifecycle of co
 
 - **One Engine, Many Personas:** Single compiled Rust harness reading structured persona packs (YAML) to drive distinct voices across Bluesky, X, LinkedIn, and Instagram.
 - **Resilient Multi-Provider Fallback:** Dynamic runtime probing prioritizing OpenCode (`mimo-v2.6-flash`), falling back to Gemini Developer API, and concluding on local homelab Ollama (Gemma 3 on RTX 5050).
-- **Deterministic Rust Guardrails:** Absolute separation of concerns: brand safety, blocklist compliance, and tone verification are enforced by deterministic Rust rules — never delegated to probabilistic LLMs.
+- **Deterministic Rust Guardrails:** Brand safety, blocklist compliance, and tone verification are enforced by deterministic Rust rules — never delegated to probabilistic LLMs.
 - **GPU Scheduling Protocol:** Strict zero-CPU fallback rule; VRAM is claimed on demand and freed immediately upon pipeline completion.
-
----
-
-### 🃏 Arandu TCG & Cockpit de Voo (Cosmic FAB)
-
-- **Arandu TCG Platform:** Sub-millisecond computational engine (`arandu-engine` in Rust) calculating mana curves, rarity distributions, and card economics. High-refresh React 19 UI featuring an interactive 3x3 virtual trade binder and algorithmic P2P trade radar backed by PostgreSQL 16 + `pgvector`.
-- **Flight Cockpit (Cosmic FAB):** Zero-network-overhead client-side 3D inertial space flight simulation easter egg featuring Canvas 3D warp rings, dynamic starfield, telemetry HUD, and real-time procedural audio synthesis via native Web Audio API.
 
 ---
 
@@ -259,57 +260,6 @@ flowchart TD
 
 ---
 
-## 📦 Featured Repositories & Open-Source Engineering
-
-### 🌟 AI Governance, Platforms & Sovereign Media
-- **[`STENIO-SENTINEL`](https://github.com/ceduardorodrig/STENIO-SENTINEL)** (Rust 2024 · Public)  
-  Sub-millisecond static governance engine, anti-bypass quality gate, and architectural integrity sentinel for AI coding agents.
-- **[`SUMAENIMA-HUB`](https://github.com/ceduardorodrig/SUMAENIMA-HUB)** (Rust / React 19 / TypeScript 6 · Private Core Platform)  
-  Sovereign local-first intelligence platform, real-time ethnographic transcription cockpit (Whisper + Gemma 3), and Arandu TCG knowledge engine.
-- **[`SOCIAL-MEDIA-AUTOPILOT`](https://github.com/ceduardorodrig/SOCIAL-MEDIA-AUTOPILOT)** (Rust 2024 · Public Engine · AGPL-3.0)  
-  Stateless autonomous social media engine: trend harvesting, LLM drafting, deterministic guardrails, and metrics feedback loop.
-
-### 🖥️ Systems Engineering, Linux & Hardware Daemons
-- **[`WITH-SMOOTH-MOTION`](https://github.com/ceduardorodrig/WITH-SMOOTH-MOTION)** (Rust 2024 · Public)  
-  Dynamic adaptive tearing governor and direct scanout manager for high-refresh-rate Wayland compositors (Hyprland / Linux gaming).
-- **[`KURURU-TAB3LITE-LINUX`](https://github.com/ceduardorodrig/KURURU-TAB3LITE-LINUX)** (Rust / Alpine Linux · Public)  
-  Bare-metal headless Linux transformation and hardware control daemons in Rust for the Samsung Galaxy Tab 3 Lite (SM-T110), turning legacy ARM tablets into persistent homelab nodes.
-- **[`MCMOJAVE-CURSOR-UNIFIED`](https://github.com/ceduardorodrig/MCMOJAVE-CURSOR-UNIFIED)** (Rust 2024 · Public)  
-  Dual-spec unified McMojave cursor theme (Hyprcursor vector + 1:1 calibrated XCursor) powered by a native Rust asset builder.
-- **[`macrokey-driver`](https://github.com/ceduardorodrig/macrokey-driver)** (Python · Public Fork)  
-  Cross-platform user-space driver for configuring custom 6-button USB macro keyboards with rotary encoder (VID:1189 PID:8890).
-
-### 🌐 Sovereign Homelab & GitOps Tooling
-- **[`MNEMOCINE`](https://github.com/ceduardorodrig/MNEMOCINE)** (Shell / Markdown · Public)  
-  6-node sovereign hybrid cloud architecture, bare-metal AI infrastructure, and self-hosted service manifests.
-- **[`MNEMOCINE-ACL`](https://github.com/ceduardorodrig/MNEMOCINE-ACL)** (HuJSON / CI · Private)  
-  Tailnet policy as code managed via GitHub Actions and Tailscale federated identity.
-- **[`MNEMOCINE-OPS`](https://github.com/ceduardorodrig/MNEMOCINE-OPS)** (Rust 2024 · Private)  
-  Homelab operational tooling: Rust utilities, systemd automation, and custom deployment daemons.
-
-### 📄 Native Rust CLI Tools & Specialized Document Parsers
-- **`docx-extractor`** (Rust 2024 · Native Binary)  
-  Blazing-fast native extractor for parsing complex meeting minutes, Microsoft Teams transcripts, and multi-speaker governmental records into clean, structured Markdown.
-- **`validador-roteiro`** (Rust 2024 · Native Binary)  
-  Syntactic and semantic audiovisual script validator enforcing timing, formatting, and character consistency rules.
-
----
-
-## 📊 By the Numbers
-
-| Metric | Measurement | Context |
-|:---|:---:|:---|
-| **Production Codebase** | **~110,000 LOC** | Authored production code: 53k+ pure Rust 2024, 18k+ TSX/TS, zero bloated dependencies |
-| **Active Repositories** | **12+ Repositories** | Monitored, versioned, and continuously synchronized under StenioSentinel |
-| **Hybrid Homelab Nodes** | **6 Nodes** | psicopompo, kavure, kururu, ybyra, ybytu, kuaray (standby) |
-| **Governance Static Audit** | **< 80 ms** | Whole-vault and codebase static analysis cycle |
-| **Neural Inference Latency** | **< 500 ms** | Real-time local Whisper transcription response on RTX 5050 hardware |
-| **Trajectory** | **10 years** | Integrating anthropology, systems engineering, and public policy |
-| **Audience Reached** | **2+ Million** | Led digital campaigns and documentary productions at IPAM |
-| **Traditional Territories Mapped** | **+2,500 communities** | Co-architect and field ethnographer for the *Tô no Mapa* platform |
-
----
-
 ## 🧵 The Thread (Narrative)
 
 My career looks non-linear only until you recognize the recurring pattern: **Throughout my journey, I have used technology to bridge worlds that rarely speak to one another.**
@@ -332,22 +282,18 @@ Today, I stand as a **hybrid**: a product architect and systems engineer who thi
 
 ## 📸 Fieldwork & Photographic Archive
 
-A visual testimony to the fieldwork and institutional assemblies shaping this platform:
+A visual testimony to the fieldwork, institutional assemblies, and scientific expeditions shaping this platform:
 
 | | |
 |:---:|:---:|
-| <img src="assets/foto-sertao-mg-quilombola.jpg" width="370" alt="Quilombola Community Fieldwork" /> | <img src="assets/foto-ispn-maranhao-2017.jpg" width="370" alt="Technical Visit ISPN Maranhão" /> |
-| **2017** · Quilombola, fishing, and vazanteira community of Caraíbas [Pedras de Maria da Cruz \| MG] | **2017** · Technical mission for ISPN / PPP-ECOS community projects [Rosário \| MA] |
-| <img src="assets/foto-atl-2018-indigena.jpg" width="370" alt="Acampamento Terra Livre" /> | <img src="assets/foto-oficina-tonomapa-2019.jpg" width="370" alt="Tô no Mapa Training Workshop" /> |
-| **2018** · Free Land Camp (Acampamento Terra Livre - ATL) [Brasília \| DF] | **2019** · *Tô no Mapa* mapping workshop at Federal University of Tocantins [Arraias \| TO] |
-| <img src="assets/foto-encontro-povos-cerrado-2019.jpg" width="370" alt="Cerrado Peoples Gathering" /> | <img src="assets/foto-fazenda-canada-portao.jpg" width="370" alt="Chapada dos Veadeiros Expedition" /> |
-| **2019** · Gathering of Cerrado Peoples — *Tô no Mapa* Launch [Brasília \| DF] | **2021** · Expedition gate at Fazenda Canadá, Chapada dos Veadeiros National Park [Cavalcante \| GO] |
-| <img src="assets/foto-visita-tanguro-2024.jpg" width="370" alt="Tanguro Field Station" /> | <img src="assets/foto-experimento-seca-tanguro-2024.jpg" width="370" alt="Tanguro Drought Experiment" /> |
-| **2024** · Scientific expedition at Tanguro Research Station with IPAM & Woodwell [Querência \| MT] | **2024** · Rainfall exclusion experiment analyzing Amazon forest resilience [Querência \| MT] |
-| <img src="assets/foto-oficina-florestas-santarem-2025.jpg" width="370" alt="Public Forests Workshop" /> | <img src="assets/foto-formar-protagonistas-congresso-2025.jpg" width="370" alt="National Congress Delegation" /> |
-| **2025** · Public Forests Policy Workshop with IPAM [Santarém \| PA] | **2025** · FLONA de Tefé leadership delegation inside the National Congress [Brasília \| DF] |
-| <img src="assets/foto-formar-protagonistas-flona-grupo-2025.jpg" width="370" alt="FLONA de Tefé Training Cohort" /> | <img src="assets/foto-cnpct-planalto.jpg" width="370" alt="Palácio do Planalto Assembly" /> |
-| **2025** · Trainees of the *"Formar Protagonistas"* cohort from Central Amazonia [Brasília \| DF] | **2026** · National Council of Traditional Peoples meeting with the Chief of Staff, Palácio do Planalto [Brasília \| DF] |
+| <img src="assets/foto-cnpct-planalto.jpg" width="370" alt="Palácio do Planalto Assembly" /> | <img src="assets/foto-sertao-mg-quilombola.jpg" width="370" alt="Quilombola Community Fieldwork" /> |
+| **2026** · National Council of Traditional Peoples meeting with the Chief of Staff, Palácio do Planalto [Brasília \| DF] | **2017** · Quilombola, fishing, and vazanteira community of Caraíbas [Pedras de Maria da Cruz \| MG] |
+| <img src="assets/foto-formar-protagonistas-congresso-2025.jpg" width="370" alt="National Congress Delegation" /> | <img src="assets/foto-visita-tanguro-2024.jpg" width="370" alt="Tanguro Field Station" /> |
+| **2025** · FLONA de Tefé leadership delegation inside the National Congress [Brasília \| DF] | **2024** · Scientific expedition at Tanguro Research Station with IPAM & Woodwell [Querência \| MT] |
+| <img src="assets/foto-encontro-povos-cerrado-2019.jpg" width="370" alt="Cerrado Peoples Gathering" /> | <img src="assets/foto-atl-2018-indigena.jpg" width="370" alt="Acampamento Terra Livre" /> |
+| **2019** · Gathering of Cerrado Peoples — *Tô no Mapa* Launch [Brasília \| DF] | **2018** · Free Land Camp (Acampamento Terra Livre - ATL) [Brasília \| DF] |
+
+> *Archival photographic records spanning 2017–2026 across Cerrado communities, Amazonian scientific stations, and federal deliberative assemblies.*
 
 ---
 
