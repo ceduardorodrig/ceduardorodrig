@@ -63,7 +63,7 @@ The accompanying ecosystem reflects an ongoing life endeavor encompassing **~110
 ## 📦 Featured Repositories & Open-Source Engineering
 
 ### 🌟 AI Governance, Platforms & Sovereign Media
-- **[`STENIO-SENTINEL`](https://github.com/ceduardorodrig/STENIO-SENTINEL)** (Rust 2024 · Public · MIT OR Apache-2.0)  
+- **[`STENIO-SENTINEL`](https://github.com/ceduardorodrig/STENIO-SENTINEL)** (Rust 2024 · Public Engine · AGPL-3.0)  
   Sub-millisecond static governance engine, anti-bypass quality gate, and architectural integrity sentinel for AI coding agents.
 - **[`SUMAENIMA-HUB`](https://github.com/ceduardorodrig/SUMAENIMA-HUB)** (Rust / React 19 / TypeScript 6 · Private Core Platform · SUMÆNIMÁ)  
   Sovereign local-first intelligence platform, real-time ethnographic transcription cockpit (Whisper + Gemma 3), and Arandu TCG knowledge engine.
