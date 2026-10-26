@@ -71,9 +71,9 @@ The accompanying ecosystem reflects an ongoing life endeavor encompassing **~110
   Stateless autonomous social media engine: trend harvesting, LLM drafting, deterministic guardrails, and metrics feedback loop.
 
 ### 🖥️ Systems Engineering, Linux & Hardware Daemons
-- **[`WITH-SMOOTH-MOTION`](https://github.com/ceduardorodrig/WITH-SMOOTH-MOTION)** (Rust 2024 · Public · MIT OR Apache-2.0)  
+- **[`WITH-SMOOTH-MOTION`](https://github.com/ceduardorodrig/WITH-SMOOTH-MOTION)** (Rust 2024 · Public · GPL-3.0)  
   Dynamic adaptive tearing governor and direct scanout manager for high-refresh-rate Wayland compositors (Hyprland / Linux gaming).
-- **[`KURURU-TAB3LITE-LINUX`](https://github.com/ceduardorodrig/KURURU-TAB3LITE-LINUX)** (Rust / Alpine Linux · Public · MIT)  
+- **[`KURURU-TAB3LITE-LINUX`](https://github.com/ceduardorodrig/KURURU-TAB3LITE-LINUX)** (Rust / Alpine Linux · Public Node · AGPL-3.0)  
   Bare-metal headless Linux transformation and hardware control daemons in Rust for the Samsung Galaxy Tab 3 Lite (SM-T110).
 - **[`MCMOJAVE-CURSOR-UNIFIED`](https://github.com/ceduardorodrig/MCMOJAVE-CURSOR-UNIFIED)** (Rust 2024 · Public · GPL-3.0)  
   Dual-spec unified McMojave cursor theme (Hyprcursor vector + 1:1 calibrated XCursor) powered by a native Rust asset builder.
