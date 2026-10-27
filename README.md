@@ -1,7 +1,7 @@
 # 📋 Carlos Eduardo Rodrigues — Curriculum Vitae & Portfolio
 
 [![CI](https://github.com/ceduardorodrig/ceduardorodrig/actions/workflows/ci.yml/badge.svg)](https://github.com/ceduardorodrig/ceduardorodrig/actions/workflows/ci.yml)
-[![License](https://img.shields.io/badge/license-MIT%20%7C%20CC--BY--4.0-blue)](LICENSE.md)
+[![License](https://img.shields.io/badge/license-GPL--3.0%20%7C%20CC--BY--4.0-blue)](LICENSE.md)
 [![Governance](https://img.shields.io/badge/governance-StenioSentinel%20v4.6.0-brightgreen)](https://github.com/ceduardorodrig/STENIO-SENTINEL)
 [![Profiles](https://img.shields.io/badge/profiles-10%20Bilingual%20Versions%20(PT%2FEN)-orange)](pt-br/)
 [![Infrastructure](https://img.shields.io/badge/infrastructure-6%20Mnemocine%20Nodes-informational)](https://github.com/ceduardorodrig/MNEMOCINE)
@@ -81,7 +81,7 @@ The accompanying ecosystem reflects an ongoing life endeavor encompassing **~110
   Cross-platform user-space driver for configuring custom 6-button USB macro keyboards with rotary encoder (VID:1189 PID:8890).
 
 ### 🌐 Sovereign Homelab & GitOps Tooling
-- **[`MNEMOCINE`](https://github.com/ceduardorodrig/MNEMOCINE)** (Shell / Markdown · Public · MIT OR Apache-2.0)  
+- **[`MNEMOCINE`](https://github.com/ceduardorodrig/MNEMOCINE)** (Shell / Markdown · Public · GPL-3.0)  
   6-node sovereign hybrid cloud architecture, bare-metal AI infrastructure, and self-hosted service manifests.
 - **[`MNEMOCINE-ACL`](https://github.com/ceduardorodrig/MNEMOCINE-ACL)** (HuJSON / CI · Private · Mnemocine)  
   Tailnet policy as code managed via GitHub Actions and Tailscale federated identity.
@@ -317,7 +317,7 @@ A visual testimony to the fieldwork, institutional assemblies, and scientific ex
 
 ## 📜 License
 
-- **Software, Scripts & Tooling:** [MIT License](LICENSE.md)
+- **Software, Scripts & Tooling:** [GNU General Public License v3.0 (GPL-3.0)](LICENSE)
 - **Content, Written Profiles & Documentation:** [Creative Commons Attribution 4.0 International (CC-BY-4.0)](https://creativecommons.org/licenses/by/4.0/)
 
 ---
