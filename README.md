@@ -9,6 +9,11 @@
 
 > **"Using open-source local technology ingeniously to bridge anthropology, systems engineering, and data sovereignty."**
 
+🛡️ Human-in-the-Loop Agentic Engineering
+
+Developed by Carlos Eduardo Rodrigues with AI coding agents.
+Every change is verified by the deterministic quality gate StenioSentinel
+
 ---
 
 ## 📑 Table of Contents
@@ -330,14 +335,3 @@ A visual testimony to the fieldwork, institutional assemblies, and scientific ex
 - 🐙 **GitHub:** [github.com/ceduardorodrig](https://github.com/ceduardorodrig)
 - 🌐 **Sumænimá:** [sumaenima.chimaera-heptatonic.ts.net](https://sumaenima.chimaera-heptatonic.ts.net)
 - 📍 **Location:** Brasília, DF, Brazil (UTC-03:00)
-
----
-
-<div align="center">
-
-### 🛡️ Human-in-the-Loop Agentic Engineering
-
-Developed by [Carlos Eduardo Rodrigues](https://github.com/ceduardorodrig) with AI coding agents.
-Every change is verified by the deterministic quality gate [StenioSentinel](https://github.com/ceduardorodrig/STENIO-SENTINEL).
-
-</div>
