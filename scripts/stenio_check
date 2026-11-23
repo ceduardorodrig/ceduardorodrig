@@ -1,10 +1,10 @@
 #!/bin/bash
-# StênioSentinel (Rust v3.0) — Ponto de entrada para validação de currículos.
-# Executa a suíte de auditoria e consistência de CVs com velocidade nativa Rust.
+# StênioSentinel (Rust v3.0) — Entry point for resume validation.
+# Runs the CV audit and consistency suite at native Rust speed.
 #
-# Uso: ./scripts/stenio_check [--fix] [--self-test] [--list]
+# Usage: ./scripts/stenio_check [--fix] [--self-test] [--list]
 
-# Localiza o binário stenio (PATH ou cargo bin)
+# Locate the stenio binary (PATH or cargo bin)
 if command -v stenio >/dev/null 2>&1; then
     STENIO_BIN="stenio"
 elif [ -x "$HOME/.cargo/bin/stenio" ]; then
