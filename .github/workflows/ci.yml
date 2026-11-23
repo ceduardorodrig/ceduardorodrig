@@ -1,17 +1,17 @@
 name: cvcheck
 
-# Auditoria de governança do currículo pelo StenioSentinel.
+# Governance audit of the resume by StenioSentinel.
 #
-# POR QUE MUDOU (29/09/2026): este workflow clonava o SUMAENIMA-HUB, compilava
-# `scripts/steniocheck-rs` e rodava `--tag resume`. Os três pontos apodreceram:
-#   - `scripts/steniocheck-rs` foi purgado do hub (commit 70d7132) e o CI passou
-#     a falhar com "manifest path ... does not exist";
-#   - o motor saiu do hub e vive no seu próprio repositório;
-#   - `--tag resume` foi substituído por `--scope cv`.
+# WHY IT CHANGED (2026-09-29): this workflow cloned SUMAENIMA-HUB, compiled
+# `scripts/steniocheck-rs` and ran `--tag resume`. All three points rotted:
+#   - `scripts/steniocheck-rs` was purged from the hub (commit 70d7132) and CI
+#     started failing with "manifest path ... does not exist";
+#   - the engine left the hub and lives in its own repository;
+#   - `--tag resume` was replaced by `--scope cv`.
 #
-# Agora usa a composite action publicada pelo próprio motor, que baixa o binário
-# já compilado (release pública, sem token) em vez de compilar Rust aqui.
-# Uma única fonte de verdade para todos os repositórios que usam o Stênio.
+# It now uses the composite action published by the engine itself, which downloads
+# the prebuilt binary (public release, no token) instead of compiling Rust here.
+# A single source of truth for every repository that uses Stênio.
 
 on: [push, pull_request]
 
