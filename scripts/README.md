@@ -1,13 +1,13 @@
-# Scripts de Validação
+# Validation Scripts
 
-Este diretório substitui o antigo `cvcheck/`. A validação agora é feita
-pelo **StênioKernel** unificado, localizado em:
+This directory replaces the old `cvcheck/`. Validation is now done
+by the unified **StênioKernel**, located at:
 
 ```
 /mnt/NVME_PCI/agentic-ai/sumaenimahub/sumaenima-hub/scripts/steniocheck
 ```
 
-## Uso
+## Usage
 
 ```bash
 # Rodar todas as verificações do perfil resume
@@ -20,30 +20,30 @@ pelo **StênioKernel** unificado, localizado em:
 ./scripts/stenio_check 2>&1 | grep resume_
 ```
 
-O perfil `resume` inclui 10 drivers que validam:
-- Datas PT-BR
-- Ortografia (PT e EN)
-- Paridade bilíngue
-- Siglas com definição
-- Imagens com alt text
-- Conteúdo solto
-- Sumário (TOC)
-- Tom consistente
+The `resume` profile includes 10 drivers that validate:
+- PT-BR dates
+- Spelling (PT and EN)
+- Bilingual parity
+- Acronyms with definition
+- Images with alt text
+- Loose content
+- Table of contents (TOC)
+- Consistent tone
 
 ## CI (GitHub Actions)
 
-O workflow `.github/workflows/ci.yml` roda a mesma validação em todo push. Ele faz checkout
-do **SUMAENIMA-HUB** (repositório privado do kernel) via SSH deploy key e executa:
+The `.github/workflows/ci.yml` workflow runs the same validation on every push. It checks out
+**SUMAENIMA-HUB** (the kernel's private repository) via SSH deploy key and runs:
 
 ```bash
 PYTHONPATH=<sumaenima-hub>/scripts \
   python3 -m steniocheck --tag resume --scope static --format github
 ```
 
-O mesmo código do kernel roda localmente e no CI — governança unificada.
+The same kernel code runs locally and in CI — unified governance.
 
-### Segurança do CI
+### CI Security
 
-O acesso ao SUMAENIMA-HUB usa **SSH deploy key read-only**, sem expor credenciais da conta
-do usuário. A chave privada está armazenada como secret criptografado do GitHub Actions
-(`STENIOCHECK_SSH_KEY`) e nunca aparece em logs ou no código fonte.
+Access to SUMAENIMA-HUB uses a **read-only SSH deploy key**, without exposing the user's
+account credentials. The private key is stored as an encrypted GitHub Actions secret
+(`STENIOCHECK_SSH_KEY`) and never appears in logs or in the source code.

@@ -39,7 +39,7 @@ Throughout my decade-long trajectory, I have designed and deployed high-performa
 
 This repository hosts my comprehensive curriculum vitae organized across **10 dedicated profiles** (including specialized technical tracks, data leadership, and an on-site IT/business continuity coringa profile for local enterprises), fully synchronized and version-controlled in both:
 
-👉 [**🇧🇷 Versões em Português (PT-BR)**](pt-br/) &nbsp;·&nbsp; [**🇺🇸 English Versions (US)**](en-us/)
+👉 [**🇧🇷 Portuguese Versions (PT-BR)**](pt-br/) &nbsp;·&nbsp; [**🇺🇸 English Versions (US)**](en-us/)
 
 The accompanying ecosystem reflects an ongoing life endeavor encompassing **~110,000 lines of authored production code** (including **53,000+ LOC in pure Rust 2024** and **18,000+ LOC in TypeScript/React 19**), sovereign hybrid infrastructure, and structured documentation governed by deterministic, verifiable rules.
 
